@@ -132,6 +132,146 @@
       "url": "https://steamcommunity.com/app/874390/discussions/0/4390400383727805950/",
       "date": "2020-08-16",
       "use": "historical AI capital income/aggression"
+    },
+    {
+      "id": "WIKI-COMBAT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Combat",
+      "url": "https://polytopia.fandom.com/wiki/Combat",
+      "use": "damage formula, defence bonus, healing, retaliation"
+    },
+    {
+      "id": "WIKI-MOVE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Movement",
+      "url": "https://polytopia.fandom.com/wiki/Movement",
+      "use": "movement cost, roads, rough terrain, zone of control"
+    },
+    {
+      "id": "WIKI-BUILDINGS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Buildings",
+      "url": "https://polytopia.fandom.com/wiki/Buildings",
+      "use": "building catalogue, costs, population and monuments"
+    },
+    {
+      "id": "WIKI-UNIT-SKILLS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Unit Skills",
+      "url": "https://polytopia.fandom.com/wiki/Unit_Skills",
+      "use": "skill semantics and unit mappings"
+    },
+    {
+      "id": "WIKI-RUIN",
+      "grade": "B",
+      "title": "Polytopia Wiki - Ruin",
+      "url": "https://polytopia.fandom.com/wiki/Ruin",
+      "use": "ruin activation and reward table"
+    },
+    {
+      "id": "WIKI-SCORE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Score",
+      "url": "https://polytopia.fandom.com/wiki/Score",
+      "use": "score categories and point values"
+    },
+    {
+      "id": "WIKI-POP",
+      "grade": "B",
+      "title": "Polytopia Wiki - Population",
+      "url": "https://polytopia.fandom.com/wiki/Population",
+      "use": "city upgrade threshold and population sources"
+    },
+    {
+      "id": "WIKI-ROADS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Roads building",
+      "url": "https://polytopia.fandom.com/wiki/Roads_(Building)",
+      "use": "road cost, territory rules and connections"
+    },
+    {
+      "id": "WIKI-PORT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Port",
+      "url": "https://polytopia.fandom.com/wiki/Port",
+      "use": "port cost, population, transformation and connections"
+    },
+    {
+      "id": "WIKI-MARKET",
+      "grade": "B",
+      "title": "Polytopia Wiki - Market",
+      "url": "https://polytopia.fandom.com/wiki/Market",
+      "use": "market income; currently conflicts with aggregate Buildings page"
+    },
+    {
+      "id": "WIKI-TRADE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Trade",
+      "url": "https://polytopia.fandom.com/wiki/Trade",
+      "use": "tech branch and market/wealth unlock"
+    },
+    {
+      "id": "WIKI-PHILOSOPHY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Philosophy",
+      "url": "https://polytopia.fandom.com/wiki/Philosophy",
+      "use": "Mind Bender, Literacy, Genius"
+    },
+    {
+      "id": "WIKI-STRATEGY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Strategy",
+      "url": "https://polytopia.fandom.com/wiki/Strategy",
+      "use": "Defender, peace treaty and treaty consequences"
+    },
+    {
+      "id": "WIKI-NAVIGATION",
+      "grade": "B",
+      "title": "Polytopia Wiki - Navigation",
+      "url": "https://polytopia.fandom.com/wiki/Navigation",
+      "use": "Bomber and starfish harvesting"
+    },
+    {
+      "id": "WIKI-RAMMING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Ramming",
+      "url": "https://polytopia.fandom.com/wiki/Ramming",
+      "use": "Rammer and special-tribe substitutions"
+    },
+    {
+      "id": "WIKI-FISHING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Fishing",
+      "url": "https://polytopia.fandom.com/wiki/Fishing",
+      "use": "fish, port, raft and shallow-water movement"
+    },
+    {
+      "id": "WIKI-SAILING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Sailing",
+      "url": "https://polytopia.fandom.com/wiki/Sailing",
+      "use": "Scout/ocean movement and special substitutions"
+    },
+    {
+      "id": "WIKI-FORESTRY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Forestry",
+      "url": "https://polytopia.fandom.com/wiki/Forestry",
+      "use": "clear forest, lumber hut"
+    },
+    {
+      "id": "WIKI-HUNTING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Hunting",
+      "url": "https://polytopia.fandom.com/wiki/Hunting",
+      "use": "animal harvest and Elyrion Forest Magic"
+    },
+    {
+      "id": "WIKI-ORG",
+      "grade": "B",
+      "title": "Polytopia Wiki - Organization",
+      "url": "https://polytopia.fandom.com/wiki/Organization",
+      "use": "fruit harvest and crop visibility"
     }
   ]
 }

@@ -30,7 +30,8 @@
     },
     {
       "id": "terrain-resources",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md"
     },
     {
       "id": "cities-population",
@@ -45,11 +46,12 @@
     {
       "id": "technology-tree",
       "status": "partial",
-      "file": "research/notes/core-mechanics.md"
+      "file": "research/notes/tech-buildings-score.md"
     },
     {
       "id": "buildings-improvements",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md"
     },
     {
       "id": "units-stats",
@@ -58,19 +60,23 @@
     },
     {
       "id": "unit-skills",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
     },
     {
       "id": "combat-formula",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
     },
     {
       "id": "movement-zoc-roads",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
     },
     {
       "id": "vision-fog-explorer",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
     },
     {
       "id": "naval",
@@ -84,12 +90,13 @@
     },
     {
       "id": "ruins-monuments-tasks",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md"
     },
     {
       "id": "score",
       "status": "partial",
-      "file": "research/notes/core-mechanics.md"
+      "file": "research/notes/tech-buildings-score.md"
     },
     {
       "id": "tribes-regular",
