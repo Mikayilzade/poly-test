@@ -1,0 +1,137 @@
+{
+  "schema": "polytopia-source-ledger/v1",
+  "updated": "2026-09-28",
+  "sources": [
+    {
+      "id": "OFF-HOME",
+      "grade": "A",
+      "title": "The Battle of Polytopia official site",
+      "url": "https://polytopia.io/",
+      "use": "current product overview/platform/news"
+    },
+    {
+      "id": "OFF-BLOG",
+      "grade": "A",
+      "title": "Official blog",
+      "url": "https://polytopia.io/blog/",
+      "use": "patches and reworks"
+    },
+    {
+      "id": "OFF-2163",
+      "grade": "A",
+      "title": "Bug fixes in version 2.16.3",
+      "url": "https://polytopia.io/bug-fixes-in-version-2-16-3/",
+      "date": "2026-02-16",
+      "use": "current numbered changelog baseline"
+    },
+    {
+      "id": "OFF-2025BAL",
+      "grade": "A",
+      "title": "2025 Balance Pass",
+      "url": "https://polytopia.io/2025-balance-pass/",
+      "date": "2025-09-01",
+      "use": "starting stars, Ai-Mo, tech/backwards research and balance"
+    },
+    {
+      "id": "OFF-CYM25",
+      "grade": "A",
+      "title": "Cymanti Rework",
+      "url": "https://polytopia.io/blog/",
+      "date": "2025-10-29",
+      "use": "Cymanti rework; locate dedicated post during sweep"
+    },
+    {
+      "id": "OFF-OCEAN",
+      "grade": "A",
+      "title": "Path of the Ocean",
+      "url": "https://polytopia.io/path-of-the-ocean/",
+      "use": "naval rework, market, bridge, tech positioning, pangea"
+    },
+    {
+      "id": "OFF-DIP",
+      "grade": "A",
+      "title": "Polytopia Diplomacy",
+      "url": "https://polytopia.io/diplomacy/",
+      "use": "diplomacy tech, peace, relations, cloak-era mechanics"
+    },
+    {
+      "id": "OFF-GRAPHICS",
+      "grade": "A",
+      "title": "Game Graphics",
+      "url": "https://polytopia.io/game-graphics/",
+      "use": "officially published creative asset catalogue"
+    },
+    {
+      "id": "OFF-ASSET-GUIDE",
+      "grade": "A",
+      "title": "Brand and Asset Usage Guidelines",
+      "url": "https://polytopia.io/brand-assets-guide-lines/",
+      "date": "2020-01-29",
+      "use": "asset-use boundaries"
+    },
+    {
+      "id": "STEAM-BASE",
+      "grade": "A",
+      "title": "The Battle of Polytopia on Steam",
+      "url": "https://store.steampowered.com/app/874390/The_Battle_of_Polytopia/",
+      "use": "features/screenshots/product scope"
+    },
+    {
+      "id": "NIN-SKINS",
+      "grade": "A",
+      "title": "Special Tribe Skins bundle",
+      "url": "https://www.nintendo.com/en-ca/store/products/the-battle-of-polytopia-special-tribe-skins-70070000035229-switch/",
+      "use": "special-skin names and cosmetic-only confirmation"
+    },
+    {
+      "id": "WIKI-TRIBES",
+      "grade": "B",
+      "title": "Polytopia Wiki - Tribes",
+      "url": "https://polytopia.fandom.com/wiki/Tribes",
+      "use": "tribe/skin catalogue"
+    },
+    {
+      "id": "WIKI-TECH",
+      "grade": "B",
+      "title": "Polytopia Wiki - Technology",
+      "url": "https://polytopia.fandom.com/wiki/Technology",
+      "use": "tech tiers/cost formula/unlocks"
+    },
+    {
+      "id": "WIKI-CITY",
+      "grade": "B",
+      "title": "Polytopia Wiki - City",
+      "url": "https://polytopia.fandom.com/wiki/City",
+      "use": "income, unit capacity, connections"
+    },
+    {
+      "id": "WIKI-MAP",
+      "grade": "B",
+      "title": "Polytopia Wiki - Map Generation",
+      "url": "https://polytopia.fandom.com/wiki/Map_Generation",
+      "use": "sizes, ruins, villages, starfish"
+    },
+    {
+      "id": "WIKI-MODES",
+      "grade": "B",
+      "title": "Polytopia Wiki - Game Modes",
+      "url": "https://polytopia.fandom.com/wiki/Game_Modes",
+      "use": "mode objectives and difficulty"
+    },
+    {
+      "id": "WIKI-UNITS",
+      "grade": "B",
+      "title": "Polytopia Wiki - List of Units",
+      "url": "https://polytopia.fandom.com/wiki/List_of_Units",
+      "use": "unit catalogue and stats"
+    },
+    {
+      "id": "STEAM-AI-DEV",
+      "grade": "C",
+      "title": "Developer comment: difficulty level",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4390400383727805950/",
+      "date": "2020-08-16",
+      "use": "historical AI capital income/aggression"
+    }
+  ]
+}
