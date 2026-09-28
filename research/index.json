@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-research-index/v1",
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "target": "current public ruleset + historical deltas",
   "status": "active",
   "areas": [
@@ -17,7 +17,7 @@
     {
       "id": "game-modes",
       "status": "partial",
-      "file": "research/notes/core-mechanics.md"
+      "file": "research/notes/weekly-replays-special-tribes.md"
     },
     {
       "id": "turn-flow",
@@ -106,7 +106,7 @@
     {
       "id": "tribes-special",
       "status": "partial",
-      "file": "research/notes/tribes-skins.md"
+      "file": "research/notes/weekly-replays-special-tribes.md"
     },
     {
       "id": "skins",
@@ -137,7 +137,8 @@
     },
     {
       "id": "replays-spectator",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/weekly-replays-special-tribes.md"
     }
   ]
 }
