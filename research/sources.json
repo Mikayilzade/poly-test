@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -272,6 +272,96 @@
       "title": "Polytopia Wiki - Organization",
       "url": "https://polytopia.fandom.com/wiki/Organization",
       "use": "fruit harvest and crop visibility"
+    },
+    {
+      "id": "OFF-WEEKLY",
+      "grade": "A",
+      "title": "Weekly Challenges are Now Here!",
+      "url": "https://polytopia.io/weekly-challenges-are-now-here/",
+      "date": "2025-06-09",
+      "use": "weekly challenge rules"
+    },
+    {
+      "id": "OFF-WEEKLY-HUB",
+      "grade": "A",
+      "title": "Polytopia Weekly Challenge",
+      "url": "https://polytopia.io/polytopia-weekly-challenge/",
+      "use": "weekly replay and score UI"
+    },
+    {
+      "id": "OFF-AQ-REWORK",
+      "grade": "A",
+      "title": "Aquarion Rework Launch",
+      "url": "https://polytopia.io/news/aquarion-rework-launch/",
+      "date": "2024-08-15",
+      "use": "Aquarion rework baseline"
+    },
+    {
+      "id": "OFF-BUBBLE",
+      "grade": "A",
+      "title": "Bubble Tech",
+      "url": "https://polytopia.io/news/bubble-tech/",
+      "date": "2024-11-11",
+      "use": "Aquarion update marker"
+    },
+    {
+      "id": "OFF-WC25",
+      "grade": "A",
+      "title": "First Polytopia World Champion Crowned!",
+      "url": "https://polytopia.io/first-polytopia-world-champion-crowned/",
+      "date": "2025-12-11",
+      "use": "spectator tools"
+    },
+    {
+      "id": "OFF-WC25-RULES",
+      "grade": "A",
+      "title": "Polytopia World Championship 2025",
+      "url": "https://polytopia.io/World%20Championship/",
+      "date": "2025",
+      "use": "Might objective"
+    },
+    {
+      "id": "OFF-CHAMP26",
+      "grade": "A",
+      "title": "Polytopia World Championship 2026",
+      "url": "https://championship.polytopia.io/",
+      "date": "2026",
+      "use": "current replay surface"
+    },
+    {
+      "id": "WIKI-AQUARION",
+      "grade": "B",
+      "title": "Polytopia Wiki - Aquarion",
+      "url": "https://polytopia.fandom.com/wiki/Aquarion",
+      "use": "Aquarion units"
+    },
+    {
+      "id": "WIKI-POLARIS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Polaris",
+      "url": "https://polytopia.fandom.com/wiki/Polaris",
+      "use": "Polaris substitutions"
+    },
+    {
+      "id": "WIKI-JELLY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Jelly",
+      "url": "https://polytopia.fandom.com/wiki/Jelly",
+      "use": "Tentacles semantics"
+    },
+    {
+      "id": "WIKI-BABYDRAGON",
+      "grade": "B",
+      "title": "Polytopia Wiki - Baby Dragon",
+      "url": "https://polytopia.fandom.com/wiki/Baby_Dragon",
+      "use": "dragon growth"
+    },
+    {
+      "id": "WIKI-FIREDRAGON",
+      "grade": "B",
+      "title": "Polytopia Wiki - Fire Dragon",
+      "url": "https://polytopia.fandom.com/wiki/Fire_Dragon",
+      "use": "dragon stats"
     }
   ]
 }
