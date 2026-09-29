@@ -463,6 +463,22 @@
       "url": "https://www.reddit.com/r/Polytopia/comments/1k6phfe/",
       "date": "2025-04-24",
       "use": "reproducible lead for Easter-egg trigger and observable audio/visual effects"
+    },
+    {
+      "id": "STEAM-AI-CLOAK-2025",
+      "grade": "C",
+      "title": "Developer comment: AI Cloak training frequency",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/594014716278342735/",
+      "date": "2025-02-10",
+      "use": "developer-confirmed AI still trains Cloaks, but deliberately much less often than at Cloak launch"
+    },
+    {
+      "id": "STEAM-BETA-CHANGELOG",
+      "grade": "C",
+      "title": "Developer-maintained Polytopia beta changelog",
+      "url": "https://steamcommunity.com/app/874390/discussions/2/3757726983059787581/",
+      "date": "2023-2024",
+      "use": "developer-authored AI/map-generation/market behavioral deltas during Path of the Ocean beta and 2.8.5"
     }
   ]
 }

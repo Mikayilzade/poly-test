@@ -104,3 +104,15 @@ A June 2026 Steam bug report describes AI behavior becoming abnormal after exter
 **AI unknowns:** target scoring, economic priorities, tech-selection weights, city-upgrade heuristics, unit production weights, path planning preferences, diplomacy thresholds, retreat behavior and difficulty-specific aggression values.
 
 For a later faithful bot recreation, those unknowns should be derived from reproducible black-box scenarios or newer public developer material rather than guessed.
+
+## AI behavior deltas recovered from developer-maintained changelogs
+
+Public developer material exposes several narrow AI rules without exposing the proprietary decision algorithm:
+
+- During the November 2023 Path of the Ocean beta, AI was changed so it would **no longer train Cloaks specifically to defend cities**; the same beta/pre-release sequence also records general AI improvements. [STEAM-BETA-CHANGELOG]
+- Public update 2.8.5.11904 (February 2024) says AI became **better at choosing which unit to train** and **better at improving cities**. This establishes two decision domains that were explicitly retuned, but gives no weights or scoring formula. [STEAM-BETA-CHANGELOG]
+- A February 2025 developer reply confirms AI **still trains Cloaks**, but deliberately much less frequently than when Cloaks were first introduced because players disliked the earlier frequency. This is useful negative evidence against modeling Cloaks as forbidden for AI. [STEAM-AI-CLOAK-2025]
+
+### Reproduction implications
+
+Treat AI unit production as weighted/contextual rather than a hard allow/deny list. In particular, a black-box harness should measure Cloak frequency separately for (a) empty/ordinary production, (b) threatened-city defence, and (c) late-game high-tech economies. For city development, record available improvements, stars, city level, nearby production resources and the chosen action over many fixed-map turns. These observations can constrain a clean-room policy without assuming undocumented internals.
