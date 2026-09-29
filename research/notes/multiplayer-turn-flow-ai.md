@@ -116,3 +116,24 @@ Public developer material exposes several narrow AI rules without exposing the p
 ### Reproduction implications
 
 Treat AI unit production as weighted/contextual rather than a hard allow/deny list. In particular, a black-box harness should measure Cloak frequency separately for (a) empty/ordinary production, (b) threatened-city defence, and (c) late-game high-tech economies. For city development, record available improvements, stars, city level, nearby production resources and the chosen action over many fixed-map turns. These observations can constrain a clean-room policy without assuming undocumented internals.
+
+
+## Difficulty / scoring boundary clarified by later official notes
+
+The historical bot-difficulty evidence above should not be conflated with the **Perfection difficulty score bonus** shown by the UI. Official release 2.15.1 (November 2025) fixed display of the Perfection difficulty-bonus percentage in game setup. That proves the setup surface exposes a score modifier associated with difficulty, but the release note does **not** publish the percentages or establish that the modifier is identical to AI income/aggression settings. [STEAM-2151]
+
+For reconstruction, keep these as separate parameters until measured:
+1. AI economic bonus / capital income;
+2. AI aggression/decision policy;
+3. Perfection end-score difficulty multiplier.
+
+The 2020 developer statement remains the best public numeric source found for (1), while no newer first-party source located in this sweep republishes the current 1/2/3/5 values. [STEAM-AI-DEV]
+
+### Black-box matrix for current-build verification
+
+A reproducible current-build test should run the same tribe/map seed at Easy, Normal, Hard and Crazy and record:
+- bot capital SPT before any city upgrade, connection, embassy or other modifier;
+- first hostile action / peace acceptance under otherwise matched diplomatic state;
+- Perfection setup UI difficulty-bonus percentage and final score multiplier.
+
+This separates three observables that older discussions often collapse into a single "difficulty" effect.

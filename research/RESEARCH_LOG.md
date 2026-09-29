@@ -62,3 +62,11 @@
 - Added a 2025 developer confirmation that AI still trains Cloaks, but deliberately at much lower frequency than at Cloak launch; this rules out a hard “AI never builds Cloaks” implementation.
 - Added black-box targets for production context and city-development choices; exact AI weights, scoring and difficulty-specific aggression remain unknown.
 - AI coverage remains partial; next priorities are diplomacy decisions, path/target scoring and current difficulty modifiers.
+
+
+## 2026-09-29 — AI difficulty/scoring boundary pass
+
+- Re-swept first-party/developer material for current AI difficulty modifiers; no newer public numeric replacement for the historical 1/2/3/5 capital-income schedule was located.
+- Added official 2.15.1 evidence that Perfection has a difficulty-bonus percentage exposed in game setup, and explicitly separated that score modifier from AI income/aggression.
+- Added a fixed-seed black-box matrix to measure current capital SPT, diplomacy/aggression and Perfection score bonus independently.
+- AI remains partial; current numeric modifiers and decision thresholds still require direct current-build observation.
