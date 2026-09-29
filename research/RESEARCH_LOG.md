@@ -37,3 +37,12 @@
 - Located a developer Steam explanation of forced-spawn push direction and fallback ordering.
 - Cross-checked it against the current Movement wiki and recent community reports.
 - Found an internal wiki conflict about Creep versus zone of control; current-build verification is still needed.
+
+
+## 2026-09-29 — easter-egg / hidden-UI pass
+
+- Added a dedicated hidden-behavior note covering Nature Bunny/Bunta, sunrise background, mixed tribes, Elyrion language, the unowned-Luxidoor opponent behavior and the removed floating/sinking-city interaction.
+- Kept all of these at community-wiki confidence and explicitly separated historical/current-unverified behavior.
+- Added a black-box verification queue for platform differences, trigger timing and unknown probabilities.
+- Moved achievements/easter-eggs coverage from todo to partial; achievement enumeration itself remains open.
+- Next: first-party/current-build corroboration, exact achievement catalogue, AI behavior, diplomacy edge cases and movement/Creep-ZOC verification.

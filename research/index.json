@@ -131,7 +131,8 @@
     },
     {
       "id": "achievements-easter-eggs",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/easter-eggs.md"
     },
     {
       "id": "multiplayer-settings",

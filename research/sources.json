@@ -433,6 +433,20 @@
       "url": "https://polytopia.io/news/oumaji-tribe-moon-7/",
       "date": "2026-08-03",
       "use": "custom Weekly Challenge starting army evidence"
+    },
+    {
+      "id": "WIKI-EASTER",
+      "grade": "B",
+      "title": "Polytopia Wiki - Easter Eggs",
+      "url": "https://polytopia.fandom.com/wiki/Easter_Eggs",
+      "use": "Bunny/Bunta, sunrise background, mixed tribes, Elyrion language and removed floating-city easter egg"
+    },
+    {
+      "id": "WIKI-LUXIDOOR",
+      "grade": "B",
+      "title": "Polytopia Wiki - Luxidoor",
+      "url": "https://polytopia.fandom.com/wiki/Luxidoor",
+      "use": "Luxidoor unowned-opponent single-player easter egg and historical context"
     }
   ]
 }
