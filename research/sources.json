@@ -362,6 +362,37 @@
       "title": "Polytopia Wiki - Fire Dragon",
       "url": "https://polytopia.fandom.com/wiki/Fire_Dragon",
       "use": "dragon stats"
+    },
+    {
+      "id": "STEAM-MOONRISE-FAQ",
+      "grade": "A",
+      "title": "The Battle of Polytopia: Moonrise FAQ",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/2649756041876569670/",
+      "date": "2020",
+      "use": "official Moonrise map generator rewrite, sizes and map customization"
+    },
+    {
+      "id": "OFF-POTO-LAUNCH",
+      "grade": "A",
+      "title": "Sail the Path of the Ocean Today!",
+      "url": "https://steamcommunity.com/app/874390/eventcomments/4036976070305591859/",
+      "date": "2023",
+      "use": "official Path of the Ocean map/Continents/Pangea and changelog behavior"
+    },
+    {
+      "id": "WIKI-LIGHTHOUSE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Lighthouse",
+      "url": "https://polytopia.fandom.com/wiki/Lighthouse",
+      "use": "corner placement, fog and discovery behavior"
+    },
+    {
+      "id": "DEV-MAPGEN-2023",
+      "grade": "C",
+      "title": "Developer response: new map generator in beta",
+      "url": "https://www.reddit.com/r/Polytopia/comments/18dzc03/",
+      "date": "2023-12-08",
+      "use": "version-history marker; beta generator was being tested"
     }
   ]
 }
