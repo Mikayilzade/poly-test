@@ -107,4 +107,4 @@ Raft seed stats: Atk 0, Def 1, Move 2, range 0, HP inherited from carried unit; 
 
 Normal unit vision is generally a 3×3 area; Scout skill expands this to 5×5, and mountains give extended vision. [WIKI-COMBAT, WIKI-UNIT-SKILLS]
 
-Official 2.16.3 says Explorer path steps were reduced from 15 to **12**. Older wiki text still says 15, which is a confirmed stale-data example. Explorer path-choice logic remains unknown. [OFF-2163]
+Official 2.16.3 says Explorer path steps were reduced from 15 to **12**. Older wiki text still says 15, which is a confirmed stale-data example. Official 2.15.1 additionally says Explorer pathfinding includes **mountains** and considers **increased sight range** when evaluating which tile to move toward. This constrains the chooser but does not reveal its complete scoring or tie-break algorithm. [OFF-2163, STEAM-2151]

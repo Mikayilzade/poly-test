@@ -2,7 +2,7 @@
 
 Scope: publicly documented hidden interactions that can affect a faithful local behavioral reference. These are community-documented unless independently confirmed; treat current-build availability as provisional.
 
-Sources: `WIKI-EASTER`, `WIKI-LUXIDOOR`.
+Sources: `WIKI-EASTER`, `WIKI-LUXIDOOR`, `OFF-WC25`, `STEAM-2151`, `REDDIT-CHIPMUNK-2025`.
 
 ## Nature Bunny / Bunta
 
@@ -41,6 +41,13 @@ The wiki documents a small chance for mobile single-player to select Luxidoor as
 
 Treat exact probability and current platform behavior as **unknown**.
 
+## Chipmunk Mode
+
+- **Existence is first-party confirmed**: Midjiwan's 2025 World Championship recap explicitly says Chipmunk Mode was activated during the final. [OFF-WC25]
+- Official Steam release notes for 2.15.1 explicitly mention fixing the **Mantis head in chipmunk mode**, independently confirming that the mode changes unit-head presentation. [STEAM-2151]
+- Reproducible community reports describe the trigger as a literal Easter egg drifting through the space outside the square; tapping it toggles the mode. Reports describe larger/cuter unit heads plus faster, higher-pitched music/sound. [REDDIT-CHIPMUNK-2025]
+- Exact spawn trigger/timing is not first-party documented. Community reports disagree between waiting near an outer/top corner and holding/dragging the background; treat trigger details as **current-unverified** rather than a deterministic rule.
+
 ## Removed / broken historical interaction
 
 A former cosmetic interaction alternated taps on the bottom-left/bottom-right city tiles to make a city visually rise or sink. The wiki says it stopped working in 2021 and cites a community-manager statement that it was apparently not intentionally removed. Preserve this only as historical behavior, not as a current requirement. [WIKI-EASTER]
@@ -53,7 +60,8 @@ A former cosmetic interaction alternated taps on the bottom-left/bottom-right ci
 4. Verify current mixed-tribe eligibility, exact input sequence, special-tribe combinations and high-score handling.
 5. Verify Elyrion language ownership gating.
 6. Measure unowned-opponent probability and platform differences.
+7. Verify Chipmunk Mode egg spawn conditions, persistence, exact audio-speed/pitch transform and whether all unit heads are affected.
 
 ## Confidence
 
-All mechanics in this note are grade **B** community-wiki evidence. They are useful reproduction targets but should not override contradictory current first-party evidence or direct current-build testing.
+Most older mechanics in this note are grade **B** community-wiki evidence. Chipmunk Mode existence and altered unit-head presentation have first-party support; its trigger and audio details remain community/reproducible evidence. Current-build testing should resolve trigger disagreements.

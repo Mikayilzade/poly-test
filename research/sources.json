@@ -447,6 +447,22 @@
       "title": "Polytopia Wiki - Luxidoor",
       "url": "https://polytopia.fandom.com/wiki/Luxidoor",
       "use": "Luxidoor unowned-opponent single-player easter egg and historical context"
+    },
+    {
+      "id": "STEAM-2151",
+      "grade": "A",
+      "title": "Release Notes for 2.15.1",
+      "url": "https://steamcommunity.com/games/874390/announcements/detail/621061164010307651",
+      "date": "2025-11-12",
+      "use": "official patch evidence for Chipmunk Mode presentation and Explorer pathfinding"
+    },
+    {
+      "id": "REDDIT-CHIPMUNK-2025",
+      "grade": "D",
+      "title": "Community report: Chipmunk mode",
+      "url": "https://www.reddit.com/r/Polytopia/comments/1k6phfe/",
+      "date": "2025-04-24",
+      "use": "reproducible lead for Easter-egg trigger and observable audio/visual effects"
     }
   ]
 }

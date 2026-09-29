@@ -46,3 +46,11 @@
 - Added a black-box verification queue for platform differences, trigger timing and unknown probabilities.
 - Moved achievements/easter-eggs coverage from todo to partial; achievement enumeration itself remains open.
 - Next: first-party/current-build corroboration, exact achievement catalogue, AI behavior, diplomacy edge cases and movement/Creep-ZOC verification.
+
+
+## 2026-09-29 — first-party hidden-UI / Explorer corroboration
+
+- Upgraded Chipmunk Mode from an undocumented lead to first-party-confirmed behavior using the 2025 World Championship recap and official 2.15.1 release notes.
+- Recorded observable head-presentation effects; retained the egg trigger and audio transformation as lower-confidence community behavior because exact spawn conditions conflict.
+- Recovered an overlooked 2.15.1 Explorer rule: pathfinding evaluates mountains and increased sight range when choosing the next tile.
+- Coverage remains partial: Chipmunk trigger/persistence and exact Explorer scoring/tie-break logic still need black-box verification.
