@@ -30,3 +30,10 @@
 - Confirmed current in-game tournament path (Multiplayer > Tournaments) and retained replay/spectator evidence.
 - Did not record an exact Live timer formula because sufficiently strong current first-party evidence was not found.
 - Next: multiplayer setup matrix, timeout/skip/kick/reconnect behavior, ordinary turn sequencing, replay/spectator controls, and AI black-box behavior.
+
+
+## 2026-09-29 — forced-spawn research
+
+- Located a developer Steam explanation of forced-spawn push direction and fallback ordering.
+- Cross-checked it against the current Movement wiki and recent community reports.
+- Found an internal wiki conflict about Creep versus zone of control; current-build verification is still needed.
