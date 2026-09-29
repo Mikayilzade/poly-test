@@ -393,6 +393,46 @@
       "url": "https://www.reddit.com/r/Polytopia/comments/18dzc03/",
       "date": "2023-12-08",
       "use": "version-history marker; beta generator was being tested"
+    },
+    {
+      "id": "STEAM-LIVE-24H",
+      "grade": "C",
+      "title": "Developer comment: Live Game versus 24-hour timer",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4292566217056629934/",
+      "date": "2024-03-20",
+      "use": "developer-confirmed Live timer/chess-clock intent and 24-hour alternative"
+    },
+    {
+      "id": "STEAM-LIVE-BOTS",
+      "grade": "C",
+      "title": "Developer comment: bot animations consume Live timer",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4342111331715841184/",
+      "date": "2024-05-20",
+      "use": "historical Live timer observable behavior with bots"
+    },
+    {
+      "id": "OFF-POLYNEWS26",
+      "grade": "A",
+      "title": "Official Polynews archive 2026",
+      "url": "https://polytopia.io/polynews/",
+      "date": "2026",
+      "use": "current tournament UI path and special Weekly Challenge examples"
+    },
+    {
+      "id": "OFF-AQ-WEEKLY26",
+      "grade": "A",
+      "title": "Aquarion Weekly Challenge",
+      "url": "https://polytopia.io/news/aquarion-weekly-challenge/",
+      "date": "2026-07-20",
+      "use": "custom Weekly Challenge starting army evidence"
+    },
+    {
+      "id": "OFF-OUMAJI-WEEKLY26",
+      "grade": "A",
+      "title": "Oumaji Tribe Moon",
+      "url": "https://polytopia.io/news/oumaji-tribe-moon-7/",
+      "date": "2026-08-03",
+      "use": "custom Weekly Challenge starting army evidence"
     }
   ]
 }

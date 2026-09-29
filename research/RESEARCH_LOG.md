@@ -20,3 +20,13 @@
 - Recorded a live conflict in public Market documentation instead of guessing which formula is current.
 - Confirmed older Explorer wiki text is stale against official 2.16.3 (15 -> 12 moves).
 - Next: complete every tech unlock/cost/action; full naval + special unit stats; all special tribes; exact diplomacy/embassy formula; map generator spawn rates; current Market behavior.
+
+
+## 2026-09-29 — multiplayer/UI pass
+
+- Added a dedicated multiplayer/UI/turn-flow note and moved those coverage areas from todo to partial.
+- Confirmed developer-described Live Game timing intent and the 24-hour asynchronous alternative; recorded 2024 bot-animation timer consumption as historical/current-unverified.
+- Added 2026 official evidence that Weekly Challenges can override ordinary seeded starts with custom armies, technologies, and resource constraints.
+- Confirmed current in-game tournament path (Multiplayer > Tournaments) and retained replay/spectator evidence.
+- Did not record an exact Live timer formula because sufficiently strong current first-party evidence was not found.
+- Next: multiplayer setup matrix, timeout/skip/kick/reconnect behavior, ordinary turn sequencing, replay/spectator controls, and AI black-box behavior.

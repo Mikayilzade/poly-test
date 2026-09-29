@@ -21,7 +21,8 @@
     },
     {
       "id": "turn-flow",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/multiplayer-ui-turn-flow.md"
     },
     {
       "id": "map-generation",
@@ -120,7 +121,8 @@
     },
     {
       "id": "ui-flow-controls",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/multiplayer-ui-turn-flow.md"
     },
     {
       "id": "audio-visual-reference",
@@ -133,7 +135,8 @@
     },
     {
       "id": "multiplayer-settings",
-      "status": "todo"
+      "status": "partial",
+      "file": "research/notes/multiplayer-ui-turn-flow.md"
     },
     {
       "id": "replays-spectator",
