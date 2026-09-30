@@ -70,3 +70,7 @@
 - Added official 2.15.1 evidence that Perfection has a difficulty-bonus percentage exposed in game setup, and explicitly separated that score modifier from AI income/aggression.
 - Added a fixed-seed black-box matrix to measure current capital SPT, diplomacy/aggression and Perfection score bonus independently.
 - AI remains partial; current numeric modifiers and decision thresholds still require direct current-build observation.
+
+## 2026-09-30 — connector write check
+
+- GitHub connector write path verified after reconnect; no research claim added.
