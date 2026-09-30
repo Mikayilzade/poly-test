@@ -606,6 +606,29 @@
       "url": "https://manage.kalendarhrace.cz/aktualizace/the-battle-of-polytopia-ruin-run-weekly-challenge",
       "date": "2026-04-22",
       "use": "six leagues/difficulty branches and opponents starting ahead; secondary mirror of Steam announcement"
+    },
+    {
+      "id": "OFF-CYM25-STARVING",
+      "grade": "A",
+      "title": "Cymanti Rework / version 2.15.0 - non-Cymanti adjustments",
+      "url": "https://polytopia.io/blog/",
+      "date": "2025-10-29",
+      "use": "official introduction of score penalty for starving cities"
+    },
+    {
+      "id": "WIKI-POP-CURRENT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Population",
+      "url": "https://polytopia.fandom.com/wiki/Population",
+      "use": "negative population income penalty and unit-capacity behavior"
+    },
+    {
+      "id": "REDDIT-STARVING-SCORE-2026",
+      "grade": "D",
+      "title": "Community black-box observation: starving-city score penalty",
+      "url": "https://www.reddit.com/r/Polytopia/comments/1w8tbyv/how_can_a_level_5_city_only_be_worth_190_points/",
+      "date": "2026-09-06",
+      "use": "current-build lead suggesting -105 score per negative population; requires reproduction"
     }
   ]
 }

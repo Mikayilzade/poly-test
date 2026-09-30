@@ -107,3 +107,18 @@ Community score page reports: [WIKI-SCORE]
 - temples: base 100, +100 per growth level, max 500 under current 2025 rule
 
 Official 2025 balance confirms temples were changed to 100 points per growth level (from 50), supporting the current score-page value. [OFF-2025BAL]
+
+
+## Starving cities / negative population
+
+Negative population is shown as red population bars. Current community documentation says each negative population point reduces that city's ordinary star income by **1 SPT**, with income floored at zero; negative population does **not** reduce the city's unit-capacity limit. [WIKI-POP-CURRENT]
+
+This economic penalty is distinct from a newer score rule. The official Cymanti-rework / 2.15.0-era notes explicitly added a **“Score penalty for starving cities”** as a non-Cymanti adjustment. [OFF-CYM25-STARVING]
+
+The official note does not publish the numeric score formula. A September 2026 player reproduction reports a candidate of **-105 score per negative population point** after inspecting a captured starving city. This is grade-D evidence only and must not be hard-coded without reproduction. [REDDIT-STARVING-SCORE-2026]
+
+Implementation model should therefore keep two independent effects:
+1. economy: `-1 SPT` per negative population, floor city income at zero;
+2. score: post-2.15 starving-city penalty, exact current coefficient/formula unresolved.
+
+Black-box target: create the same city at negative population 0/-1/-2/-3 without changing buildings, tech, territory or units, record score deltas before/after each step, and repeat outside Perfection to determine whether the penalty belongs to generic score state or only Perfection scoring.

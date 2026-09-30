@@ -94,3 +94,12 @@
 - Strengthened the implementation inference that Weekly scenarios need arbitrary state overrides beyond seed/settings.
 - Exact six league names and current promotion/difficulty mapping remain open; no unsupported names were guessed.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — starving-city score boundary pass
+
+- Recovered the official 2.15.0-era addition of a score penalty for starving cities.
+- Kept it separate from the older/current economic rule of -1 SPT per negative population point.
+- Recorded the 2026 community observation of -105 score per negative population only as a black-box candidate, not an implemented constant.
+- Added a controlled verification matrix to isolate the score coefficient and whether it is generic or Perfection-specific.
+- No GitHub Actions/CI enabled or run.
