@@ -51,3 +51,21 @@ Aquarion full post-2024 tree and unit table; complete Elyrion stats; Polaris bui
 ## Aquarion handoff
 
 Dedicated Aquarion implementation note: `research/notes/aquarion-current.md`. It contains the 2024 rework baseline, current unit seed, Flood/Bubble/Atoll/Lost-City distinctions and version traps. [OFF-AQ-REWORK, STEAM-AQ-CHANGELOG]
+
+
+## 2026 league expansion and scenario complexity
+
+The 2025 launch article is now demonstrably historical on league count: it documents **4 leagues** (Entry, Bronze, Silver, Gold). [OFF-WEEKLY]
+
+Two April 2026 mirrors of official Steam challenge announcements explicitly describe **six leagues** / six difficulty branches. One community discussion from January 2026 also identifies **Diamond** as the then-top league, but the exact full six-name sequence was not recovered from first-party text in this pass. Therefore record only the count (6) and Diamond existence as current-era evidence; do not invent the missing league names. [STEAM-HATS26-MIRROR, STEAM-RUINRUN26-MIRROR]
+
+The 2026 challenge announcements also strengthen the scenario-override model:
+- **Hats of Steel**: Sha-Po starts against a Xin-Xi empire with Riders/Swordsmen; player starts with a Cloak and two Archers; New Dawn is present elsewhere on the map. [STEAM-HATS26-MIRROR]
+- **Ruin Run**: ∑∫ỹriȱŋ races several tribes to ruins and the opponents explicitly start with a head start. [STEAM-RUINRUN26-MIRROR]
+- Later official site examples independently include Sharks, Riders + Mind Bender, level-1-tech armies, and a map with no natural resources. [OFF-AQ-WEEKLY26, OFF-OUMAJI-WEEKLY26, OFF-POLYNEWS26]
+
+Implementation inference: Weekly Challenge scenario data must support arbitrary starting units, faction placement/state, technology grants, resource/map constraints and asymmetric starting progress, not merely seed + tribe + bot difficulty.
+
+### Confidence caveat
+
+The six-league evidence located here is a secondary mirror of developer Steam announcements rather than a Midjiwan webpage. The original 2025 four-league article remains first-party and should be retained as version history. Exact 2026 league names/promotion mapping remain open.

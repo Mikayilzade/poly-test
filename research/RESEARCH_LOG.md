@@ -85,3 +85,12 @@
 - Added Google Play achievement snapshot; Sunbringer trigger remains unknown.
 - Added 2.16.3 UI/replay state contracts and community Perfection bonus candidate with current-version caveat.
 - Fixed map-generation index pointer. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — Weekly Challenge evolution pass
+
+- Recovered evidence that Weekly Challenges expanded from the four launch leagues to six leagues by April 2026; retained the 2025 four-league model as historical rather than overwriting it.
+- Added Hats of Steel and Ruin Run as scenario examples with explicit starting armies/opponent composition and asymmetric head-start state.
+- Strengthened the implementation inference that Weekly scenarios need arbitrary state overrides beyond seed/settings.
+- Exact six league names and current promotion/difficulty mapping remain open; no unsupported names were guessed.
+- No GitHub Actions/CI enabled or run.

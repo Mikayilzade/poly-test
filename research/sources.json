@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -590,6 +590,22 @@
       "title": "Polytopia Wiki - Game Modes (Perfection difficulty bonus)",
       "url": "https://polytopia.fandom.com/wiki/Game_Modes",
       "use": "community formula/table for Perfection difficulty bonus; version-sensitive"
+    },
+    {
+      "id": "STEAM-HATS26-MIRROR",
+      "grade": "C",
+      "title": "Hats of Steel Weekly Challenge Steam announcement mirror",
+      "url": "https://manage.kalendarhrace.cz/aktualizace/the-battle-of-polytopia-hats-of-steel-weekly-challenge",
+      "date": "2026-04-14",
+      "use": "six-league 2026 Weekly Challenge and custom Sha-Po starting scenario; secondary mirror of Steam announcement"
+    },
+    {
+      "id": "STEAM-RUINRUN26-MIRROR",
+      "grade": "C",
+      "title": "Ruin Run Weekly Challenge Steam announcement mirror",
+      "url": "https://manage.kalendarhrace.cz/aktualizace/the-battle-of-polytopia-ruin-run-weekly-challenge",
+      "date": "2026-04-22",
+      "use": "six leagues/difficulty branches and opponents starting ahead; secondary mirror of Steam announcement"
     }
   ]
 }
