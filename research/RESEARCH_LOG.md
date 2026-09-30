@@ -74,3 +74,14 @@
 ## 2026-09-30 — connector write check
 
 - GitHub connector write path verified after reconnect; no research claim added.
+
+
+## 2026-09-30 — recovered blocked research after connector reconnect
+
+- Recovered previously blocked research into one coherent commit.
+- Added dedicated Aquarion current/post-rework spec.
+- Added dedicated Diplomacy/Embassy/Cloak/Dagger spec with 2022 baseline, 2023/2025 Embassy pricing history and unresolved current price sequence.
+- Added developer-described forced-spawn/Giant-push ordering and the Creep/ZOC documentation conflict.
+- Added Google Play achievement snapshot; Sunbringer trigger remains unknown.
+- Added 2.16.3 UI/replay state contracts and community Perfection bonus candidate with current-version caveat.
+- Fixed map-generation index pointer. No GitHub Actions/CI enabled or run.

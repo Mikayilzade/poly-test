@@ -65,3 +65,14 @@ A former cosmetic interaction alternated taps on the bottom-left/bottom-right ci
 ## Confidence
 
 Most older mechanics in this note are grade **B** community-wiki evidence. Chipmunk Mode existence and altered unit-head presentation have first-party support; its trigger and audio details remain community/reproducible evidence. Current-build testing should resolve trigger disagreements.
+
+
+## Google Play achievements
+
+A third-party Google Play achievement tracker currently lists **8 achievements**. Treat this as a platform snapshot, not universal first-party canon. [TRACKER-GPLAY-ACH]
+
+Seven directly map task + monument completion: Gate of Power/Killer, Emperors Tomb/Wealth, Tower of Wisdom/Genius, Park of Fortune/Metropolis, Altar of Peace/Pacifist, Grand Bazar/Network, Eye of God/Explorer.
+
+The eighth is **Sunbringer** with the description “Make the sun dawn upon thy lands.” [TRACKER-GPLAY-ACH]
+
+Do not automatically equate Sunbringer with the sunrise-background Easter egg: the catalogue establishes the name/description, not the trigger. Verify on a current Android + Google Play Games build.

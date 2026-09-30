@@ -108,3 +108,24 @@ Raft seed stats: Atk 0, Def 1, Move 2, range 0, HP inherited from carried unit; 
 Normal unit vision is generally a 3×3 area; Scout skill expands this to 5×5, and mountains give extended vision. [WIKI-COMBAT, WIKI-UNIT-SKILLS]
 
 Official 2.16.3 says Explorer path steps were reduced from 15 to **12**. Older wiki text still says 15, which is a confirmed stale-data example. Official 2.15.1 additionally says Explorer pathfinding includes **mountains** and considers **increased sight range** when evaluating which tile to move toward. This constrains the chooser but does not reveal its complete scoring or tie-break algorithm. [OFF-2163, STEAM-2151]
+
+
+## Forced super-unit spawn / push ordering
+
+Spawning a super unit in an already occupied city forces the previous unit out. Current community documentation confirms the forced-spawn mechanic. [WIKI-SUPERUNIT]
+
+A 2020 developer explanation gives the exact public directional algorithm located so far. For a unit that **has not moved yet** (the example is a newly spawned unit), preferred direction is toward the center of the map. If that direction is north, fallback order is:
+
+`N -> NW -> NE -> W -> E -> SW -> SE -> S`
+
+If every candidate tile is invalid, the displaced unit disappears. [DEV-PUSH-2020]
+
+For an **enemy unit that already moved into the city**, the developer confirmed a different rule: push opposite its previous movement direction. In the documented example the unit moved south into the city and was pushed north. [DEV-PUSH-2020]
+
+Current-build forced-spawn existence is corroborated, but the exact 2020 ordering should still receive a fixed-map regression test before being treated as immutable.
+
+### Creep / ZOC documentation conflict
+
+The current community documentation contradicts itself: the Movement page's general ZOC section says Creep bypasses ZOC, while a later Creep subsection on the same page says Creep does **not** remove ZOC; Unit Skills also says Creep does not negate ZOC. Cloak-specific text further mixes Creep with Hide, which independently bypasses ZOC. [WIKI-MOVE, WIKI-UNIT-SKILLS, WIKI-CLOAK]
+
+Resolve this with a current-build black-box test using a Creep unit that lacks Hide/Sneak rather than choosing one wiki sentence.

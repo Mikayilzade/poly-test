@@ -137,3 +137,16 @@ A reproducible current-build test should run the same tribe/map seed at Easy, No
 - Perfection setup UI difficulty-bonus percentage and final score multiplier.
 
 This separates three observables that older discussions often collapse into a single "difficulty" effect.
+
+
+## Perfection difficulty bonus — documented community formula
+
+Current community Game Modes/Score documentation publishes this Perfection end-score candidate: [WIKI-GAME-MODES-CURRENT]
+
+`bonusPercent = 100 + 41 * ln(numberOfOpponents) + difficultyAdd`
+
+with Easy +0, Normal +20, Hard +40, Crazy +80; its table reaches **291%** for 15 Crazy opponents. [WIKI-GAME-MODES-CURRENT]
+
+Do **not** promote this to first-party current truth. Official 2.15.1 only confirms that setup displays a Perfection difficulty-bonus percentage; it does not publish the formula. Preserve this as a community-documented candidate and use current setup UI as the black-box authority. [STEAM-2151]
+
+This multiplier is separate from AI capital income/aggression.

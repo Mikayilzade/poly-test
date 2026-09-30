@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -479,6 +479,117 @@
       "url": "https://steamcommunity.com/app/874390/discussions/2/3757726983059787581/",
       "date": "2023-2024",
       "use": "developer-authored AI/map-generation/market behavioral deltas during Path of the Ocean beta and 2.8.5"
+    },
+    {
+      "id": "DEV-PUSH-2020",
+      "grade": "C",
+      "title": "Developer explanation: super-unit forced spawn push order",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/2975149180211739009/",
+      "date": "2020-11-27",
+      "use": "direction and fallback ordering for forced unit spawn; already-moved enemy reversal"
+    },
+    {
+      "id": "WIKI-SUPERUNIT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Super Unit",
+      "url": "https://polytopia.fandom.com/wiki/Super_Unit",
+      "use": "forced-spawn existence and super-unit roster"
+    },
+    {
+      "id": "DEV-DIP-FAQ-2022",
+      "grade": "C",
+      "title": "Developer Diplomacy FAQ",
+      "url": "https://devtrackers.gg/polytopia/p/a9202284-diplomacy-faq",
+      "date": "2022",
+      "use": "peace treaties, embassies, capital vision, Cloak/Dagger baseline"
+    },
+    {
+      "id": "WIKI-CLOAK",
+      "grade": "B",
+      "title": "Polytopia Wiki - Cloak",
+      "url": "https://polytopia.fandom.com/wiki/Cloak",
+      "use": "current Cloak infiltration, visibility, Dinghy and revolt behavior"
+    },
+    {
+      "id": "WIKI-DAGGER",
+      "grade": "B",
+      "title": "Polytopia Wiki - Dagger",
+      "url": "https://polytopia.fandom.com/wiki/Dagger",
+      "use": "current Dagger stats and spawn-priority description"
+    },
+    {
+      "id": "DEV-DAGGER-SPAWN-2022",
+      "grade": "C",
+      "title": "Developer answer: Dagger count from infiltration",
+      "url": "https://devtrackers.gg/polytopia/p/39826abc-can-someone-please-explain-how-the-game-determines-how-many-spies-get-spawned-when-you-infiltrate",
+      "date": "2022",
+      "use": "city-level dagger count capped at five and same-city same-turn constraint"
+    },
+    {
+      "id": "DEV-BALANCE3-2023",
+      "grade": "C",
+      "title": "Developer release notes for Balance Pass 3",
+      "url": "https://www.reddit.com/r/Polytopia/comments/128p0om/",
+      "date": "2023-04-01",
+      "use": "historical Embassy price escalation"
+    },
+    {
+      "id": "TRACKER-GPLAY-ACH",
+      "grade": "C",
+      "title": "Exophase - The Battle of Polytopia Google Play achievements",
+      "url": "https://www.exophase.com/game/the-battle-of-polytopia-android/achievements/",
+      "use": "8-achievement catalogue including Sunbringer; third-party tracker"
+    },
+    {
+      "id": "STEAM-AQ-CHANGELOG",
+      "grade": "C",
+      "title": "Developer-maintained up-to-date Polytopia changelog",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/3757726983059762031/",
+      "date": "2024",
+      "use": "Aquarion 2.10 rework rules"
+    },
+    {
+      "id": "STEAM-AQ-BETA",
+      "grade": "C",
+      "title": "Developer-maintained Aquarion beta changelog",
+      "url": "https://steamcommunity.com/app/874390/discussions/2/3757726983059787581/",
+      "date": "2024",
+      "use": "Aquarion rework version deltas and late-beta state"
+    },
+    {
+      "id": "WIKI-ATOLL",
+      "grade": "B",
+      "title": "Polytopia Wiki - Atoll",
+      "url": "https://polytopia.fandom.com/wiki/Atoll",
+      "use": "current Aquarion Atoll cost/range/population documentation"
+    },
+    {
+      "id": "WIKI-SHARK",
+      "grade": "B",
+      "title": "Polytopia Wiki - Shark",
+      "url": "https://polytopia.fandom.com/wiki/Shark",
+      "use": "current Aquarion Shark stats"
+    },
+    {
+      "id": "WIKI-PUFFER",
+      "grade": "B",
+      "title": "Polytopia Wiki - Puffer",
+      "url": "https://polytopia.fandom.com/wiki/Puffer",
+      "use": "current Aquarion Puffer stats and Drench"
+    },
+    {
+      "id": "WIKI-TRIDENTION",
+      "grade": "B",
+      "title": "Polytopia Wiki - Tridention",
+      "url": "https://polytopia.fandom.com/wiki/Tridention",
+      "use": "current Aquarion Tridention stats"
+    },
+    {
+      "id": "WIKI-GAME-MODES-CURRENT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Game Modes (Perfection difficulty bonus)",
+      "url": "https://polytopia.fandom.com/wiki/Game_Modes",
+      "use": "community formula/table for Perfection difficulty bonus; version-sensitive"
     }
   ]
 }

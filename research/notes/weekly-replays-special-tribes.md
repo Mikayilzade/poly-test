@@ -46,3 +46,8 @@ The official 2025 rework documents Algae as a tile effect that can coexist with 
 
 ## Next gaps
 Aquarion full post-2024 tree and unit table; complete Elyrion stats; Polaris buildings/freeze economy; complete Cymanti unit/building tables; replay/spectator controls; setup and in-game UI.
+
+
+## Aquarion handoff
+
+Dedicated Aquarion implementation note: `research/notes/aquarion-current.md`. It contains the 2024 rework baseline, current unit seed, Flood/Bubble/Atoll/Lost-City distinctions and version traps. [OFF-AQ-REWORK, STEAM-AQ-CHANGELOG]

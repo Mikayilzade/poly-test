@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-research-index/v1",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "target": "current public ruleset + historical deltas",
   "status": "active",
   "areas": [
@@ -27,7 +27,7 @@
     {
       "id": "map-generation",
       "status": "partial",
-      "file": "research/notes/core-mechanics.md"
+      "file": "research/notes/map-generation.md"
     },
     {
       "id": "terrain-resources",
@@ -143,6 +143,31 @@
       "id": "replays-spectator",
       "status": "partial",
       "file": "research/notes/weekly-replays-special-tribes.md"
+    },
+    {
+      "id": "special-tribe-aquarion",
+      "status": "partial",
+      "file": "research/notes/aquarion-current.md"
+    },
+    {
+      "id": "diplomacy-cloak-embassy",
+      "status": "partial",
+      "file": "research/notes/diplomacy-cloak.md"
+    },
+    {
+      "id": "forced-spawn-super-unit",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
+    },
+    {
+      "id": "perfection-difficulty-bonus",
+      "status": "partial",
+      "file": "research/notes/multiplayer-turn-flow-ai.md"
+    },
+    {
+      "id": "achievements",
+      "status": "partial",
+      "file": "research/notes/easter-eggs.md"
     }
   ]
 }

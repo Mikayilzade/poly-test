@@ -42,3 +42,14 @@ The 2025 World Championship report refers to enhanced spectator tools. Exact spe
 - reconnect and notification behavior;
 - complete replay controls and spectator fog policy;
 - ordinary turn start/end sequencing for income, status effects, growth timers, and capture.
+
+
+## 2.16.3 UI / replay state contracts
+
+Official 2.16.3 exposes several implementation-relevant UI/state rules: [OFF-2163]
+
+- Weekly Challenge must allow **resign during an enemy turn**.
+- Replay and Pass & Play income icons must respect skin resource theme (Stars versus Hearts for New Dawn).
+- Embassy-income UI likewise uses the New Dawn heart icon where appropriate.
+- Opening a game should **focus the camera on the player's capital even when auto-focus is disabled**.
+- Replay scrubbing and controller navigation have explicit bug-fix coverage, confirming both as supported interaction surfaces.
