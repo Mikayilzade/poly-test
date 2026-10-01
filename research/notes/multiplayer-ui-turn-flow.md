@@ -73,3 +73,10 @@ The changelog also mentions a crash caused by modifying a **share URL** so that 
 For turn/setup behavior, 2.16.3 says games started with a friend use **random player turn order**. Weekly Challenges additionally permit resignation during an enemy turn. Both are observable state-machine rules and should not be inferred from UI order. [OFF-2163]
 
 Finally, 2.16.3 changed ruin-reward calculation to improve Weekly Challenge consistency and prevents a water ruin from awarding a water unit when the exploring unit lacks water movement (the changelog gives Moth as the example). Treat pre-2.16.3 ruin tables as version-sensitive rather than assuming seed alone reproduces older reward selection. [OFF-2163]
+
+
+## Replay shared-fog option — public-release baseline
+
+The developer-maintained public changelog for **2.5.0.10384** (March 2023) explicitly says a **shared fog option was added to replays and moved to Settings**. This closes one part of the replay-fog gap: replay rendering has supported a selectable shared-fog mode rather than one immutable fog policy. Treat the exact semantics (union of explored/visible tiles, perspective switching, default value, and whether the option still exists unchanged in 2026) as current-build verification targets. [STEAM-AQ-CHANGELOG]
+
+The same release increased the number of Pass & Play players, but the changelog does not state the new numeric cap; do not infer a value from this source alone. [STEAM-AQ-CHANGELOG]
