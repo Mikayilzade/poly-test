@@ -131,3 +131,12 @@ Still requiring black-box verification:
 - current behavior of tribe water modifiers;
 - biome ownership at borders between tribes;
 - overcrowded/impossible-placement fallback behavior.
+
+
+## First-party mode/map constraints
+
+A 2021 developer answer states that **Perfection and Domination use Continents**, describing Continents as the default map type for those score/star modes at that time. This is useful first-party corroboration of the community map-mode table, but should be treated as a historical baseline because later map-generation rewrites may have changed implementation details. [DEV-MODE-CONTINENTS-2021]
+
+For the current upper size boundary, a March 2026 developer reply states that **Massive is the largest map size**. Combined with the established 30×30/900-tile Massive table, this supports keeping 900 tiles as the current public maximum rather than extrapolating larger hidden sizes. [DEV-MASSIVE-MAX-2026, WIKI-MAP]
+
+These sources do not resolve current Perfection/Domination generator internals, map-type override possibilities, or spawn fairness; those remain black-box targets.

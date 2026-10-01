@@ -135,3 +135,11 @@
 - Added first-party evidence that winner replays from previous Weekly Challenges remain revisit-able, including direct access to the previous week's top-score replay.
 - Kept retention duration, archive depth, non-winner retention and download/export behavior unresolved rather than inferring them.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — map-mode boundary pass
+
+- Added developer corroboration that Perfection/Domination historically use Continents as their default/fixed map type.
+- Added current 2026 developer confirmation that Massive remains the largest public map size, supporting 900 tiles as the public maximum.
+- Kept the 2021 mode/map statement version-scoped rather than silently assuming later generator rewrites preserved every detail.
+- Current generator fairness/spawn weighting and mode-specific override behavior remain open. No GitHub Actions/CI enabled or run.

@@ -661,6 +661,22 @@
       "url": "https://polytopia.io/news/weekly-replays/",
       "date": "2025-03-25",
       "use": "official Weekly Challenge historical winner-replay retrieval behavior"
+    },
+    {
+      "id": "DEV-MODE-CONTINENTS-2021",
+      "grade": "C",
+      "title": "Developer answer: Perfection/Domination use Continents",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/3093389895551120288/",
+      "date": "2021-05-31",
+      "use": "historical first-party/developer confirmation that Perfection and Domination use Continents/default map type"
+    },
+    {
+      "id": "DEV-MASSIVE-MAX-2026",
+      "grade": "C",
+      "title": "Developer answer: Massive is largest map size",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/809098954468856985/",
+      "date": "2026-03-31",
+      "use": "current developer confirmation that Massive is the largest public map size"
     }
   ]
 }
