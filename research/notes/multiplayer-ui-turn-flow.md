@@ -62,3 +62,14 @@ The 2022 Tournament Update described multiplayer replays as server-saved records
 A February 2023 developer response says the system should keep a player's **most recent replays**, while acknowledging that some could fail to appear. No exact retention count was stated. Treat this as historical retention behavior, not a current quota. [STEAM-REPLAY-RETENTION-2023]
 
 Current evidence remains compatible with this model: 2.16.3 explicitly supports replay scrubbing, and the current Weekly Challenge surface exposes previous winners' replays. Current ordinary-replay retention limits, favorite limits, share-link lifetime, fog/perspective switching and spectator-delay rules remain unverified. [OFF-2163, OFF-WEEKLY-HUB]
+
+
+## Current replay/pass-and-play state contracts from 2.16.3
+
+The February 2026 official changelog exposes several additional black-box contracts that matter for a faithful replay/state model. Replay and Pass & Play must render each player's own resource theme correctly (including New Dawn Hearts), and replay income must preserve that per-player presentation. The same release fixed Centipede segment connectors while **scrubbing**, which is further evidence that replay state can be traversed non-linearly rather than only played forward. [OFF-2163]
+
+The changelog also mentions a crash caused by modifying a **share URL** so that it pointed to an ongoing game and then resigning. This is not enough evidence to claim ongoing-game links are a supported public feature, but it does establish that share-URL routing can resolve game state rather than only static finished-replay media. Keep supported URL lifetime/permissions unresolved. [OFF-2163]
+
+For turn/setup behavior, 2.16.3 says games started with a friend use **random player turn order**. Weekly Challenges additionally permit resignation during an enemy turn. Both are observable state-machine rules and should not be inferred from UI order. [OFF-2163]
+
+Finally, 2.16.3 changed ruin-reward calculation to improve Weekly Challenge consistency and prevents a water ruin from awarding a water unit when the exploring unit lacks water movement (the changelog gives Moth as the example). Treat pre-2.16.3 ruin tables as version-sensitive rather than assuming seed alone reproduces older reward selection. [OFF-2163]

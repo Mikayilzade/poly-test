@@ -119,3 +119,12 @@
 - Added the 2023 developer statement that recent replays should be retained, with no exact count stated.
 - Kept these as historical baselines; current limits and spectator visibility rules still need verification.
 - No GitHub Actions or CI used.
+
+
+## 2026-10-01 — 2.16.3 replay/state edge-case pass
+
+- Added current first-party replay/Pass & Play presentation contracts, including per-player resource-theme rendering during replay.
+- Recorded replay scrubbing as non-linear state traversal evidence and kept ongoing-game share-URL support explicitly unresolved despite the official crash-fix clue.
+- Added random friend-game turn order and enemy-turn Weekly resignation as observable state-machine rules.
+- Added the 2.16.3 ruin-reward compatibility rule: no unusable water-unit reward when the explorer lacks water movement, plus improved Weekly consistency.
+- No GitHub Actions/CI enabled or run.
