@@ -49,7 +49,7 @@ Regular resource/economic buildings from the current aggregate table: [WIKI-BUIL
 | Farm | 5 | +2 population |
 | Windmill | 5 | +1 population per adjacent Farm |
 | Mine | 5 | +2 population |
-| Forge | 5 | +2 population per adjacent Mine |
+| Forge | 5 | +1 population/level per adjacent Mine in the reverted 2025 public rule |
 | Port | 7 | +1 population; naval transform/connectivity |
 | Market | 5 | star income based on adjacent production buildings |
 | Road | 3 | movement + connection |
@@ -66,7 +66,7 @@ The same developer changelog records two related economy/state rules useful for 
 - **Parks give +1 star per turn** in the post-Path-of-the-Ocean ruleset.
 - The **Network task unlocks automatically when the first city is connected**; it is therefore an event/state transition, not a task that should remain hidden until five-city completion. [STEAM-BETA-CHANGELOG]
 
-Historical note: an experimental Forge change that made each adjacent Mine grow the Forge by two levels was present in beta notes, but the public 2025 balance notes describe the current production effect differently; preserve beta experiments as history rather than silently importing them into the current ruleset. [STEAM-BETA-CHANGELOG, OFF-2025BAL]
+Historical note: an experimental Forge change made each adjacent Mine grow the Forge by two levels. On 2025-09-09, developer Zoythrus explicitly confirmed that this was reverted; the public rule returned to one Forge level (and one population) per adjacent Mine. The 2025 balance pass separately retained the ability to build Forges on Forests. This matters for tactical city-upgrade solvers: do not count +2 population per Mine in the current regular-tribe route enumeration. [STEAM-BETA-CHANGELOG, STEAM-FORGE-REVERT-2025, OFF-2025BAL]
 
 ## Population / city level threshold
 

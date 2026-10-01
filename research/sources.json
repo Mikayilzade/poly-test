@@ -701,6 +701,14 @@
       "url": "https://polytopia.io/news/strategy-tip-4/",
       "date": "2020-08-26",
       "use": "official Giant-producing city upgrade and displacement counterplay"
+    },
+    {
+      "id": "STEAM-FORGE-REVERT-2025",
+      "grade": "C",
+      "title": "Developer confirmation: Forge two-level experiment reverted",
+      "url": "https://steamcommunity.com/app/874390/eventcomments/603041053825565065/",
+      "date": "2025-09-09",
+      "use": "developer confirmation that Forge reverted to one level/population per adjacent Mine after the 2025 beta experiment"
     }
   ]
 }

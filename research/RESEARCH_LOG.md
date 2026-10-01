@@ -160,3 +160,11 @@
 - Added first-party counterplay evidence that occupying resource tiles can hinder city upgrades, plus official Giant-upgrade displacement corroboration.
 - Added early-game tribe score fingerprints as a candidate-set inference target; ambiguous hidden state remains explicit.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — Forge tactical-cost correction
+
+- Reconciled a tactical-solver-relevant Forge conflict using a direct 2025 developer reply: the experimental two-level/two-population-per-Mine behavior was reverted.
+- Updated the regular building table and upgrade-route guidance to use one Forge level/population per adjacent Mine; Forest placement remains from the 2025 balance pass.
+- This prevents overestimating one-turn city-upgrade/Giant routes when advising from screenshots.
+- No GitHub Actions/CI enabled or run.
