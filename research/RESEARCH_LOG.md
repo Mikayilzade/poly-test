@@ -103,3 +103,11 @@
 - Recorded the 2026 community observation of -105 score per negative population only as a black-box candidate, not an implemented constant.
 - Added a controlled verification matrix to isolate the score coefficient and whether it is generic or Perfection-specific.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — Path of the Ocean economy reconciliation
+
+- Resolved the Market documentation conflict in favor of the developer-maintained changelog plus the dedicated Market page: 1 SPT per adjacent production-building level, cap 8 per building, with old Port doubling removed.
+- Added two overlooked state rules from the same developer changelog: Parks produce +1 SPT and the Network task unlocks automatically on the first city connection.
+- Kept experimental Forge beta behavior as historical rather than promoting it to current rules.
+- No GitHub Actions/CI enabled or run.

@@ -58,13 +58,15 @@ Regular resource/economic buildings from the current aggregate table: [WIKI-BUIL
 
 2025 official patch explicitly says Forges may be built on Forests and Embassy starting cost was reduced but scales with number of embassies owned. [OFF-2025BAL]
 
-### Market conflict to resolve
+### Market current rule and documentation conflict
 
-Public community pages currently disagree:
-- aggregate Buildings/Trade text says **2 stars per turn for each adjacent resource building** (Sawmill/Windmill/Forge);
-- dedicated Market page says **1 star per level** of each adjacent Sawmill/Windmill/Forge, max level 8, and its history describes older “2 per unique building, doubled by Port” behavior.
+The community aggregate table still exposes stale/conflicting Market text, but developer-maintained Path of the Ocean changelogs provide a stronger versioned rule: Market income was changed to **1 star per turn per level of each adjacent Sawmill, Windmill or Forge**, capped at **8 levels per production building**, and the old Port doubling was removed. The dedicated Market page agrees with this model. Treat the aggregate "2 stars per adjacent resource building" wording as stale unless current-build observation disproves the developer changelog. [STEAM-BETA-CHANGELOG, WIKI-MARKET, OFF-OCEAN]
 
-Do not implement until current-build behavior is verified or a newer official note resolves the discrepancy. [WIKI-BUILDINGS, WIKI-MARKET, OFF-OCEAN]
+The same developer changelog records two related economy/state rules useful for reconstruction:
+- **Parks give +1 star per turn** in the post-Path-of-the-Ocean ruleset.
+- The **Network task unlocks automatically when the first city is connected**; it is therefore an event/state transition, not a task that should remain hidden until five-city completion. [STEAM-BETA-CHANGELOG]
+
+Historical note: an experimental Forge change that made each adjacent Mine grow the Forge by two levels was present in beta notes, but the public 2025 balance notes describe the current production effect differently; preserve beta experiments as history rather than silently importing them into the current ruleset. [STEAM-BETA-CHANGELOG, OFF-2025BAL]
 
 ## Population / city level threshold
 
