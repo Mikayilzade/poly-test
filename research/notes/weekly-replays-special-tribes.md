@@ -57,7 +57,7 @@ Dedicated Aquarion implementation note: `research/notes/aquarion-current.md`. It
 
 The 2025 launch article is now demonstrably historical on league count: it documents **4 leagues** (Entry, Bronze, Silver, Gold). [OFF-WEEKLY]
 
-Two April 2026 mirrors of official Steam challenge announcements explicitly describe **six leagues** / six difficulty branches. One community discussion from January 2026 also identifies **Diamond** as the then-top league, but the exact full six-name sequence was not recovered from first-party text in this pass. Therefore record only the count (6) and Diamond existence as current-era evidence; do not invent the missing league names. [STEAM-HATS26-MIRROR, STEAM-RUINRUN26-MIRROR]
+Official Steam announcements from April 2026 explicitly state that Weekly Challenges have **six leagues**. This upgrades the six-league count from mirror evidence to first-party evidence. One community discussion from January 2026 identifies **Diamond** as the then-top league, but the exact full six-name sequence was not recovered from first-party text in this pass. Therefore record only the count (6) and Diamond existence as current-era evidence; do not invent the missing league names. [STEAM-WEEKLY-APR26]
 
 The 2026 challenge announcements also strengthen the scenario-override model:
 - **Hats of Steel**: Sha-Po starts against a Xin-Xi empire with Riders/Swordsmen; player starts with a Cloak and two Archers; New Dawn is present elsewhere on the map. [STEAM-HATS26-MIRROR]
@@ -68,9 +68,14 @@ Implementation inference: Weekly Challenge scenario data must support arbitrary 
 
 ### Confidence caveat
 
-The six-league evidence located here is a secondary mirror of developer Steam announcements rather than a Midjiwan webpage. The original 2025 four-league article remains first-party and should be retained as version history. Exact 2026 league names/promotion mapping remain open.
+The six-league count is now first-party-confirmed by official Steam announcements. The original 2025 four-league article remains first-party and should be retained as version history. Exact 2026 league names/promotion mapping remain open.
 
 
 ## Weekly winner-replay archive behavior
 
 An official March 2025 Polynews post states that players can **revisit winner replays from previous weeks** and tap to watch the previous week's top score. This is stronger than treating Weekly replay access as only a one-week transient surface: the public UI contract includes historical winner-replay retrieval. The source does not specify retention duration, number of archived weeks, downloadability, or whether non-winning runs are retained, so those remain open. [OFF-WEEKLY-REPLAYS25]
+
+
+## Kickoo 2026 scenario override
+
+The official June 2026 Steam announcement for **Command & Konka** describes a Massive-map Weekly scenario built around an island containing multiple Konka mounds. Capturing the relevant city makes it level up enough to enable border growth. This is additional first-party evidence that Weekly scenarios can encode unusual map objects/state and city-upgrade outcomes, not just starting armies or technologies. [STEAM-WEEKLY-APR26]

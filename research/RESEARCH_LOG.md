@@ -143,3 +143,11 @@
 - Added current 2026 developer confirmation that Massive remains the largest public map size, supporting 900 tiles as the public maximum.
 - Kept the 2021 mode/map statement version-scoped rather than silently assuming later generator rewrites preserved every detail.
 - Current generator fairness/spawn weighting and mode-specific override behavior remain open. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — Weekly first-party corroboration pass
+
+- Upgraded the 2026 six-league count from secondary mirrors to direct official Steam announcement evidence.
+- Added Command & Konka as first-party evidence for Weekly scenarios with unusual map objects/state and capture-driven city upgrade/border-growth behavior on a Massive map.
+- Exact six league names and promotion/demotion mapping remain unresolved; no unsupported values were added.
+- No GitHub Actions/CI enabled or run.
