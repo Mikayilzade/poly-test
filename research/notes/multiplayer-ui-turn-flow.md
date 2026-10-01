@@ -53,3 +53,12 @@ Official 2.16.3 exposes several implementation-relevant UI/state rules: [OFF-216
 - Embassy-income UI likewise uses the New Dawn heart icon where appropriate.
 - Opening a game should **focus the camera on the player's capital even when auto-focus is disabled**.
 - Replay scrubbing and controller navigation have explicit bug-fix coverage, confirming both as supported interaction surfaces.
+
+
+## Replay model — historical developer baseline
+
+The 2022 Tournament Update described multiplayer replays as server-saved records accessible from the Multiplayer **Replays** tab. Replay links could be shared, and replays could be favorited. The viewer exposed whose turn it was, that player's visible map state and research, with playback controls including **fast-forward, rewind and pause**. [DEV-REPLAYS-2022]
+
+A February 2023 developer response says the system should keep a player's **most recent replays**, while acknowledging that some could fail to appear. No exact retention count was stated. Treat this as historical retention behavior, not a current quota. [STEAM-REPLAY-RETENTION-2023]
+
+Current evidence remains compatible with this model: 2.16.3 explicitly supports replay scrubbing, and the current Weekly Challenge surface exposes previous winners' replays. Current ordinary-replay retention limits, favorite limits, share-link lifetime, fog/perspective switching and spectator-delay rules remain unverified. [OFF-2163, OFF-WEEKLY-HUB]

@@ -637,6 +637,22 @@
       "url": "https://steamcommunity.com/app/874390/discussions/0/4355617880207260760/",
       "date": "2024-04-03",
       "use": "developer-confirmed small non-zero AI advantage; exact mechanism unspecified"
+    },
+    {
+      "id": "DEV-REPLAYS-2022",
+      "grade": "C",
+      "title": "Developer Tournament Update notes: replay system",
+      "url": "https://devtrackers.gg/polytopia/p/366d81c7-the-rise-of-the-tournament-update",
+      "date": "2022",
+      "use": "historical replay storage, sharing, favorites, player-view information and playback controls"
+    },
+    {
+      "id": "STEAM-REPLAY-RETENTION-2023",
+      "grade": "C",
+      "title": "Developer comment: replay retention",
+      "url": "https://steamcommunity.com/app/874390/discussions/1/3767858616449496342/",
+      "date": "2023-02-08",
+      "use": "historical statement that recent replays should be retained; exact count unspecified"
     }
   ]
 }

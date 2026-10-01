@@ -111,3 +111,11 @@
 - Added two overlooked state rules from the same developer changelog: Parks produce +1 SPT and the Network task unlocks automatically on the first city connection.
 - Kept experimental Forge beta behavior as historical rather than promoting it to current rules.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — replay behavior pass
+
+- Added the developer-described 2022 replay baseline: replay list access, sharing, favorites, player-view information and playback controls.
+- Added the 2023 developer statement that recent replays should be retained, with no exact count stated.
+- Kept these as historical baselines; current limits and spectator visibility rules still need verification.
+- No GitHub Actions or CI used.
