@@ -653,6 +653,14 @@
       "url": "https://steamcommunity.com/app/874390/discussions/1/3767858616449496342/",
       "date": "2023-02-08",
       "use": "historical statement that recent replays should be retained; exact count unspecified"
+    },
+    {
+      "id": "OFF-WEEKLY-REPLAYS25",
+      "grade": "A",
+      "title": "Weekly Replays",
+      "url": "https://polytopia.io/news/weekly-replays/",
+      "date": "2025-03-25",
+      "use": "official Weekly Challenge historical winner-replay retrieval behavior"
     }
   ]
 }

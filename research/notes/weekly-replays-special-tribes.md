@@ -69,3 +69,8 @@ Implementation inference: Weekly Challenge scenario data must support arbitrary 
 ### Confidence caveat
 
 The six-league evidence located here is a secondary mirror of developer Steam announcements rather than a Midjiwan webpage. The original 2025 four-league article remains first-party and should be retained as version history. Exact 2026 league names/promotion mapping remain open.
+
+
+## Weekly winner-replay archive behavior
+
+An official March 2025 Polynews post states that players can **revisit winner replays from previous weeks** and tap to watch the previous week's top score. This is stronger than treating Weekly replay access as only a one-week transient surface: the public UI contract includes historical winner-replay retrieval. The source does not specify retention duration, number of archived weeks, downloadability, or whether non-winning runs are retained, so those remain open. [OFF-WEEKLY-REPLAYS25]

@@ -128,3 +128,10 @@
 - Added random friend-game turn order and enemy-turn Weekly resignation as observable state-machine rules.
 - Added the 2.16.3 ruin-reward compatibility rule: no unusable water-unit reward when the explorer lacks water movement, plus improved Weekly consistency.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — Weekly replay archive pass
+
+- Added first-party evidence that winner replays from previous Weekly Challenges remain revisit-able, including direct access to the previous week's top-score replay.
+- Kept retention duration, archive depth, non-winner retention and download/export behavior unresolved rather than inferring them.
+- No GitHub Actions/CI enabled or run.
