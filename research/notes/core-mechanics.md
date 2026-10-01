@@ -93,3 +93,10 @@ A 2020 Steam discussion contains a developer response describing the same 1/2/3/
 ## Explorer
 
 Official 2.16.3 changelog reduces the number of Explorer moves from **15 to 12**. Precise path selection/reveal weighting still needs reconstruction. [OFF-2163]
+
+
+### AI advantage boundary — developer evidence
+
+A developer response from April 2024 says the AI receives a small built-in advantage, described as only enough to give it a chance. The response does not identify the mechanism, so it supports a small non-zero AI advantage but not any particular resource, vision, combat, or decision rule. [STEAM-AI-ADVANTAGE-2024]
+
+Keep this separate from the older 1/2/3/5 capital-income schedule. Also do not promote nearby player claims about full-map knowledge or prediction into implementation facts without reproducible evidence. Current-build tests should isolate starting/capital income, fog/target knowledge, combat rules and diplomacy behavior independently.

@@ -629,6 +629,14 @@
       "url": "https://www.reddit.com/r/Polytopia/comments/1w8tbyv/how_can_a_level_5_city_only_be_worth_190_points/",
       "date": "2026-09-06",
       "use": "current-build lead suggesting -105 score per negative population; requires reproduction"
+    },
+    {
+      "id": "STEAM-AI-ADVANTAGE-2024",
+      "grade": "C",
+      "title": "Developer comment: small AI built-in advantage",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4355617880207260760/",
+      "date": "2024-04-03",
+      "use": "developer-confirmed small non-zero AI advantage; exact mechanism unspecified"
     }
   ]
 }
