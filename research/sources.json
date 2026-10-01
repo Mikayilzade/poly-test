@@ -685,6 +685,22 @@
       "url": "https://steamcommunity.com/app/874390/announcements/",
       "date": "2026-04",
       "use": "first-party confirmation of six Weekly leagues and asymmetric/custom scenario starts"
+    },
+    {
+      "id": "OFF-PREVENT-UPGRADE",
+      "grade": "A",
+      "title": "Strategy Tip – Prevent city upgrade",
+      "url": "https://polytopia.io/news/strategy-tip-prevent-city-upgrade/",
+      "date": "2024-05-21",
+      "use": "official resource-tile blocking counterplay for city leveling"
+    },
+    {
+      "id": "OFF-UPGRADE-KEEP-CITY",
+      "grade": "A",
+      "title": "Strategy Tip – Upgrade to Keep City",
+      "url": "https://polytopia.io/news/strategy-tip-4/",
+      "date": "2020-08-26",
+      "use": "official Giant-producing city upgrade and displacement counterplay"
     }
   ]
 }

@@ -168,6 +168,11 @@
       "id": "achievements",
       "status": "partial",
       "file": "research/notes/easter-eggs.md"
+    },
+    {
+      "id": "tactical-score-inference",
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md"
     }
   ]
 }

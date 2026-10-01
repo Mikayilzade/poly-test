@@ -124,3 +124,16 @@ Implementation model should therefore keep two independent effects:
 2. score: post-2.15 starving-city penalty, exact current coefficient/formula unresolved.
 
 Black-box target: create the same city at negative population 0/-1/-2/-3 without changing buildings, tech, territory or units, record score deltas before/after each step, and repeat outside Perfection to determine whether the penalty belongs to generic score state or only Perfection scoring.
+
+
+## Tactical score inference
+
+The current score reference states that each population gained is worth **5 score**. City upgrades add a level-dependent bonus so population plus the upgrade itself totals 50 points per ordinary level: level 2 gives 40 upgrade points after 2 population, level 3 gives 35 after 3, etc. [WIKI-SCORE]
+
+This permits reverse inference when a city panel exposes city score but not its population bar. Ordinary non-starving city baselines are level 1 = 100, level 2 = 150, level 3 = 200, level 4 = 250, level 5 = 300, etc. After accounting for other score-bearing local objects, positive population is the remaining score divided by 5. The next upgrade requires level+1 population. Monuments, temples, Parks and the newer starving-city penalty must be handled separately. [WIKI-SCORE, OFF-CYM25-STARVING]
+
+For tactical analysis, enumerate visible legal population sources and calculate the cheapest feasible route to the threshold. Regular examples include harvest fruit/animal/fish (2 stars -> +1), Lumber Hut (3 -> +1), Farm/Mine (5 -> +2), adjacency-scaled Sawmill/Windmill/Forge, and monuments (+3). Treat technology ownership separately: visible existing improvements can prove a technology is owned; otherwise return conditional cost ranges rather than assuming it. [WIKI-POP, WIKI-BUILDINGS]
+
+Midjiwan explicitly documents both sides of this tactic: a city upgrade that produces a Giant can push an invader out, while occupying resource tiles in another player's territory can make that city harder to level. A future advisor should therefore recompute the cheapest upgrade route after each candidate resource block. [OFF-UPGRADE-KEEP-CITY, OFF-PREVENT-UPGRADE]
+
+Implementation target: infer level and city score; solve population where unambiguous; enumerate visible population sources and proven technologies; return minimum stars and conditional alternatives; flag one-turn Giant/displacement risk; test which blockable resource tiles increase the minimum route most; preserve ambiguity for unknown stars, technologies and unseen resources. Early-game tribe identification can similarly use the documented turn-0/turn-1 score fingerprints as candidate sets rather than forced labels. [WIKI-SCORE]

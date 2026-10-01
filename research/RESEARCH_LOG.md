@@ -151,3 +151,12 @@
 - Added Command & Konka as first-party evidence for Weekly scenarios with unusual map objects/state and capture-driven city upgrade/border-growth behavior on a Massive map.
 - Exact six league names and promotion/demotion mapping remain unresolved; no unsupported values were added.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-01 — tactical score-inference pass
+
+- Added 5-points-per-population as an explicit reverse-inference rule for city population from visible city score.
+- Added a tactical upgrade-threat model: visible population sources, proven-vs-unknown technologies, minimum-star routes and Giant/displacement risk.
+- Added first-party counterplay evidence that occupying resource tiles can hinder city upgrades, plus official Giant-upgrade displacement corroboration.
+- Added early-game tribe score fingerprints as a candidate-set inference target; ambiguous hidden state remains explicit.
+- No GitHub Actions/CI enabled or run.
