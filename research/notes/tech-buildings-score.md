@@ -144,3 +144,10 @@ Implementation target: infer level and city score; solve population where unambi
 The current community score reference exposes the exact decomposition behind the usual +50-per-city-level rule. Upgrading to level **N** requires N population, worth **5N** score, while the upgrade event itself contributes **50 - 5N**. Thus level 2 is 10 population-score + 40 upgrade-score, level 3 is 15 + 35, and so on. At level 10 the upgrade component reaches zero; above level 10 it becomes negative, while the population plus upgrade-event pair still nets +50 before optional reward score. [WIKI-SCORE]
 
 This matters for score-delta inference in unusually tall cities: do not clamp the upgrade component to zero. Park (+250), super-unit (+50 nominal), Explorer fog reveals and Border Growth territory are separate score-bearing consequences and can make the observed delta larger than the base +50. [WIKI-SCORE]
+
+
+## Temple growth timing and score-version boundary
+
+Midjiwan's 2020 strategy tip states that a fully grown Temple takes **12 turns** to develop. Treat that as the strongest public timing baseline located so far. The same historical tip says a fully grown Temple was worth 400 points, but that score value is superseded by the official 2025 Balance Pass, which changed Temples to **100 points per level of growth**. The current community score table correspondingly reports 100 base + 100 per level above level 1, max **500 at level 5**. [OFF-TEMPLE-GROWTH-2020, OFF-2025BAL, WIKI-SCORE]
+
+Implementation boundary: keep **growth timing** and **score-per-growth-level** as separately versioned rules. Do not import the old 400-point maximum merely because the 12-turn timing comes from the same 2020 source. The exact intermediate growth turns have not been re-confirmed by current first-party documentation, so only the 12-turn full-growth endpoint is promoted to the reference model for now.

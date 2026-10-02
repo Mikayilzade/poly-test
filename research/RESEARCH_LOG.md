@@ -192,3 +192,11 @@
 - Added the exact city-upgrade score decomposition: level-N population contributes 5N while the upgrade event contributes 50-5N, preserving +50 total even when the event component becomes negative above level 10.
 - Flagged Park, super-unit, Explorer and Border Growth rewards as separate score deltas so tactical score inference does not misclassify tall-city turns.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-02 — Temple growth/version-boundary pass
+
+- Added first-party confirmation that a fully grown Temple takes 12 turns to develop.
+- Separated that timing baseline from the historical 400-point maximum in the same 2020 source; the official 2025 balance change supersedes the score value with 100 points per growth level, matching the current 500-point level-5 community table.
+- Kept exact intermediate growth-turn cutoffs unresolved rather than promoting old community timing as current fact.
+- Score/building coverage remains partial. No GitHub Actions/CI enabled or run.

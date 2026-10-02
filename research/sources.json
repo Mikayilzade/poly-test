@@ -717,6 +717,14 @@
       "url": "https://polytopia.io/blog/",
       "date": "2025-12-08",
       "use": "official New Dawn cosmetic substitution catalogue and confirmation of gameplay-equivalent Cymanti unit/building/resource reskins"
+    },
+    {
+      "id": "OFF-TEMPLE-GROWTH-2020",
+      "grade": "A",
+      "title": "Strategy Tip – Build Temples",
+      "url": "https://polytopia.io/news/strategy-tip-build-temples/",
+      "date": "2020-07-29",
+      "use": "official 12-turn full-growth timing baseline for temples; historical 400-point value superseded by 2025 balance"
     }
   ]
 }
