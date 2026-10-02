@@ -246,3 +246,11 @@
 - Added the Bridge-destruction presentation contract: removed Bridges must not leave a road visible on the ocean tile.
 - Kept internal save timing/data structures and Bridge/road storage representation as implementation details rather than inferred mechanics.
 - UI/turn-flow coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — last-turn input / Domination result pass
+
+- Added first-party 2.16.3 evidence that Escape deselection remains available on the last turn of Perfection/Weekly Challenge.
+- Added the Domination end-screen result-ratio contract: 3 wins / 3 losses must display 50%, not 57%.
+- Kept rounding, draw/unfinished handling and reuse of the percentage component unresolved.
+- UI/turn-flow coverage remains partial. No GitHub Actions/CI enabled or run.

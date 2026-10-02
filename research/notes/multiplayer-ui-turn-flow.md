@@ -90,3 +90,13 @@ The official 2.16.3 changelog exposes two additional observable contracts: [OFF-
 - Destroying a Bridge must not leave a road rendered on the underlying ocean tile. The old leftover-road presentation is explicitly a fixed bug, not evidence of a persistent visible road after Bridge destruction.
 
 Implementation inference: initial game creation/loading should establish durable state independently of the first gameplay command, and Bridge removal should clear its road presentation. Internal save transaction timing and Bridge/road storage remain implementation details.
+
+
+## 2.16.3 end-of-turn and Domination result UI contracts
+
+The official 2.16.3 changelog exposes two small but testable UI/state contracts that were not yet captured: [OFF-2163]
+
+- During the **last turn of Perfection or Weekly Challenge**, the Escape key must still be able to deselect the current selection. End-of-game/last-turn gating therefore must not swallow ordinary deselection input.
+- The Domination end screen percentage must be computed from actual won/lost results: the changelog explicitly fixes **3 won / 3 lost** being displayed as **57% instead of 50%**. Treat this as presentation evidence for a 3/(3+3) result ratio, not as evidence for hidden scoring weights.
+
+Exact rounding for non-even ratios, draws/unfinished games, and whether the same percentage component is reused elsewhere remain unresolved. UI/turn-flow coverage remains partial.
