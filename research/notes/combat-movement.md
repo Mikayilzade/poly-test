@@ -133,9 +133,9 @@ Resolve this with a current-build black-box test using a Creep unit that lacks H
 
 ## First-party tactical UI and vision rules
 
-- A unit standing on a mountain explores two tiles around it instead of only bordering tiles. [OFF-VISION-MOUNTAIN]
-- Exploration knowledge is player-relative: opponents do not necessarily see the same tiles, so troops can be concealed on tiles that opponent has not explored. [OFF-CLOUDS-FOG]
-- An eye icon next to a unit indicates that a Cloak is nearby. [OFF-CLOAK-EYE]
-- After three enemy kills, a unit can be promoted to Veteran; promotion adds 5 maximum health and fully heals it. [OFF-VETERAN-PROMOTION]
+- A unit standing on a mountain explores two tiles around it instead of only bordering tiles. [WIKI-MOVE]
+- Exploration knowledge is player-relative: opponents do not necessarily see the same tiles, so troops can be concealed on tiles that opponent has not explored. [WIKI-MOVE]
+- An eye icon next to a unit indicates that a Cloak is nearby. [WIKI-CLOAK]
+- After three enemy kills, a unit can be promoted to Veteran; promotion adds 5 maximum health and fully heals it. [WIKI-UNITS]
 
 Implementation note: keep explored-map state per player. Treat the eye icon as evidence of a nearby Cloak, but source exact detection geometry separately. Veteran promotion should remain an action/state transition rather than being assumed automatic on the third kill.
