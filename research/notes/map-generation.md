@@ -140,3 +140,10 @@ A 2021 developer answer states that **Perfection and Domination use Continents**
 For the current upper size boundary, a March 2026 developer reply states that **Massive is the largest map size**. Combined with the established 30×30/900-tile Massive table, this supports keeping 900 tiles as the current public maximum rather than extrapolating larger hidden sizes. [DEV-MASSIVE-MAX-2026, WIKI-MAP]
 
 These sources do not resolve current Perfection/Domination generator internals, map-type override possibilities, or spawn fairness; those remain black-box targets.
+
+
+## Lighthouse discovery state — first-party details
+
+Path of the Ocean explicitly says each Lighthouse discovery gives the discoverer's **capital +1 population** and adds that tribe's **color as a tier on the Lighthouse**; the structure therefore visibly accumulates discovery state across tribes rather than behaving as a private binary collectible. Finding all four triggers the associated reward/task outcome described by the same official page. [OFF-OCEAN]
+
+Implementation boundary: keep at least two concepts separate: per-player discovery (needed for each player's capital population/task progress) and the Lighthouse's visible multi-tribe tier/color state. The official source does not specify ordering, duplicate-discovery handling, or what happens if a discovering player has lost the original capital; those remain black-box targets.

@@ -230,3 +230,11 @@
 - Added direct Midjiwan evidence that Explorer can collect stars and is especially valuable with many opponents.
 - Kept exact star quantity, probability and technology-vs-stars reward selection unresolved rather than guessing.
 - Vision/fog/Explorer coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-02 — Lighthouse shared-discovery-state pass
+
+- Added first-party detail that Lighthouse discovery grants +1 population to the discoverer's capital and adds that tribe's color as a visible tier on the Lighthouse.
+- Split implementation inference into per-player discovery/task state versus shared visible multi-tribe Lighthouse state.
+- Left discovery ordering, duplicate handling and lost-capital behavior unresolved.
+- Map-generation/UI coverage remains partial. No GitHub Actions/CI enabled or run.
