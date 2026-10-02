@@ -137,3 +137,10 @@ For tactical analysis, enumerate visible legal population sources and calculate 
 Midjiwan explicitly documents both sides of this tactic: a city upgrade that produces a Giant can push an invader out, while occupying resource tiles in another player's territory can make that city harder to level. A future advisor should therefore recompute the cheapest upgrade route after each candidate resource block. [OFF-UPGRADE-KEEP-CITY, OFF-PREVENT-UPGRADE]
 
 Implementation target: infer level and city score; solve population where unambiguous; enumerate visible population sources and proven technologies; return minimum stars and conditional alternatives; flag one-turn Giant/displacement risk; test which blockable resource tiles increase the minimum route most; preserve ambiguity for unknown stars, technologies and unseen resources. Early-game tribe identification can similarly use the documented turn-0/turn-1 score fingerprints as candidate sets rather than forced labels. [WIKI-SCORE]
+
+
+### High-level city-upgrade score edge case
+
+The current community score reference exposes the exact decomposition behind the usual +50-per-city-level rule. Upgrading to level **N** requires N population, worth **5N** score, while the upgrade event itself contributes **50 - 5N**. Thus level 2 is 10 population-score + 40 upgrade-score, level 3 is 15 + 35, and so on. At level 10 the upgrade component reaches zero; above level 10 it becomes negative, while the population plus upgrade-event pair still nets +50 before optional reward score. [WIKI-SCORE]
+
+This matters for score-delta inference in unusually tall cities: do not clamp the upgrade component to zero. Park (+250), super-unit (+50 nominal), Explorer fog reveals and Border Growth territory are separate score-bearing consequences and can make the observed delta larger than the base +50. [WIKI-SCORE]

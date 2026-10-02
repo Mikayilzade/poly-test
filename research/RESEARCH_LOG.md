@@ -185,3 +185,10 @@
 - Strengthened the implementation boundary: Weekly scenario state cannot be reconstructed from seed + normal tribe start alone.
 - Exact six-league names/mapping and generic scenario serialization remain open.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-02 — high-level city score decomposition pass
+
+- Added the exact city-upgrade score decomposition: level-N population contributes 5N while the upgrade event contributes 50-5N, preserving +50 total even when the event component becomes negative above level 10.
+- Flagged Park, super-unit, Explorer and Border Growth rewards as separate score deltas so tactical score inference does not misclassify tall-city turns.
+- No GitHub Actions/CI enabled or run.
