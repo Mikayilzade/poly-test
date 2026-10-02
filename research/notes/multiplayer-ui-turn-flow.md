@@ -80,3 +80,13 @@ Finally, 2.16.3 changed ruin-reward calculation to improve Weekly Challenge cons
 The developer-maintained public changelog for **2.5.0.10384** (March 2023) explicitly says a **shared fog option was added to replays and moved to Settings**. This closes one part of the replay-fog gap: replay rendering has supported a selectable shared-fog mode rather than one immutable fog policy. Treat the exact semantics (union of explored/visible tiles, perspective switching, default value, and whether the option still exists unchanged in 2026) as current-build verification targets. [STEAM-AQ-CHANGELOG]
 
 The same release increased the number of Pass & Play players, but the changelog does not state the new numeric cap; do not infer a value from this source alone. [STEAM-AQ-CHANGELOG]
+
+
+## 2.16.3 persistence and Bridge-cleanup contracts
+
+The official 2.16.3 changelog exposes two additional observable contracts: [OFF-2163]
+
+- A game is saved to disk **on startup**, before the player issues any command. The changelog contrasts this with the older behavior, where at least one player command was required before a save existed; this also improved Weekly Challenge play-button readiness.
+- Destroying a Bridge must not leave a road rendered on the underlying ocean tile. The old leftover-road presentation is explicitly a fixed bug, not evidence of a persistent visible road after Bridge destruction.
+
+Implementation inference: initial game creation/loading should establish durable state independently of the first gameplay command, and Bridge removal should clear its road presentation. Internal save transaction timing and Bridge/road storage remain implementation details.

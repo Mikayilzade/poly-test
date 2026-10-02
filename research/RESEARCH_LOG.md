@@ -238,3 +238,11 @@
 - Split implementation inference into per-player discovery/task state versus shared visible multi-tribe Lighthouse state.
 - Left discovery ordering, duplicate handling and lost-capital behavior unresolved.
 - Map-generation/UI coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — startup persistence / Bridge cleanup pass
+
+- Added first-party 2.16.3 evidence that games persist to disk on startup, before any player command; this also affected Weekly Challenge play-button readiness.
+- Added the Bridge-destruction presentation contract: removed Bridges must not leave a road visible on the ocean tile.
+- Kept internal save timing/data structures and Bridge/road storage representation as implementation details rather than inferred mechanics.
+- UI/turn-flow coverage remains partial. No GitHub Actions/CI enabled or run.
