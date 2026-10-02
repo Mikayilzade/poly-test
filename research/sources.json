@@ -773,6 +773,14 @@
       "url": "https://polytopia.io/news/strategy-tip-6/",
       "date": "2022-02-08",
       "use": "official Veteran promotion threshold and health effects"
+    },
+    {
+      "id": "OFF-PEACE-GREAT",
+      "grade": "A",
+      "title": "Strategy Tip: Peace Treaties",
+      "url": "https://polytopia.io/news/strategy-tip-peace-treaties/",
+      "date": "2022-08-19",
+      "use": "official bot Peace Treaty acceptance at Great opinion"
     }
   ]
 }

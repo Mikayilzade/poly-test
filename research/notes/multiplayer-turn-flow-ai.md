@@ -150,3 +150,10 @@ with Easy +0, Normal +20, Hard +40, Crazy +80; its table reaches **291%** for 15
 Do **not** promote this to first-party current truth. Official 2.15.1 only confirms that setup displays a Perfection difficulty-bonus percentage; it does not publish the formula. Preserve this as a community-documented candidate and use current setup UI as the black-box authority. [STEAM-2151]
 
 This multiplier is separate from AI capital income/aggression.
+
+
+## AI diplomacy — documented treaty threshold
+
+Midjiwan gives one explicit bot diplomacy rule: a bot needs a **Great** opinion of the offering tribe to accept a Peace Treaty. The source does not publish numeric relation values, the boundaries between opinion labels, proposal timing, or later exceptional cases. [OFF-PEACE-GREAT]
+
+The official Diplomacy page confirms that Tribe Relations are shown through colored bubbles with explanations and can be inspected from the tribe-name UI. [OFF-DIP] For reconstruction, treat treaty acceptance as opinion-state-gated while leaving the underlying relation calculation unresolved until stronger public evidence is found.

@@ -216,3 +216,10 @@
 - Added the 2.16.3 Polaris action-accounting boundary: Skate plus a combat action on ice gives no extra movement by itself, while the documented Battlesled land-to-ice case retains Escape afterward.
 - Kept exact Cloak detection radius and broader Skate/Escape combinations unresolved.
 - Combat/movement coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-02 — AI diplomacy threshold pass
+
+- Added first-party evidence that bots accept Peace Treaty offers when their opinion is **Great**.
+- Relation calculation and opinion-label boundaries remain unresolved.
+- AI/diplomacy coverage remains partial.
