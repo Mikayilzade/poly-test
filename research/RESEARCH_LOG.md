@@ -176,3 +176,12 @@
 - Recorded the implementation boundary explicitly: skin recognition should normalize cosmetic identities to base gameplay entities before tactical reasoning.
 - Left exact building/technology/terrain icon substitutions for a later visual-reference pass; no assets were copied.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-02 — late-2026 Weekly scenario-state pass
+
+- Added first-party 2026 Weekly examples that require global resource suppression, explicit starting armies and explicit technology grants.
+- Earth Overshoot Day removes every ordinary natural-resource class; Oumaji starts with Riders + Mind Bender; Quetzali grants all level-1 technologies alongside Swordsmen/Defenders.
+- Strengthened the implementation boundary: Weekly scenario state cannot be reconstructed from seed + normal tribe start alone.
+- Exact six-league names/mapping and generic scenario serialization remain open.
+- No GitHub Actions/CI enabled or run.

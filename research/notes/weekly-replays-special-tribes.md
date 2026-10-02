@@ -79,3 +79,13 @@ An official March 2025 Polynews post states that players can **revisit winner re
 ## Kickoo 2026 scenario override
 
 The official June 2026 Steam announcement for **Command & Konka** describes a Massive-map Weekly scenario built around an island containing multiple Konka mounds. Capturing the relevant city makes it level up enough to enable border growth. This is additional first-party evidence that Weekly scenarios can encode unusual map objects/state and city-upgrade outcomes, not just starting armies or technologies. [STEAM-WEEKLY-APR26]
+
+## Late-2026 first-party scenario overrides
+
+The official 2026 Polynews archive adds three concrete scenario-state examples that should be representable without special-case game logic: [OFF-POLYNEWS26]
+
+- **Earth Overshoot Day (2026-07-27):** a challenge with no natural resources at all — explicitly no trees, crop, animals, fish or gold. This is strong first-party evidence that Weekly map/scenario data can suppress ordinary resource classes globally.
+- **Oumaji Tribe Moon (2026-08-03):** the player starts with a battalion of Riders and a Mind Bender in a historical Oumaji-vs-Imperius setup.
+- **Quetzali Tribe Moon (2026-08-31):** both sides start with armies containing Swordsmen and Defenders and with access to **all level-1 technologies**.
+
+Implementation inference: scenario serialization needs explicit technology grants and resource-generation overrides in addition to seed, starting units and faction state. In particular, do not derive a Weekly participant's known techs only from its tribe's normal starting technology.
