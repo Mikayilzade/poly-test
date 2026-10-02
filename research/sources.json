@@ -781,6 +781,14 @@
       "url": "https://polytopia.io/news/strategy-tip-peace-treaties/",
       "date": "2022-08-19",
       "use": "official bot Peace Treaty acceptance at Great opinion"
+    },
+    {
+      "id": "OFF-IMPERIUS-EXPLORER",
+      "grade": "A",
+      "title": "Imperius Strategy Tip",
+      "url": "https://polytopia.io/news/imperius-strategy-tip/",
+      "date": "2022-03-29",
+      "use": "first-party Explorer star collection and many-opponent value"
     }
   ]
 }

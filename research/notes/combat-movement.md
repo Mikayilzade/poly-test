@@ -155,3 +155,10 @@ Midjiwan's Rider strategy tip confirms the Rider's intended follow-up movement: 
 Version 2.16.3 gives a separate Polaris action-accounting boundary. Combining Skate with a combat action on ice does not itself provide additional movement. A Battlesled that removes a unit while moving from land onto ice should, however, still retain its Escape follow-up. Model Skate/ice traversal and Escape as independent permissions. [OFF-2163]
 
 The official strategy archive also corroborates four previously community-sourced rules: a unit on a mountain explores two tiles around itself; explored fog is player-relative; the eye icon signals a nearby Cloak; and Veteran promotion becomes available after three eliminations, adding 5 maximum HP and restoring health fully. Exact Cloak detection geometry remains unresolved. [OFF-MOUNTAIN-VISION, OFF-CLOUD-VISION, OFF-CLOAK-TIP, OFF-PROMOTION-TIP]
+
+
+## Explorer encounter reward boundary
+
+Midjiwan's Imperius strategy tip explicitly recommends choosing Explorer in a many-opponent opening and states that the Explorer can **collect many stars**. This is first-party confirmation that Explorer exploration can produce star gains tied to meeting/exploring around opponents, and that the payoff scales in practical value with opponent density. [OFF-IMPERIUS-EXPLORER]
+
+Do not infer a fixed star amount, probability, or deterministic technology-vs-stars selection rule from this tip: those details are not stated there. Keep exact encounter reward selection and quantities unresolved until a stronger public source or controlled reproduction is available.

@@ -223,3 +223,10 @@
 - Added first-party evidence that bots accept Peace Treaty offers when their opinion is **Great**.
 - Relation calculation and opinion-label boundaries remain unresolved.
 - AI/diplomacy coverage remains partial.
+
+
+## 2026-10-02 — Explorer first-party reward pass
+
+- Added direct Midjiwan evidence that Explorer can collect stars and is especially valuable with many opponents.
+- Kept exact star quantity, probability and technology-vs-stars reward selection unresolved rather than guessing.
+- Vision/fog/Explorer coverage remains partial. No GitHub Actions/CI enabled or run.
