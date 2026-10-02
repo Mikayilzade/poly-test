@@ -200,3 +200,11 @@
 - Separated that timing baseline from the historical 400-point maximum in the same 2020 source; the official 2025 balance change supersedes the score value with 100 points per growth level, matching the current 500-point level-5 community table.
 - Kept exact intermediate growth-turn cutoffs unresolved rather than promoting old community timing as current fact.
 - Score/building coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-02 — Battle Preview UI pass
+
+- Added first-party documentation for Battle Preview: hover/hold a target to preview both sides' expected HP change.
+- Recorded the two outcome indicators: sweating target for target removal; skull for attacker removal after the exchange.
+- Kept this as a UI projection of the combat resolver rather than a separate mechanic.
+- Combat/UI coverage remains partial. No GitHub Actions/CI enabled or run.

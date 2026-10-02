@@ -173,6 +173,11 @@
       "id": "tactical-score-inference",
       "status": "partial",
       "file": "research/notes/tech-buildings-score.md"
+    },
+    {
+      "id": "battle-preview-ui",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
     }
   ]
 }

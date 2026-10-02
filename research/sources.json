@@ -725,6 +725,14 @@
       "url": "https://polytopia.io/news/strategy-tip-build-temples/",
       "date": "2020-07-29",
       "use": "official 12-turn full-growth timing baseline for temples; historical 400-point value superseded by 2025 balance"
+    },
+    {
+      "id": "OFF-BATTLE-PREVIEW",
+      "grade": "A",
+      "title": "Battle Preview",
+      "url": "https://polytopia.io/news/battle-preview/",
+      "date": "2025-01-15",
+      "use": "official combat preview UI and outcome indicators"
     }
   ]
 }

@@ -139,3 +139,10 @@ Resolve this with a current-build black-box test using a Creep unit that lacks H
 - After three enemy kills, a unit can be promoted to Veteran; promotion adds 5 maximum health and fully heals it. [WIKI-UNITS]
 
 Implementation note: keep explored-map state per player. Treat the eye icon as evidence of a nearby Cloak, but source exact detection geometry separately. Veteran promotion should remain an action/state transition rather than being assumed automatic on the third kill.
+
+
+## Battle Preview UI contract
+
+Midjiwan documents a built-in Battle Preview interaction: hover over or hold on the enemy being targeted to preview the expected HP change for both units. The target visibly sweats when the preview predicts its removal; a skull appears when the attacking unit is predicted to be removed by the exchange. [OFF-BATTLE-PREVIEW]
+
+Implementation boundary: this is presentation derived from the prospective combat result, not a separate combat rule. A tactical assistant can use the same damage resolver to reproduce the preview and outcome indicators without mutating game state.
