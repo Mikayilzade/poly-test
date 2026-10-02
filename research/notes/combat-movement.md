@@ -146,3 +146,12 @@ Implementation note: keep explored-map state per player. Treat the eye icon as e
 Midjiwan documents a built-in Battle Preview interaction: hover over or hold on the enemy being targeted to preview the expected HP change for both units. The target visibly sweats when the preview predicts its removal; a skull appears when the attacking unit is predicted to be removed by the exchange. [OFF-BATTLE-PREVIEW]
 
 Implementation boundary: this is presentation derived from the prospective combat result, not a separate combat rule. A tactical assistant can use the same damage resolver to reproduce the preview and outcome indicators without mutating game state.
+
+
+## First-party movement and vision corroboration
+
+Midjiwan's Rider strategy tip confirms the Rider's intended follow-up movement: after resolving its combat action, it receives another movement opportunity, and this can be chained across multiple opposing units in one turn. This upgrades the ordinary Rider rule from community-only evidence to first-party documentation. [OFF-RIDER-TIP]
+
+Version 2.16.3 gives a separate Polaris action-accounting boundary. Combining Skate with a combat action on ice does not itself provide additional movement. A Battlesled that removes a unit while moving from land onto ice should, however, still retain its Escape follow-up. Model Skate/ice traversal and Escape as independent permissions. [OFF-2163]
+
+The official strategy archive also corroborates four previously community-sourced rules: a unit on a mountain explores two tiles around itself; explored fog is player-relative; the eye icon signals a nearby Cloak; and Veteran promotion becomes available after three eliminations, adding 5 maximum HP and restoring health fully. Exact Cloak detection geometry remains unresolved. [OFF-MOUNTAIN-VISION, OFF-CLOUD-VISION, OFF-CLOAK-TIP, OFF-PROMOTION-TIP]

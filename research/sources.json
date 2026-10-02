@@ -733,6 +733,46 @@
       "url": "https://polytopia.io/news/battle-preview/",
       "date": "2025-01-15",
       "use": "official combat preview UI and outcome indicators"
+    },
+    {
+      "id": "OFF-RIDER-TIP",
+      "grade": "A",
+      "title": "Strategy Tip – Use Riders",
+      "url": "https://polytopia.io/news/strategy-tip-use-riders/",
+      "date": "2020-06-24",
+      "use": "official Rider post-action movement behavior"
+    },
+    {
+      "id": "OFF-MOUNTAIN-VISION",
+      "grade": "A",
+      "title": "Strategy Tip – Enjoy the View",
+      "url": "https://polytopia.io/news/strategy-tip-enjoy-the-view/",
+      "date": "2020-09-24",
+      "use": "official two-tile mountain vision"
+    },
+    {
+      "id": "OFF-CLOUD-VISION",
+      "grade": "A",
+      "title": "Strategy Tip – Use The Clouds!",
+      "url": "https://polytopia.io/news/strategy-tip-use-the-clouds/",
+      "date": "2021-06-04",
+      "use": "official player-relative explored-fog behavior"
+    },
+    {
+      "id": "OFF-CLOAK-TIP",
+      "grade": "A",
+      "title": "Strategy Tip – Cloaks",
+      "url": "https://polytopia.io/news/strategy-tip-cloaks/",
+      "date": "2023-08-15",
+      "use": "official eye-icon nearby-Cloak indicator"
+    },
+    {
+      "id": "OFF-PROMOTION-TIP",
+      "grade": "A",
+      "title": "Strategy Tip – Promotions",
+      "url": "https://polytopia.io/news/strategy-tip-6/",
+      "date": "2022-02-08",
+      "use": "official Veteran promotion threshold and health effects"
     }
   ]
 }
