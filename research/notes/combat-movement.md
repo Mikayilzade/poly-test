@@ -129,3 +129,13 @@ Current-build forced-spawn existence is corroborated, but the exact 2020 orderin
 The current community documentation contradicts itself: the Movement page's general ZOC section says Creep bypasses ZOC, while a later Creep subsection on the same page says Creep does **not** remove ZOC; Unit Skills also says Creep does not negate ZOC. Cloak-specific text further mixes Creep with Hide, which independently bypasses ZOC. [WIKI-MOVE, WIKI-UNIT-SKILLS, WIKI-CLOAK]
 
 Resolve this with a current-build black-box test using a Creep unit that lacks Hide/Sneak rather than choosing one wiki sentence.
+
+
+## First-party tactical UI and vision rules
+
+- A unit standing on a mountain explores two tiles around it instead of only bordering tiles. [OFF-VISION-MOUNTAIN]
+- Exploration knowledge is player-relative: opponents do not necessarily see the same tiles, so troops can be concealed on tiles that opponent has not explored. [OFF-CLOUDS-FOG]
+- An eye icon next to a unit indicates that a Cloak is nearby. [OFF-CLOAK-EYE]
+- After three enemy kills, a unit can be promoted to Veteran; promotion adds 5 maximum health and fully heals it. [OFF-VETERAN-PROMOTION]
+
+Implementation note: keep explored-map state per player. Treat the eye icon as evidence of a nearby Cloak, but source exact detection geometry separately. Veteran promotion should remain an action/state transition rather than being assumed automatic on the third kill.
