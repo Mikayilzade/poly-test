@@ -168,3 +168,11 @@
 - Updated the regular building table and upgrade-route guidance to use one Forge level/population per adjacent Mine; Forest placement remains from the 2025 balance pass.
 - This prevents overestimating one-turn city-upgrade/Giant routes when advising from screenshots.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-02 — New Dawn visual-normalization pass
+
+- Added a first-party New Dawn -> base Cymanti presentation mapping for units, growth forms and resources.
+- Recorded the implementation boundary explicitly: skin recognition should normalize cosmetic identities to base gameplay entities before tactical reasoning.
+- Left exact building/technology/terrain icon substitutions for a later visual-reference pass; no assets were copied.
+- No GitHub Actions/CI enabled or run.

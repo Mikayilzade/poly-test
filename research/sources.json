@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -709,6 +709,14 @@
       "url": "https://steamcommunity.com/app/874390/eventcomments/603041053825565065/",
       "date": "2025-09-09",
       "use": "developer confirmation that Forge reverted to one level/population per adjacent Mine after the 2025 beta experiment"
+    },
+    {
+      "id": "OFF-NEW-DAWN",
+      "grade": "A",
+      "title": "Usher in a Fresh Start with the New Dawn Skin for the Cymanti!",
+      "url": "https://polytopia.io/blog/",
+      "date": "2025-12-08",
+      "use": "official New Dawn cosmetic substitution catalogue and confirmation of gameplay-equivalent Cymanti unit/building/resource reskins"
     }
   ]
 }

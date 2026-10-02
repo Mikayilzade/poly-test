@@ -69,3 +69,31 @@ For implementation later, keep gameplay identity and skin identity separate:
 - cosmetic asset/theme mapping
 
 This avoids accidentally encoding cosmetic differences as mechanics.
+
+
+## New Dawn visual-recognition mapping
+
+The official New Dawn feature article gives an unusually detailed first-party mapping from the Cymanti ruleset to its skin presentation. These are **cosmetic identities, not new gameplay units**; use them when interpreting screenshots/replays while resolving mechanics through the base Cymanti counterpart. [OFF-NEW-DAWN]
+
+| New Dawn presentation | Cymanti counterpart / role |
+|---|---|
+| Guru | Shaman |
+| Hooman | Warrior |
+| Top Hat | Hexapod |
+| Cacti | Kiton |
+| Ruby | Mantis |
+| Shoo | Doomux |
+| Claude | Phychi |
+| Lily | Exida |
+| Squishy | Boomchi |
+| Axolotl | Raychi |
+| Super-Sponge | Living Island |
+| Fairy | Moth |
+| Kodama / Eggy | Moth growth-cycle forms |
+| Foam | Algae |
+| Snulles | animal resource |
+| Pupli Nectar | fruit resource |
+
+The article explicitly describes the replacements as retaining the corresponding gameplay jobs (for example Top Hats retain Hexapod mobility, Claudes retain the flying/poisonous double-strike role, and Axolotls retain the Raychi naval/city-capture role). This is valuable for visual parsers: recognizing a skin-specific model/name must normalize to the base gameplay entity before tactical reasoning. [OFF-NEW-DAWN]
+
+Open visual-reference work: catalogue exact New Dawn building/technology/terrain substitutions and iconography from first-party screenshots without copying the underlying assets.
