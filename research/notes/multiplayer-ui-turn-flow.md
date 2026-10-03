@@ -110,3 +110,10 @@ Official strategy material exposes two small but implementation-relevant behavio
 - Midjiwan explicitly recommends using a **Defender when capturing a city** so opponents cannot win it back on the next turn. This is first-party corroboration that capture does not consume/remove the occupying unit: the capturing unit remains relevant as the city's immediate defender after capture. [OFF-CLEAR-HOLD]
 
 Do not infer presence polling cadence, stale/offline timing, invite expiry, or the exact capture-confirmation/cooldown sequence from these tips. Those remain current-build verification targets.
+
+
+## 2.16.3 capture cooldown boundary
+
+The official 2.16.3 changelog lists **“Capture city allowed during cooldown”** as a fixed bug. The supported state contract is therefore that a unit/player state under the relevant capture cooldown must **not** be able to complete a city capture until that cooldown permits it. This is stronger than treating the old behavior as a legal edge case. [OFF-2163]
+
+The changelog does not define what starts the cooldown, its duration, whether the gate is attached to the unit, city, player or multiplayer turn state, or exactly when the capture action becomes available again. Keep those details as black-box verification targets rather than inferring them from the bug title.

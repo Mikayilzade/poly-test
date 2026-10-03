@@ -284,3 +284,10 @@
 - Added first-party evidence that World Championship qualifier replays were exposed on the official Tournament Page, alongside the in-game Multiplayer > Tournaments entry point.
 - Kept retention depth, completeness, spectator fog/hidden-information rules and export behavior unresolved.
 - Replay/spectator coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — capture-cooldown boundary pass
+
+- Added first-party 2.16.3 evidence that city capture during the relevant cooldown was a bug; legal capture must remain gated until cooldown permits it.
+- Kept cooldown trigger, duration, ownership and exact re-enable timing unresolved because the changelog does not expose them.
+- Turn-flow/capture coverage remains partial. No GitHub Actions/CI enabled or run.
