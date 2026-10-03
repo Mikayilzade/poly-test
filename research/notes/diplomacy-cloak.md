@@ -33,6 +33,8 @@ Exact 2025+ numeric sequence was not found in reliable first-party public materi
 
 The launch FAQ says infiltrated cities do not make ordinary stars on their next turn and documents adjacent-Cloak warning UI. [DEV-DIP-FAQ-2022]
 
+An official October 2022 balance note tightened two observable rules: **all unit types can detect Cloaks**, and **a city can be infiltrated at most once per turn**. This upgrades the latter from developer/community-only evidence to first-party release evidence. The official note does not state the detection radius or exact reveal timing, so those remain black-box targets. [OFF-DIP-BALANCE-2022]
+
 Current community documentation adds later behavior: infiltration damages an occupying city unit, immediately awards stars equal to city income, prevents another infiltration before the owner's next turn / while under siege, and Cloak boarding a Port becomes Dinghy. [WIKI-CLOAK]
 
 ## Dagger / Pirate spawn

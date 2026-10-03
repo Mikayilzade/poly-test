@@ -270,3 +270,10 @@
 - Added first-party corroboration that the capturing unit persists as the immediate city defender after capture; Defender is explicitly recommended to resist next-turn recapture.
 - Kept presence refresh/invite lifetime and exact capture-confirmation/cooldown sequencing unresolved.
 - Multiplayer/UI/turn-flow coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — Diplomacy detection/infiltration corroboration pass
+
+- Added first-party post-launch evidence that every unit type can detect Cloaks and that each city can be infiltrated at most once per turn.
+- Upgraded the infiltration limiter from secondary/developer evidence while keeping detection radius and reveal timing unresolved.
+- Diplomacy/Cloak coverage remains partial. No GitHub Actions/CI enabled or run.

@@ -805,6 +805,14 @@
       "url": "https://polytopia.io/news/strategy-tip-clear-hold/",
       "date": "2021-09-22",
       "use": "official evidence that a unit remains as city occupier during capture and can defend against immediate recapture"
+    },
+    {
+      "id": "OFF-DIP-BALANCE-2022",
+      "grade": "A",
+      "title": "Diplomacy Balance",
+      "url": "https://polytopia.io/news/diplomacy-balance/",
+      "date": "2022-10-11",
+      "use": "official post-launch Cloak detection and one-infiltration-per-city-per-turn constraints"
     }
   ]
 }
