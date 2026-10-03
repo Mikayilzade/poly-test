@@ -254,3 +254,11 @@
 - Added the Domination end-screen result-ratio contract: 3 wins / 3 losses must display 50%, not 57%.
 - Kept rounding, draw/unfinished handling and reuse of the percentage component unresolved.
 - UI/turn-flow coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — flood/freeze tile-state pass
+
+- Added first-party 2.16.3 state-transition constraints: freezing a flooded tile must preserve its flooded state, and climate change on a frozen tile must not itself create flooding.
+- Recorded the implementation boundary that flood, freeze and climate should remain separable state dimensions rather than destructive terrain aliases.
+- Left thaw ordering and broader Polaris/Aquarion flood-freeze interactions unresolved.
+- Update/special-tribe coverage remains partial. No GitHub Actions/CI enabled or run.

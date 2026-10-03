@@ -81,4 +81,10 @@ Official numbered changelog dated 2026-02-16: [OFF-2163]
 - Explorer moves 15 → 12;
 - fixes involving invisible-unit hints, replay centipede connector, frozen/flooded tile transitions, Skate+attack movement, and language refresh.
 
+### Flood / freeze state boundary
+
+The changelog makes two tile-state transitions explicit: **freezing an already flooded tile must not drain it**, and **changing a frozen tile's climate must not itself flood that tile**. [OFF-2163]
+
+Implementation inference: flooded/water state, frozen state and climate/terrain presentation should not be collapsed into one destructive terrain conversion. Preserve the underlying flooded state across freeze, and do not synthesize flood merely from a climate change while frozen. Exact thaw ordering and all Polaris/Aquarion interactions remain unresolved.
+
 This is the newest explicit version number located in the first research pass; later 2026 official news exists, so the update sweep remains open.
