@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -789,6 +789,22 @@
       "url": "https://polytopia.io/news/imperius-strategy-tip/",
       "date": "2022-03-29",
       "use": "first-party Explorer star collection and many-opponent value"
+    },
+    {
+      "id": "OFF-FRIEND-ONLINE",
+      "grade": "A",
+      "title": "Strategy Tip: Any Friends Online?",
+      "url": "https://polytopia.io/news/strategy-tip-any-friends-online/",
+      "date": "2022-09-16",
+      "use": "official multiplayer friend-presence green-dot UI and invitation affordance"
+    },
+    {
+      "id": "OFF-CLEAR-HOLD",
+      "grade": "A",
+      "title": "Strategy Tip – Clear & Hold",
+      "url": "https://polytopia.io/news/strategy-tip-clear-hold/",
+      "date": "2021-09-22",
+      "use": "official evidence that a unit remains as city occupier during capture and can defend against immediate recapture"
     }
   ]
 }

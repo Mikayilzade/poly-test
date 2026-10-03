@@ -262,3 +262,11 @@
 - Recorded the implementation boundary that flood, freeze and climate should remain separable state dimensions rather than destructive terrain aliases.
 - Left thaw ordering and broader Polaris/Aquarion flood-freeze interactions unresolved.
 - Update/special-tribe coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — friend-presence / capture-occupancy pass
+
+- Added first-party multiplayer UI evidence that online friends are marked with a green dot and can be invited from that surface.
+- Added first-party corroboration that the capturing unit persists as the immediate city defender after capture; Defender is explicitly recommended to resist next-turn recapture.
+- Kept presence refresh/invite lifetime and exact capture-confirmation/cooldown sequencing unresolved.
+- Multiplayer/UI/turn-flow coverage remains partial. No GitHub Actions/CI enabled or run.

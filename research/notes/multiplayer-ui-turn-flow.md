@@ -100,3 +100,13 @@ The official 2.16.3 changelog exposes two small but testable UI/state contracts 
 - The Domination end screen percentage must be computed from actual won/lost results: the changelog explicitly fixes **3 won / 3 lost** being displayed as **57% instead of 50%**. Treat this as presentation evidence for a 3/(3+3) result ratio, not as evidence for hidden scoring weights.
 
 Exact rounding for non-even ratios, draws/unfinished games, and whether the same percentage component is reused elsewhere remain unresolved. UI/turn-flow coverage remains partial.
+
+
+## Friend presence and city-capture occupancy — first-party UI/state baseline
+
+Official strategy material exposes two small but implementation-relevant behaviors that were not yet recorded:
+
+- The friends surface can show a **green dot** beside a friend to indicate that the friend is online; the same flow supports inviting that friend to a game. [OFF-FRIEND-ONLINE]
+- Midjiwan explicitly recommends using a **Defender when capturing a city** so opponents cannot win it back on the next turn. This is first-party corroboration that capture does not consume/remove the occupying unit: the capturing unit remains relevant as the city's immediate defender after capture. [OFF-CLEAR-HOLD]
+
+Do not infer presence polling cadence, stale/offline timing, invite expiry, or the exact capture-confirmation/cooldown sequence from these tips. Those remain current-build verification targets.
