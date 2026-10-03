@@ -1,0 +1,850 @@
+{
+  "schema": "polytopia-source-ledger/v1",
+  "updated": "2026-10-03",
+  "sources": [
+    {
+      "id": "OFF-HOME",
+      "grade": "A",
+      "title": "The Battle of Polytopia official site",
+      "url": "https://polytopia.io/",
+      "use": "current product overview/platform/news"
+    },
+    {
+      "id": "OFF-BLOG",
+      "grade": "A",
+      "title": "Official blog",
+      "url": "https://polytopia.io/blog/",
+      "use": "patches and reworks"
+    },
+    {
+      "id": "OFF-2163",
+      "grade": "A",
+      "title": "Bug fixes in version 2.16.3",
+      "url": "https://polytopia.io/bug-fixes-in-version-2-16-3/",
+      "date": "2026-02-16",
+      "use": "current numbered changelog baseline"
+    },
+    {
+      "id": "OFF-2025BAL",
+      "grade": "A",
+      "title": "2025 Balance Pass",
+      "url": "https://polytopia.io/2025-balance-pass/",
+      "date": "2025-09-01",
+      "use": "starting stars, Ai-Mo, tech/backwards research and balance"
+    },
+    {
+      "id": "OFF-CYM25",
+      "grade": "A",
+      "title": "Cymanti Rework",
+      "url": "https://polytopia.io/blog/",
+      "date": "2025-10-29",
+      "use": "Cymanti rework; locate dedicated post during sweep"
+    },
+    {
+      "id": "OFF-OCEAN",
+      "grade": "A",
+      "title": "Path of the Ocean",
+      "url": "https://polytopia.io/path-of-the-ocean/",
+      "use": "naval rework, market, bridge, tech positioning, pangea"
+    },
+    {
+      "id": "OFF-DIP",
+      "grade": "A",
+      "title": "Polytopia Diplomacy",
+      "url": "https://polytopia.io/diplomacy/",
+      "use": "diplomacy tech, peace, relations, cloak-era mechanics"
+    },
+    {
+      "id": "OFF-GRAPHICS",
+      "grade": "A",
+      "title": "Game Graphics",
+      "url": "https://polytopia.io/game-graphics/",
+      "use": "officially published creative asset catalogue"
+    },
+    {
+      "id": "OFF-ASSET-GUIDE",
+      "grade": "A",
+      "title": "Brand and Asset Usage Guidelines",
+      "url": "https://polytopia.io/brand-assets-guide-lines/",
+      "date": "2020-01-29",
+      "use": "asset-use boundaries"
+    },
+    {
+      "id": "STEAM-BASE",
+      "grade": "A",
+      "title": "The Battle of Polytopia on Steam",
+      "url": "https://store.steampowered.com/app/874390/The_Battle_of_Polytopia/",
+      "use": "features/screenshots/product scope"
+    },
+    {
+      "id": "NIN-SKINS",
+      "grade": "A",
+      "title": "Special Tribe Skins bundle",
+      "url": "https://www.nintendo.com/en-ca/store/products/the-battle-of-polytopia-special-tribe-skins-70070000035229-switch/",
+      "use": "special-skin names and cosmetic-only confirmation"
+    },
+    {
+      "id": "WIKI-TRIBES",
+      "grade": "B",
+      "title": "Polytopia Wiki - Tribes",
+      "url": "https://polytopia.fandom.com/wiki/Tribes",
+      "use": "tribe/skin catalogue"
+    },
+    {
+      "id": "WIKI-TECH",
+      "grade": "B",
+      "title": "Polytopia Wiki - Technology",
+      "url": "https://polytopia.fandom.com/wiki/Technology",
+      "use": "tech tiers/cost formula/unlocks"
+    },
+    {
+      "id": "WIKI-CITY",
+      "grade": "B",
+      "title": "Polytopia Wiki - City",
+      "url": "https://polytopia.fandom.com/wiki/City",
+      "use": "income, unit capacity, connections"
+    },
+    {
+      "id": "WIKI-MAP",
+      "grade": "B",
+      "title": "Polytopia Wiki - Map Generation",
+      "url": "https://polytopia.fandom.com/wiki/Map_Generation",
+      "use": "sizes, ruins, villages, starfish"
+    },
+    {
+      "id": "WIKI-MODES",
+      "grade": "B",
+      "title": "Polytopia Wiki - Game Modes",
+      "url": "https://polytopia.fandom.com/wiki/Game_Modes",
+      "use": "mode objectives and difficulty"
+    },
+    {
+      "id": "WIKI-UNITS",
+      "grade": "B",
+      "title": "Polytopia Wiki - List of Units",
+      "url": "https://polytopia.fandom.com/wiki/List_of_Units",
+      "use": "unit catalogue and stats"
+    },
+    {
+      "id": "STEAM-AI-DEV",
+      "grade": "C",
+      "title": "Developer comment: difficulty level",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4390400383727805950/",
+      "date": "2020-08-16",
+      "use": "historical AI capital income/aggression"
+    },
+    {
+      "id": "WIKI-COMBAT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Combat",
+      "url": "https://polytopia.fandom.com/wiki/Combat",
+      "use": "damage formula, defence bonus, healing, retaliation"
+    },
+    {
+      "id": "WIKI-MOVE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Movement",
+      "url": "https://polytopia.fandom.com/wiki/Movement",
+      "use": "movement cost, roads, rough terrain, zone of control"
+    },
+    {
+      "id": "WIKI-BUILDINGS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Buildings",
+      "url": "https://polytopia.fandom.com/wiki/Buildings",
+      "use": "building catalogue, costs, population and monuments"
+    },
+    {
+      "id": "WIKI-UNIT-SKILLS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Unit Skills",
+      "url": "https://polytopia.fandom.com/wiki/Unit_Skills",
+      "use": "skill semantics and unit mappings"
+    },
+    {
+      "id": "WIKI-RUIN",
+      "grade": "B",
+      "title": "Polytopia Wiki - Ruin",
+      "url": "https://polytopia.fandom.com/wiki/Ruin",
+      "use": "ruin activation and reward table"
+    },
+    {
+      "id": "WIKI-SCORE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Score",
+      "url": "https://polytopia.fandom.com/wiki/Score",
+      "use": "score categories and point values"
+    },
+    {
+      "id": "WIKI-POP",
+      "grade": "B",
+      "title": "Polytopia Wiki - Population",
+      "url": "https://polytopia.fandom.com/wiki/Population",
+      "use": "city upgrade threshold and population sources"
+    },
+    {
+      "id": "WIKI-ROADS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Roads building",
+      "url": "https://polytopia.fandom.com/wiki/Roads_(Building)",
+      "use": "road cost, territory rules and connections"
+    },
+    {
+      "id": "WIKI-PORT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Port",
+      "url": "https://polytopia.fandom.com/wiki/Port",
+      "use": "port cost, population, transformation and connections"
+    },
+    {
+      "id": "WIKI-MARKET",
+      "grade": "B",
+      "title": "Polytopia Wiki - Market",
+      "url": "https://polytopia.fandom.com/wiki/Market",
+      "use": "market income; currently conflicts with aggregate Buildings page"
+    },
+    {
+      "id": "WIKI-TRADE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Trade",
+      "url": "https://polytopia.fandom.com/wiki/Trade",
+      "use": "tech branch and market/wealth unlock"
+    },
+    {
+      "id": "WIKI-PHILOSOPHY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Philosophy",
+      "url": "https://polytopia.fandom.com/wiki/Philosophy",
+      "use": "Mind Bender, Literacy, Genius"
+    },
+    {
+      "id": "WIKI-STRATEGY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Strategy",
+      "url": "https://polytopia.fandom.com/wiki/Strategy",
+      "use": "Defender, peace treaty and treaty consequences"
+    },
+    {
+      "id": "WIKI-NAVIGATION",
+      "grade": "B",
+      "title": "Polytopia Wiki - Navigation",
+      "url": "https://polytopia.fandom.com/wiki/Navigation",
+      "use": "Bomber and starfish harvesting"
+    },
+    {
+      "id": "WIKI-RAMMING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Ramming",
+      "url": "https://polytopia.fandom.com/wiki/Ramming",
+      "use": "Rammer and special-tribe substitutions"
+    },
+    {
+      "id": "WIKI-FISHING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Fishing",
+      "url": "https://polytopia.fandom.com/wiki/Fishing",
+      "use": "fish, port, raft and shallow-water movement"
+    },
+    {
+      "id": "WIKI-SAILING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Sailing",
+      "url": "https://polytopia.fandom.com/wiki/Sailing",
+      "use": "Scout/ocean movement and special substitutions"
+    },
+    {
+      "id": "WIKI-FORESTRY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Forestry",
+      "url": "https://polytopia.fandom.com/wiki/Forestry",
+      "use": "clear forest, lumber hut"
+    },
+    {
+      "id": "WIKI-HUNTING",
+      "grade": "B",
+      "title": "Polytopia Wiki - Hunting",
+      "url": "https://polytopia.fandom.com/wiki/Hunting",
+      "use": "animal harvest and Elyrion Forest Magic"
+    },
+    {
+      "id": "WIKI-ORG",
+      "grade": "B",
+      "title": "Polytopia Wiki - Organization",
+      "url": "https://polytopia.fandom.com/wiki/Organization",
+      "use": "fruit harvest and crop visibility"
+    },
+    {
+      "id": "OFF-WEEKLY",
+      "grade": "A",
+      "title": "Weekly Challenges are Now Here!",
+      "url": "https://polytopia.io/weekly-challenges-are-now-here/",
+      "date": "2025-06-09",
+      "use": "weekly challenge rules"
+    },
+    {
+      "id": "OFF-WEEKLY-HUB",
+      "grade": "A",
+      "title": "Polytopia Weekly Challenge",
+      "url": "https://polytopia.io/polytopia-weekly-challenge/",
+      "use": "weekly replay and score UI"
+    },
+    {
+      "id": "OFF-AQ-REWORK",
+      "grade": "A",
+      "title": "Aquarion Rework Launch",
+      "url": "https://polytopia.io/news/aquarion-rework-launch/",
+      "date": "2024-08-15",
+      "use": "Aquarion rework baseline"
+    },
+    {
+      "id": "OFF-BUBBLE",
+      "grade": "A",
+      "title": "Bubble Tech",
+      "url": "https://polytopia.io/news/bubble-tech/",
+      "date": "2024-11-11",
+      "use": "Aquarion update marker"
+    },
+    {
+      "id": "OFF-WC25",
+      "grade": "A",
+      "title": "First Polytopia World Champion Crowned!",
+      "url": "https://polytopia.io/first-polytopia-world-champion-crowned/",
+      "date": "2025-12-11",
+      "use": "spectator tools"
+    },
+    {
+      "id": "OFF-WC25-RULES",
+      "grade": "A",
+      "title": "Polytopia World Championship 2025",
+      "url": "https://polytopia.io/World%20Championship/",
+      "date": "2025",
+      "use": "Might objective"
+    },
+    {
+      "id": "OFF-CHAMP26",
+      "grade": "A",
+      "title": "Polytopia World Championship 2026",
+      "url": "https://championship.polytopia.io/",
+      "date": "2026",
+      "use": "current replay surface"
+    },
+    {
+      "id": "WIKI-AQUARION",
+      "grade": "B",
+      "title": "Polytopia Wiki - Aquarion",
+      "url": "https://polytopia.fandom.com/wiki/Aquarion",
+      "use": "Aquarion units"
+    },
+    {
+      "id": "WIKI-POLARIS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Polaris",
+      "url": "https://polytopia.fandom.com/wiki/Polaris",
+      "use": "Polaris substitutions"
+    },
+    {
+      "id": "WIKI-JELLY",
+      "grade": "B",
+      "title": "Polytopia Wiki - Jelly",
+      "url": "https://polytopia.fandom.com/wiki/Jelly",
+      "use": "Tentacles semantics"
+    },
+    {
+      "id": "WIKI-BABYDRAGON",
+      "grade": "B",
+      "title": "Polytopia Wiki - Baby Dragon",
+      "url": "https://polytopia.fandom.com/wiki/Baby_Dragon",
+      "use": "dragon growth"
+    },
+    {
+      "id": "WIKI-FIREDRAGON",
+      "grade": "B",
+      "title": "Polytopia Wiki - Fire Dragon",
+      "url": "https://polytopia.fandom.com/wiki/Fire_Dragon",
+      "use": "dragon stats"
+    },
+    {
+      "id": "STEAM-MOONRISE-FAQ",
+      "grade": "A",
+      "title": "The Battle of Polytopia: Moonrise FAQ",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/2649756041876569670/",
+      "date": "2020",
+      "use": "official Moonrise map generator rewrite, sizes and map customization"
+    },
+    {
+      "id": "OFF-POTO-LAUNCH",
+      "grade": "A",
+      "title": "Sail the Path of the Ocean Today!",
+      "url": "https://steamcommunity.com/app/874390/eventcomments/4036976070305591859/",
+      "date": "2023",
+      "use": "official Path of the Ocean map/Continents/Pangea and changelog behavior"
+    },
+    {
+      "id": "WIKI-LIGHTHOUSE",
+      "grade": "B",
+      "title": "Polytopia Wiki - Lighthouse",
+      "url": "https://polytopia.fandom.com/wiki/Lighthouse",
+      "use": "corner placement, fog and discovery behavior"
+    },
+    {
+      "id": "DEV-MAPGEN-2023",
+      "grade": "C",
+      "title": "Developer response: new map generator in beta",
+      "url": "https://www.reddit.com/r/Polytopia/comments/18dzc03/",
+      "date": "2023-12-08",
+      "use": "version-history marker; beta generator was being tested"
+    },
+    {
+      "id": "STEAM-LIVE-24H",
+      "grade": "C",
+      "title": "Developer comment: Live Game versus 24-hour timer",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4292566217056629934/",
+      "date": "2024-03-20",
+      "use": "developer-confirmed Live timer/chess-clock intent and 24-hour alternative"
+    },
+    {
+      "id": "STEAM-LIVE-BOTS",
+      "grade": "C",
+      "title": "Developer comment: bot animations consume Live timer",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4342111331715841184/",
+      "date": "2024-05-20",
+      "use": "historical Live timer observable behavior with bots"
+    },
+    {
+      "id": "OFF-POLYNEWS26",
+      "grade": "A",
+      "title": "Official Polynews archive 2026",
+      "url": "https://polytopia.io/polynews/",
+      "date": "2026",
+      "use": "current tournament UI path and special Weekly Challenge examples"
+    },
+    {
+      "id": "OFF-AQ-WEEKLY26",
+      "grade": "A",
+      "title": "Aquarion Weekly Challenge",
+      "url": "https://polytopia.io/news/aquarion-weekly-challenge/",
+      "date": "2026-07-20",
+      "use": "custom Weekly Challenge starting army evidence"
+    },
+    {
+      "id": "OFF-OUMAJI-WEEKLY26",
+      "grade": "A",
+      "title": "Oumaji Tribe Moon",
+      "url": "https://polytopia.io/news/oumaji-tribe-moon-7/",
+      "date": "2026-08-03",
+      "use": "custom Weekly Challenge starting army evidence"
+    },
+    {
+      "id": "WIKI-EASTER",
+      "grade": "B",
+      "title": "Polytopia Wiki - Easter Eggs",
+      "url": "https://polytopia.fandom.com/wiki/Easter_Eggs",
+      "use": "Bunny/Bunta, sunrise background, mixed tribes, Elyrion language and removed floating-city easter egg"
+    },
+    {
+      "id": "WIKI-LUXIDOOR",
+      "grade": "B",
+      "title": "Polytopia Wiki - Luxidoor",
+      "url": "https://polytopia.fandom.com/wiki/Luxidoor",
+      "use": "Luxidoor unowned-opponent single-player easter egg and historical context"
+    },
+    {
+      "id": "STEAM-2151",
+      "grade": "A",
+      "title": "Release Notes for 2.15.1",
+      "url": "https://steamcommunity.com/games/874390/announcements/detail/621061164010307651",
+      "date": "2025-11-12",
+      "use": "official patch evidence for Chipmunk Mode presentation and Explorer pathfinding"
+    },
+    {
+      "id": "REDDIT-CHIPMUNK-2025",
+      "grade": "D",
+      "title": "Community report: Chipmunk mode",
+      "url": "https://www.reddit.com/r/Polytopia/comments/1k6phfe/",
+      "date": "2025-04-24",
+      "use": "reproducible lead for Easter-egg trigger and observable audio/visual effects"
+    },
+    {
+      "id": "STEAM-AI-CLOAK-2025",
+      "grade": "C",
+      "title": "Developer comment: AI Cloak training frequency",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/594014716278342735/",
+      "date": "2025-02-10",
+      "use": "developer-confirmed AI still trains Cloaks, but deliberately much less often than at Cloak launch"
+    },
+    {
+      "id": "STEAM-BETA-CHANGELOG",
+      "grade": "C",
+      "title": "Developer-maintained Polytopia beta changelog",
+      "url": "https://steamcommunity.com/app/874390/discussions/2/3757726983059787581/",
+      "date": "2023-2024",
+      "use": "developer-authored AI/map-generation/market behavioral deltas during Path of the Ocean beta and 2.8.5"
+    },
+    {
+      "id": "DEV-PUSH-2020",
+      "grade": "C",
+      "title": "Developer explanation: super-unit forced spawn push order",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/2975149180211739009/",
+      "date": "2020-11-27",
+      "use": "direction and fallback ordering for forced unit spawn; already-moved enemy reversal"
+    },
+    {
+      "id": "WIKI-SUPERUNIT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Super Unit",
+      "url": "https://polytopia.fandom.com/wiki/Super_Unit",
+      "use": "forced-spawn existence and super-unit roster"
+    },
+    {
+      "id": "DEV-DIP-FAQ-2022",
+      "grade": "C",
+      "title": "Developer Diplomacy FAQ",
+      "url": "https://devtrackers.gg/polytopia/p/a9202284-diplomacy-faq",
+      "date": "2022",
+      "use": "peace treaties, embassies, capital vision, Cloak/Dagger baseline"
+    },
+    {
+      "id": "WIKI-CLOAK",
+      "grade": "B",
+      "title": "Polytopia Wiki - Cloak",
+      "url": "https://polytopia.fandom.com/wiki/Cloak",
+      "use": "current Cloak infiltration, visibility, Dinghy and revolt behavior"
+    },
+    {
+      "id": "WIKI-DAGGER",
+      "grade": "B",
+      "title": "Polytopia Wiki - Dagger",
+      "url": "https://polytopia.fandom.com/wiki/Dagger",
+      "use": "current Dagger stats and spawn-priority description"
+    },
+    {
+      "id": "DEV-DAGGER-SPAWN-2022",
+      "grade": "C",
+      "title": "Developer answer: Dagger count from infiltration",
+      "url": "https://devtrackers.gg/polytopia/p/39826abc-can-someone-please-explain-how-the-game-determines-how-many-spies-get-spawned-when-you-infiltrate",
+      "date": "2022",
+      "use": "city-level dagger count capped at five and same-city same-turn constraint"
+    },
+    {
+      "id": "DEV-BALANCE3-2023",
+      "grade": "C",
+      "title": "Developer release notes for Balance Pass 3",
+      "url": "https://www.reddit.com/r/Polytopia/comments/128p0om/",
+      "date": "2023-04-01",
+      "use": "historical Embassy price escalation"
+    },
+    {
+      "id": "TRACKER-GPLAY-ACH",
+      "grade": "C",
+      "title": "Exophase - The Battle of Polytopia Google Play achievements",
+      "url": "https://www.exophase.com/game/the-battle-of-polytopia-android/achievements/",
+      "use": "8-achievement catalogue including Sunbringer; third-party tracker"
+    },
+    {
+      "id": "STEAM-AQ-CHANGELOG",
+      "grade": "C",
+      "title": "Developer-maintained up-to-date Polytopia changelog",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/3757726983059762031/",
+      "date": "2024",
+      "use": "Aquarion 2.10 rework rules"
+    },
+    {
+      "id": "STEAM-AQ-BETA",
+      "grade": "C",
+      "title": "Developer-maintained Aquarion beta changelog",
+      "url": "https://steamcommunity.com/app/874390/discussions/2/3757726983059787581/",
+      "date": "2024",
+      "use": "Aquarion rework version deltas and late-beta state"
+    },
+    {
+      "id": "WIKI-ATOLL",
+      "grade": "B",
+      "title": "Polytopia Wiki - Atoll",
+      "url": "https://polytopia.fandom.com/wiki/Atoll",
+      "use": "current Aquarion Atoll cost/range/population documentation"
+    },
+    {
+      "id": "WIKI-SHARK",
+      "grade": "B",
+      "title": "Polytopia Wiki - Shark",
+      "url": "https://polytopia.fandom.com/wiki/Shark",
+      "use": "current Aquarion Shark stats"
+    },
+    {
+      "id": "WIKI-PUFFER",
+      "grade": "B",
+      "title": "Polytopia Wiki - Puffer",
+      "url": "https://polytopia.fandom.com/wiki/Puffer",
+      "use": "current Aquarion Puffer stats and Drench"
+    },
+    {
+      "id": "WIKI-TRIDENTION",
+      "grade": "B",
+      "title": "Polytopia Wiki - Tridention",
+      "url": "https://polytopia.fandom.com/wiki/Tridention",
+      "use": "current Aquarion Tridention stats"
+    },
+    {
+      "id": "WIKI-GAME-MODES-CURRENT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Game Modes (Perfection difficulty bonus)",
+      "url": "https://polytopia.fandom.com/wiki/Game_Modes",
+      "use": "community formula/table for Perfection difficulty bonus; version-sensitive"
+    },
+    {
+      "id": "STEAM-HATS26-MIRROR",
+      "grade": "C",
+      "title": "Hats of Steel Weekly Challenge Steam announcement mirror",
+      "url": "https://manage.kalendarhrace.cz/aktualizace/the-battle-of-polytopia-hats-of-steel-weekly-challenge",
+      "date": "2026-04-14",
+      "use": "six-league 2026 Weekly Challenge and custom Sha-Po starting scenario; secondary mirror of Steam announcement"
+    },
+    {
+      "id": "STEAM-RUINRUN26-MIRROR",
+      "grade": "C",
+      "title": "Ruin Run Weekly Challenge Steam announcement mirror",
+      "url": "https://manage.kalendarhrace.cz/aktualizace/the-battle-of-polytopia-ruin-run-weekly-challenge",
+      "date": "2026-04-22",
+      "use": "six leagues/difficulty branches and opponents starting ahead; secondary mirror of Steam announcement"
+    },
+    {
+      "id": "OFF-CYM25-STARVING",
+      "grade": "A",
+      "title": "Cymanti Rework / version 2.15.0 - non-Cymanti adjustments",
+      "url": "https://polytopia.io/blog/",
+      "date": "2025-10-29",
+      "use": "official introduction of score penalty for starving cities"
+    },
+    {
+      "id": "WIKI-POP-CURRENT",
+      "grade": "B",
+      "title": "Polytopia Wiki - Population",
+      "url": "https://polytopia.fandom.com/wiki/Population",
+      "use": "negative population income penalty and unit-capacity behavior"
+    },
+    {
+      "id": "REDDIT-STARVING-SCORE-2026",
+      "grade": "D",
+      "title": "Community black-box observation: starving-city score penalty",
+      "url": "https://www.reddit.com/r/Polytopia/comments/1w8tbyv/how_can_a_level_5_city_only_be_worth_190_points/",
+      "date": "2026-09-06",
+      "use": "current-build lead suggesting -105 score per negative population; requires reproduction"
+    },
+    {
+      "id": "STEAM-AI-ADVANTAGE-2024",
+      "grade": "C",
+      "title": "Developer comment: small AI built-in advantage",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/4355617880207260760/",
+      "date": "2024-04-03",
+      "use": "developer-confirmed small non-zero AI advantage; exact mechanism unspecified"
+    },
+    {
+      "id": "DEV-REPLAYS-2022",
+      "grade": "C",
+      "title": "Developer Tournament Update notes: replay system",
+      "url": "https://devtrackers.gg/polytopia/p/366d81c7-the-rise-of-the-tournament-update",
+      "date": "2022",
+      "use": "historical replay storage, sharing, favorites, player-view information and playback controls"
+    },
+    {
+      "id": "STEAM-REPLAY-RETENTION-2023",
+      "grade": "C",
+      "title": "Developer comment: replay retention",
+      "url": "https://steamcommunity.com/app/874390/discussions/1/3767858616449496342/",
+      "date": "2023-02-08",
+      "use": "historical statement that recent replays should be retained; exact count unspecified"
+    },
+    {
+      "id": "OFF-WEEKLY-REPLAYS25",
+      "grade": "A",
+      "title": "Weekly Replays",
+      "url": "https://polytopia.io/news/weekly-replays/",
+      "date": "2025-03-25",
+      "use": "official Weekly Challenge historical winner-replay retrieval behavior"
+    },
+    {
+      "id": "DEV-MODE-CONTINENTS-2021",
+      "grade": "C",
+      "title": "Developer answer: Perfection/Domination use Continents",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/3093389895551120288/",
+      "date": "2021-05-31",
+      "use": "historical first-party/developer confirmation that Perfection and Domination use Continents/default map type"
+    },
+    {
+      "id": "DEV-MASSIVE-MAX-2026",
+      "grade": "C",
+      "title": "Developer answer: Massive is largest map size",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/809098954468856985/",
+      "date": "2026-03-31",
+      "use": "current developer confirmation that Massive is the largest public map size"
+    },
+    {
+      "id": "STEAM-WEEKLY-APR26",
+      "grade": "A",
+      "title": "Official Steam announcements: Hats of Steel and Ruin Run Weekly Challenges",
+      "url": "https://steamcommunity.com/app/874390/announcements/",
+      "date": "2026-04",
+      "use": "first-party confirmation of six Weekly leagues and asymmetric/custom scenario starts"
+    },
+    {
+      "id": "OFF-PREVENT-UPGRADE",
+      "grade": "A",
+      "title": "Strategy Tip – Prevent city upgrade",
+      "url": "https://polytopia.io/news/strategy-tip-prevent-city-upgrade/",
+      "date": "2024-05-21",
+      "use": "official resource-tile blocking counterplay for city leveling"
+    },
+    {
+      "id": "OFF-UPGRADE-KEEP-CITY",
+      "grade": "A",
+      "title": "Strategy Tip – Upgrade to Keep City",
+      "url": "https://polytopia.io/news/strategy-tip-4/",
+      "date": "2020-08-26",
+      "use": "official Giant-producing city upgrade and displacement counterplay"
+    },
+    {
+      "id": "STEAM-FORGE-REVERT-2025",
+      "grade": "C",
+      "title": "Developer confirmation: Forge two-level experiment reverted",
+      "url": "https://steamcommunity.com/app/874390/eventcomments/603041053825565065/",
+      "date": "2025-09-09",
+      "use": "developer confirmation that Forge reverted to one level/population per adjacent Mine after the 2025 beta experiment"
+    },
+    {
+      "id": "OFF-NEW-DAWN",
+      "grade": "A",
+      "title": "Usher in a Fresh Start with the New Dawn Skin for the Cymanti!",
+      "url": "https://polytopia.io/blog/",
+      "date": "2025-12-08",
+      "use": "official New Dawn cosmetic substitution catalogue and confirmation of gameplay-equivalent Cymanti unit/building/resource reskins"
+    },
+    {
+      "id": "OFF-TEMPLE-GROWTH-2020",
+      "grade": "A",
+      "title": "Strategy Tip – Build Temples",
+      "url": "https://polytopia.io/news/strategy-tip-build-temples/",
+      "date": "2020-07-29",
+      "use": "official 12-turn full-growth timing baseline for temples; historical 400-point value superseded by 2025 balance"
+    },
+    {
+      "id": "OFF-BATTLE-PREVIEW",
+      "grade": "A",
+      "title": "Battle Preview",
+      "url": "https://polytopia.io/news/battle-preview/",
+      "date": "2025-01-15",
+      "use": "official combat preview UI and outcome indicators"
+    },
+    {
+      "id": "OFF-RIDER-TIP",
+      "grade": "A",
+      "title": "Strategy Tip – Use Riders",
+      "url": "https://polytopia.io/news/strategy-tip-use-riders/",
+      "date": "2020-06-24",
+      "use": "official Rider post-action movement behavior"
+    },
+    {
+      "id": "OFF-MOUNTAIN-VISION",
+      "grade": "A",
+      "title": "Strategy Tip – Enjoy the View",
+      "url": "https://polytopia.io/news/strategy-tip-enjoy-the-view/",
+      "date": "2020-09-24",
+      "use": "official two-tile mountain vision"
+    },
+    {
+      "id": "OFF-CLOUD-VISION",
+      "grade": "A",
+      "title": "Strategy Tip – Use The Clouds!",
+      "url": "https://polytopia.io/news/strategy-tip-use-the-clouds/",
+      "date": "2021-06-04",
+      "use": "official player-relative explored-fog behavior"
+    },
+    {
+      "id": "OFF-CLOAK-TIP",
+      "grade": "A",
+      "title": "Strategy Tip – Cloaks",
+      "url": "https://polytopia.io/news/strategy-tip-cloaks/",
+      "date": "2023-08-15",
+      "use": "official eye-icon nearby-Cloak indicator"
+    },
+    {
+      "id": "OFF-PROMOTION-TIP",
+      "grade": "A",
+      "title": "Strategy Tip – Promotions",
+      "url": "https://polytopia.io/news/strategy-tip-6/",
+      "date": "2022-02-08",
+      "use": "official Veteran promotion threshold and health effects"
+    },
+    {
+      "id": "OFF-PEACE-GREAT",
+      "grade": "A",
+      "title": "Strategy Tip: Peace Treaties",
+      "url": "https://polytopia.io/news/strategy-tip-peace-treaties/",
+      "date": "2022-08-19",
+      "use": "official bot Peace Treaty acceptance at Great opinion"
+    },
+    {
+      "id": "OFF-IMPERIUS-EXPLORER",
+      "grade": "A",
+      "title": "Imperius Strategy Tip",
+      "url": "https://polytopia.io/news/imperius-strategy-tip/",
+      "date": "2022-03-29",
+      "use": "first-party Explorer star collection and many-opponent value"
+    },
+    {
+      "id": "OFF-FRIEND-ONLINE",
+      "grade": "A",
+      "title": "Strategy Tip: Any Friends Online?",
+      "url": "https://polytopia.io/news/strategy-tip-any-friends-online/",
+      "date": "2022-09-16",
+      "use": "official multiplayer friend-presence green-dot UI and invitation affordance"
+    },
+    {
+      "id": "OFF-CLEAR-HOLD",
+      "grade": "A",
+      "title": "Strategy Tip – Clear & Hold",
+      "url": "https://polytopia.io/news/strategy-tip-clear-hold/",
+      "date": "2021-09-22",
+      "use": "official evidence that a unit remains as city occupier during capture and can defend against immediate recapture"
+    },
+    {
+      "id": "OFF-DIP-BALANCE-2022",
+      "grade": "A",
+      "title": "Diplomacy Balance",
+      "url": "https://polytopia.io/news/diplomacy-balance/",
+      "date": "2022-10-11",
+      "use": "official post-launch Cloak detection and one-infiltration-per-city-per-turn constraints"
+    },
+    {
+      "id": "OFF-WC25-QUALIFIERS",
+      "grade": "A",
+      "title": "First Round of Qualifications Completed!",
+      "url": "https://polytopia.io/first-round-of-qualifications-completed/",
+      "date": "2025-09-17",
+      "use": "official World Championship Tournament Page replay availability and in-game tournament navigation"
+    },
+    {
+      "id": "OFF-EXPLORER-REWARDS-2020",
+      "grade": "A",
+      "title": "Strategy Tip — Explorer rewards",
+      "url": "https://polytopia.io/news/strategy-tip/",
+      "date": "2020-04-13",
+      "use": "first-party confirmation that Explorer tribe encounters can yield technologies or stars"
+    },
+    {
+      "id": "OFF-CLEAR-FOREST-2020",
+      "grade": "A",
+      "title": "Strategy Tip Lumber Huts",
+      "url": "https://polytopia.io/news/strategy-tip-lumber-huts/",
+      "date": "2020-03-18",
+      "use": "historical first-party baseline that Clear Forest yielded 2 stars"
+    },
+    {
+      "id": "OFF-CUSTOMS-HOUSE-2020",
+      "grade": "A",
+      "title": "Strategy Tip — Customs Houses",
+      "url": "https://polytopia.io/news/strategy-tip-3/",
+      "date": "2020-05-28",
+      "use": "historical first-party Customs House placement/economy: one per city and value from surrounding Ports"
+    }
+  ]
+}
