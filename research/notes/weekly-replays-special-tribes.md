@@ -89,3 +89,8 @@ The official 2026 Polynews archive adds three concrete scenario-state examples t
 - **Quetzali Tribe Moon (2026-08-31):** both sides start with armies containing Swordsmen and Defenders and with access to **all level-1 technologies**.
 
 Implementation inference: scenario serialization needs explicit technology grants and resource-generation overrides in addition to seed, starting units and faction state. In particular, do not derive a Weekly participant's known techs only from its tribe's normal starting technology.
+
+
+## Tournament replay surface
+
+An official September 2025 World Championship update states that replays from more than a thousand qualifier matches were available on the official Tournament Page. The same post gives the in-game tournament path as **Multiplayer > Tournaments**. This establishes a first-party public tournament-replay surface distinct from the ordinary recent-replay list and the Weekly winner archive. The post does not define replay retention, whether every match remains available indefinitely, spectator fog rules, or export/download behavior, so those remain open. [OFF-WC25-QUALIFIERS]

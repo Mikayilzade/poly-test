@@ -277,3 +277,10 @@
 - Added first-party post-launch evidence that every unit type can detect Cloaks and that each city can be infiltrated at most once per turn.
 - Upgraded the infiltration limiter from secondary/developer evidence while keeping detection radius and reveal timing unresolved.
 - Diplomacy/Cloak coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — tournament replay-surface pass
+
+- Added first-party evidence that World Championship qualifier replays were exposed on the official Tournament Page, alongside the in-game Multiplayer > Tournaments entry point.
+- Kept retention depth, completeness, spectator fog/hidden-information rules and export behavior unresolved.
+- Replay/spectator coverage remains partial. No GitHub Actions/CI enabled or run.

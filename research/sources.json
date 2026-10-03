@@ -813,6 +813,14 @@
       "url": "https://polytopia.io/news/diplomacy-balance/",
       "date": "2022-10-11",
       "use": "official post-launch Cloak detection and one-infiltration-per-city-per-turn constraints"
+    },
+    {
+      "id": "OFF-WC25-QUALIFIERS",
+      "grade": "A",
+      "title": "First Round of Qualifications Completed!",
+      "url": "https://polytopia.io/first-round-of-qualifications-completed/",
+      "date": "2025-09-17",
+      "use": "official World Championship Tournament Page replay availability and in-game tournament navigation"
     }
   ]
 }
