@@ -291,3 +291,10 @@
 - Added first-party 2.16.3 evidence that city capture during the relevant cooldown was a bug; legal capture must remain gated until cooldown permits it.
 - Kept cooldown trigger, duration, ownership and exact re-enable timing unresolved because the changelog does not expose them.
 - Turn-flow/capture coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — Explorer reward evidence pass
+
+- Added a first-party source clarifying the two Explorer encounter reward categories.
+- Exact quantities and selection logic remain unresolved.
+- Explorer coverage remains partial. No GitHub Actions/CI enabled or run.

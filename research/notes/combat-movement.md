@@ -161,4 +161,6 @@ The official strategy archive also corroborates four previously community-source
 
 Midjiwan's Imperius strategy tip explicitly recommends choosing Explorer in a many-opponent opening and states that the Explorer can **collect many stars**. This is first-party confirmation that Explorer exploration can produce star gains tied to meeting/exploring around opponents, and that the payoff scales in practical value with opponent density. [OFF-IMPERIUS-EXPLORER]
 
-Do not infer a fixed star amount, probability, or deterministic technology-vs-stars selection rule from this tip: those details are not stated there. Keep exact encounter reward selection and quantities unresolved until a stronger public source or controlled reproduction is available.
+An earlier official Midjiwan strategy tip states the encounter reward types directly: when an Explorer meets other tribes, it can receive **technologies or stars**. This upgrades the existence of the two reward classes to first-party evidence. [OFF-EXPLORER-REWARDS-2020]
+
+Do not infer a fixed star amount, eligible-technology set, probability, weighting, or deterministic technology-vs-stars selection rule from these tips: those details are not stated. Keep reward quantities and selection logic unresolved until a stronger public source or controlled reproduction is available.

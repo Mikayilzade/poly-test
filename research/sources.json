@@ -821,6 +821,14 @@
       "url": "https://polytopia.io/first-round-of-qualifications-completed/",
       "date": "2025-09-17",
       "use": "official World Championship Tournament Page replay availability and in-game tournament navigation"
+    },
+    {
+      "id": "OFF-EXPLORER-REWARDS-2020",
+      "grade": "A",
+      "title": "Strategy Tip — Explorer rewards",
+      "url": "https://polytopia.io/news/strategy-tip/",
+      "date": "2020-04-13",
+      "use": "first-party confirmation that Explorer tribe encounters can yield technologies or stars"
     }
   ]
 }
