@@ -306,3 +306,10 @@
 - Strengthened the scenario model: Weekly enemy-unit composition can depart from ordinary tribe-derived starts and may require explicit unit/spawn state.
 - Kept exact count, spawn timing, ownership and technologies unresolved; no unsupported mechanics were inferred.
 - Weekly/game-mode coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — Cymanti Algae fruit intent/bug boundary pass
+
+- Added a first-party intent-versus-observation conflict: the rework specifies Aphea Nectar on spawned Algae, while an official Admin acknowledged regional fruit appearing and described that behavior as unintended.
+- Kept regional-fruit behavior as a release-era discrepancy rather than a rule; current-build fruit selection remains to be verified.
+- Cymanti tile/resource coverage remains partial. No GitHub Actions/CI enabled or run.

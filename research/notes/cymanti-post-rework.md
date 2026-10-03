@@ -94,3 +94,8 @@ The public evidence is enough to model several Cymanti mechanics as stateful sys
 - post-attack action availability for Explode
 
 Exact ordering of end-turn growth, poison application, simultaneous effects and transformation still needs reproducible verification before coding.
+
+
+## Algae fruit identity — release-era conflict
+
+The official rework text specifies that newly spawned Algae carries Aphea Nectar. In comments on the same official page, a player reported regional fruit appearing instead; an official Admin said that behavior was not intended. Record the regional-fruit result as a release-era implementation discrepancy, not as the intended mechanic. Current-build fruit selection still needs direct verification. [OFF-CYM25-DEDICATED]
