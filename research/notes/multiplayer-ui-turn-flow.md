@@ -117,3 +117,8 @@ Do not infer presence polling cadence, stale/offline timing, invite expiry, or t
 The official 2.16.3 changelog lists **“Capture city allowed during cooldown”** as a fixed bug. The supported state contract is therefore that a unit/player state under the relevant capture cooldown must **not** be able to complete a city capture until that cooldown permits it. This is stronger than treating the old behavior as a legal edge case. [OFF-2163]
 
 The changelog does not define what starts the cooldown, its duration, whether the gate is attached to the unit, city, player or multiplayer turn state, or exactly when the capture action becomes available again. Keep those details as black-box verification targets rather than inferring them from the bug title.
+
+
+## In-game language hot-reload contract — 2.16.3
+
+The official 2.16.3 changelog fixes changing language in-game without updating the **building info pop-up**. The supported UI contract is therefore that an already-open building information surface must refresh its localized text when the language changes, rather than requiring the panel or game to be reopened. The changelog does not define whether every other open modal, tooltip or menu hot-reloads in the same event, so broader localization refresh scope remains unresolved. [OFF-2163]

@@ -313,3 +313,11 @@
 - Added a first-party intent-versus-observation conflict: the rework specifies Aphea Nectar on spawned Algae, while an official Admin acknowledged regional fruit appearing and described that behavior as unintended.
 - Kept regional-fruit behavior as a release-era discrepancy rather than a rule; current-build fruit selection remains to be verified.
 - Cymanti tile/resource coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — recovered 2.16.3 Weekly/UI contracts
+
+- Added first-party evidence that Weekly Challenge must not leak ordinary Perfection stars or tribe-highscore updates through the bugged Perfection path.
+- Added the in-game localization contract that an already-open building info pop-up refreshes after a language change.
+- Kept other profile/achievement side effects and broader UI hot-reload scope unresolved.
+- Weekly/UI coverage remains partial. No GitHub Actions/CI enabled or run.

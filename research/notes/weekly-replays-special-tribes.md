@@ -101,3 +101,8 @@ An official September 2025 World Championship update states that replays from mo
 The official 2026 Polynews archive describes the **Zebasi Tribe Moon Challenge** as a Special Weekly Challenge in which the player must hold ground against **hordes of Polytaurs**. This is first-party evidence that Weekly scenarios can prescribe an unusual enemy-unit composition built around another tribe's signature unit rather than only normal tribe starts. The announcement does not specify exact Polytaur count, spawn timing, ownership, technologies, or whether the horde is pre-placed versus generated, so those details remain unresolved. [OFF-POLYNEWS26]
 
 Implementation inference: Weekly scenario serialization should not assume that unit rosters are derivable from the participating tribe's ordinary tech tree/start state; explicit scenario-owned unit composition/spawn state may be required.
+
+
+## Weekly Challenge progression isolation — 2.16.3
+
+The official 2.16.3 changelog fixes Weekly Challenge games giving **stars and tribe highscores in Perfection mode**. Treat those rewards as leakage from the ordinary Perfection progression path rather than intended Weekly behavior: Weekly Challenge runs must not update the ordinary Perfection-star award or tribe-highscore state through that bugged path. The changelog does not establish whether achievements, profile statistics, tournament records or other account-level counters are isolated the same way, so those remain unresolved. [OFF-2163]
