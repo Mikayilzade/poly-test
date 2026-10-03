@@ -151,3 +151,13 @@ This matters for score-delta inference in unusually tall cities: do not clamp th
 Midjiwan's 2020 strategy tip states that a fully grown Temple takes **12 turns** to develop. Treat that as the strongest public timing baseline located so far. The same historical tip says a fully grown Temple was worth 400 points, but that score value is superseded by the official 2025 Balance Pass, which changed Temples to **100 points per level of growth**. The current community score table correspondingly reports 100 base + 100 per level above level 1, max **500 at level 5**. [OFF-TEMPLE-GROWTH-2020, OFF-2025BAL, WIKI-SCORE]
 
 Implementation boundary: keep **growth timing** and **score-per-growth-level** as separately versioned rules. Do not import the old 400-point maximum merely because the 12-turn timing comes from the same 2020 source. The exact intermediate growth turns have not been re-confirmed by current first-party documentation, so only the 12-turn full-growth endpoint is promoted to the reference model for now.
+
+
+## Historical economy/building deltas — 2020 first-party baseline
+
+Two official 2020 strategy tips expose rules that must remain versioned rather than silently mixed into the current economy:
+
+- On **2020-03-18**, Midjiwan stated that **Clear Forest returned 2 stars**. This is a historical yield baseline; do not apply it to the current ruleset without a source establishing the later transition/current value. [OFF-CLEAR-FOREST-2020]
+- On **2020-05-28**, Midjiwan described **Customs House** as an economy building strengthened by surrounding Ports and explicitly limited placement to **one Customs House per city**. The tip also recommends planning its tile when placing the first Port, corroborating a local adjacency/placement relationship. [OFF-CUSTOMS-HOUSE-2020]
+
+Customs House belongs to the pre-Path-of-the-Ocean economy and should not be projected onto the current Market system. Exact historical per-Port income and the patch/version where Clear Forest changed away from 2 stars remain unresolved in this pass.

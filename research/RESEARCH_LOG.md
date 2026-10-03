@@ -328,3 +328,11 @@
 - Added the 2.16.3 first-party contract that an already-open building info pop-up refreshes its text when the language changes.
 - Kept broader hot-reload behavior for other screens/modals unresolved rather than extrapolating.
 - UI/localization coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — historical Clear Forest / Customs House pass
+
+- Added first-party 2020 baseline that Clear Forest yielded 2 stars.
+- Added first-party Customs House constraints: one per city, with economy driven by surrounding Ports and placement therefore adjacency-sensitive.
+- Kept both as historical/versioned rules; exact Clear Forest transition version and historical Customs House per-Port income remain unresolved.
+- Economy/building/update-history coverage remains partial. No GitHub Actions/CI enabled or run.
