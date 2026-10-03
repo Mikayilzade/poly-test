@@ -321,3 +321,10 @@
 - Added the in-game localization contract that an already-open building info pop-up refreshes after a language change.
 - Kept other profile/achievement side effects and broader UI hot-reload scope unresolved.
 - Weekly/UI coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — runtime localization UI pass
+
+- Added the 2.16.3 first-party contract that an already-open building info pop-up refreshes its text when the language changes.
+- Kept broader hot-reload behavior for other screens/modals unresolved rather than extrapolating.
+- UI/localization coverage remains partial. No GitHub Actions/CI enabled or run.

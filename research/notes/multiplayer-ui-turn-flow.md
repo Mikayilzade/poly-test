@@ -122,3 +122,10 @@ The changelog does not define what starts the cooldown, its duration, whether th
 ## In-game language hot-reload contract — 2.16.3
 
 The official 2.16.3 changelog fixes changing language in-game without updating the **building info pop-up**. The supported UI contract is therefore that an already-open building information surface must refresh its localized text when the language changes, rather than requiring the panel or game to be reopened. The changelog does not define whether every other open modal, tooltip or menu hot-reloads in the same event, so broader localization refresh scope remains unresolved. [OFF-2163]
+
+
+## 2.16.3 runtime-language refresh contract
+
+The official 2.16.3 changelog fixes a case where changing the game language while a **building info pop-up was already open** left that open panel in the previous language. Treat the supported observable behavior as a live refresh of the open building-info text after the language setting changes. [OFF-2163]
+
+This is evidence for that specific surface only. Do not generalize it to every open screen, modal, tooltip or cached label without separate evidence; the broader runtime-localization refresh scope remains unresolved.
