@@ -106,3 +106,10 @@ Implementation inference: Weekly scenario serialization should not assume that u
 ## Weekly Challenge progression isolation — 2.16.3
 
 The official 2.16.3 changelog fixes Weekly Challenge games giving **stars and tribe highscores in Perfection mode**. Treat those rewards as leakage from the ordinary Perfection progression path rather than intended Weekly behavior: Weekly Challenge runs must not update the ordinary Perfection-star award or tribe-highscore state through that bugged path. The changelog does not establish whether achievements, profile statistics, tournament records or other account-level counters are isolated the same way, so those remain unresolved. [OFF-2163]
+
+
+## Weekly friends-league membership boundary — 2.16.3
+
+The official 2.16.3 changelog fixes **pending friends appearing in the Weekly Challenge friends league**. Treat a pending friend request as a distinct relationship state from an accepted friendship: pending users must not be included in the Weekly friends-league membership set. [OFF-2163]
+
+The changelog does not define when league membership refreshes after accepting/removing a friend, whether blocking has a separate effect, or whether an already-loaded league updates live. Keep those as black-box verification targets rather than inferring them.

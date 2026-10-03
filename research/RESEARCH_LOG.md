@@ -336,3 +336,10 @@
 - Added first-party Customs House constraints: one per city, with economy driven by surrounding Ports and placement therefore adjacency-sensitive.
 - Kept both as historical/versioned rules; exact Clear Forest transition version and historical Customs House per-Port income remain unresolved.
 - Economy/building/update-history coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-04 — Weekly pending-friend membership pass
+
+- Added first-party 2.16.3 evidence that pending friend requests must not appear in the Weekly Challenge friends league.
+- Split pending and accepted friendship into distinct league-eligibility states; refresh timing after accept/remove and blocking remain unresolved.
+- Weekly/social-state coverage remains partial. No GitHub Actions/CI enabled or run.
