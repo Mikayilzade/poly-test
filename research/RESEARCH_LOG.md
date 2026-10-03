@@ -298,3 +298,11 @@
 - Added a first-party source clarifying the two Explorer encounter reward categories.
 - Exact quantities and selection logic remain unresolved.
 - Explorer coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-03 — Zebasi Weekly enemy-composition pass
+
+- Added first-party evidence that the Zebasi Tribe Moon Special Weekly Challenge pits the player against hordes of Polytaurs.
+- Strengthened the scenario model: Weekly enemy-unit composition can depart from ordinary tribe-derived starts and may require explicit unit/spawn state.
+- Kept exact count, spawn timing, ownership and technologies unresolved; no unsupported mechanics were inferred.
+- Weekly/game-mode coverage remains partial. No GitHub Actions/CI enabled or run.

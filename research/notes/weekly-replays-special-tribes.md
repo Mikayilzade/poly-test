@@ -94,3 +94,10 @@ Implementation inference: scenario serialization needs explicit technology grant
 ## Tournament replay surface
 
 An official September 2025 World Championship update states that replays from more than a thousand qualifier matches were available on the official Tournament Page. The same post gives the in-game tournament path as **Multiplayer > Tournaments**. This establishes a first-party public tournament-replay surface distinct from the ordinary recent-replay list and the Weekly winner archive. The post does not define replay retention, whether every match remains available indefinitely, spectator fog rules, or export/download behavior, so those remain open. [OFF-WC25-QUALIFIERS]
+
+
+## Zebasi Tribe Moon 2026 scenario override
+
+The official 2026 Polynews archive describes the **Zebasi Tribe Moon Challenge** as a Special Weekly Challenge in which the player must hold ground against **hordes of Polytaurs**. This is first-party evidence that Weekly scenarios can prescribe an unusual enemy-unit composition built around another tribe's signature unit rather than only normal tribe starts. The announcement does not specify exact Polytaur count, spawn timing, ownership, technologies, or whether the horde is pre-placed versus generated, so those details remain unresolved. [OFF-POLYNEWS26]
+
+Implementation inference: Weekly scenario serialization should not assume that unit rosters are derivable from the participating tribe's ordinary tech tree/start state; explicit scenario-owned unit composition/spawn state may be required.
