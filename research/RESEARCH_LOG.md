@@ -358,3 +358,11 @@
 - Added developer-maintained first-party constraints for Explode damage-before-population ordering, invisible-unit reveal on Break Ice/Harvest Starfish, poison propagation/healing between naval vessel and carried unit, and Giant-push interaction with Skate action state.
 - Kept broader trigger ordering, poison tick timing and forced-movement interactions unresolved rather than inferring internals.
 - Combat/movement/state coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-04 — Cymanti post-rework atomization pass
+
+- Added a dedicated current/post-2.15 Cymanti note from first-party rework material instead of leaving the tribe as a coarse changelog summary.
+- Atomized Algae coexistence/movement/network rules; Fungi/Microbes levels; Creep/poison changes; Boomchi/Raychi/Living Island roles; Swarm persistence; Moth→Egg→Larva timing; damage inheritance; and the Converter monument condition.
+- Preserved the official Algae-fruit intent/observed discrepancy and separated unsupported numeric/timing details into black-box targets.
+- Added explicit Cymanti coverage to the structured index; coverage remains partial. No GitHub Actions/CI enabled or run.

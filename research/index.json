@@ -178,6 +178,11 @@
       "id": "battle-preview-ui",
       "status": "partial",
       "file": "research/notes/combat-movement.md"
+    },
+    {
+      "id": "special-tribe-cymanti",
+      "status": "partial",
+      "file": "research/notes/cymanti-current.md"
     }
   ]
 }
