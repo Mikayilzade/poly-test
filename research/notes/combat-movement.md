@@ -183,3 +183,10 @@ These are public behavioral contracts from the Path of the Ocean-era changelog. 
 The official 2.16.3 changelog explicitly fixes **battle preview results for Ice Archer**. This is useful evidence that Battle Preview must run through unit-specific combat/status semantics rather than a generic attack/defence-only estimate. [OFF-2163]
 
 Do not infer the exact pre-fix defect from the changelog. For implementation, use the same authoritative combat resolver for preview and execution, including Ice Archer freeze/status effects and any retaliation consequences, then render the preview without mutating state. Exact preview timing for Freeze relative to damage/retaliation remains a black-box verification target.
+
+
+## Splash integer-damage boundary — 2.16.5
+
+The official Midjiwan App Store version history says 2.16.5 changed Splash damage so it is **floored**, avoiding half-hit-point damage. [APPSTORE-IOS-2026]
+
+Implementation boundary: a combat resolver should not retain fractional HP from Splash. The release note establishes flooring but does not expose the complete Splash formula or whether any other damage path shares the same rounding stage; keep those separate until verified.

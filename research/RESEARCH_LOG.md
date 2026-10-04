@@ -374,3 +374,12 @@
 - Recorded the implementation boundary that preview should share the authoritative combat/status resolver rather than duplicate a simplified damage estimate.
 - Kept exact Freeze/damage/retaliation preview ordering unresolved instead of guessing the pre-fix defect.
 - Combat/UI coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-05 — post-2.16.3 release-history / Splash rounding pass
+
+- Recovered the official Midjiwan App Store version history through 2.17.3 (2026-09-07), superseding 2.16.3 as the newest explicit numbered public baseline while retaining 2.16.3 as the richer official-site changelog.
+- Added the 2.16.5 Splash contract: damage is floored so combat state does not retain half hit points.
+- Added versioned observable fixes for random-tribe climate, Polaris/normal siege-fire presentation, quick-touch handling, keyboard +/- zoom and multiplayer tribe disabling.
+- Kept the later World-Championship update summary unversioned because the retrieved store history does not attach a clear version/date to it.
+- Update/combat/UI coverage remains partial. No GitHub Actions/CI enabled or run.

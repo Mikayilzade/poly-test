@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-10-03",
+  "updated": "2026-10-05",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -869,6 +869,14 @@
       "url": "https://polytopia.io/news/solaris-the-polaris-skin/",
       "date": "2025-05-07",
       "use": "official Solaris skin presentation terms"
+    },
+    {
+      "id": "APPSTORE-IOS-2026",
+      "grade": "A",
+      "title": "The Battle of Polytopia — Apple App Store version history",
+      "url": "https://apps.apple.com/us/app/the-battle-of-polytopia/id1006393168",
+      "date": "2026-09-07",
+      "use": "official Midjiwan-distributed iOS version history through 2.17.3; 2.16.5 mechanics/UI fixes"
     }
   ]
 }

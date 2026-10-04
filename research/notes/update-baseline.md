@@ -88,3 +88,21 @@ The changelog makes two tile-state transitions explicit: **freezing an already f
 Implementation inference: flooded/water state, frozen state and climate/terrain presentation should not be collapsed into one destructive terrain conversion. Preserve the underlying flooded state across freeze, and do not synthesize flood merely from a climate change while frozen. Exact thaw ordering and all Polaris/Aquarion interactions remain unresolved.
 
 This is the newest explicit version number located in the first research pass; later 2026 official news exists, so the update sweep remains open.
+
+
+## 2026 mobile release-history baseline after 2.16.3
+
+The official Midjiwan App Store listing establishes that **2.16.3 is no longer the newest explicit public version baseline**. The iOS history continues through 2.16.5/2.16.6/2.16.8 and the 2.17 line, with **2.17.3 dated 2026-09-07**. [APPSTORE-IOS-2026]
+
+Mechanically relevant deltas exposed by that history:
+- **2.16.5:** Splash damage is floored, specifically to avoid half-hit-point damage. Treat splash resolution as integer-flooring at the documented stage rather than allowing fractional HP. [APPSTORE-IOS-2026]
+- **2.16.5:** choosing a random tribe had a wrong-climate bug; the fix is evidence that random-tribe selection must still resolve the selected tribe's proper climate rather than retaining an unrelated/default climate. [APPSTORE-IOS-2026]
+- **2.16.5:** switching between Polaris siege and normal siege must clear/update siege-fire presentation rather than leaving stale fire state. [APPSTORE-IOS-2026]
+- **2.17.0:** friends handling was optimized; no gameplay semantic change is documented. [APPSTORE-IOS-2026]
+- **2.17.1:** a technical UI-system overhaul was intended to produce little/no user-visible behavior change. Treat it as an implementation boundary, not a rules change. [APPSTORE-IOS-2026]
+- **2.17.2:** very quick touches should not be skipped; popup icon height was constrained. These are input/UI contracts, not game-rule changes. [APPSTORE-IOS-2026]
+- **2.17.3:** keyboard map zoom with **+ / -** was improved and disabling tribes in multiplayer was fixed. [APPSTORE-IOS-2026]
+
+The store currently also exposes a later World-Championship-oriented update summary, but its version/date is not unambiguously attached in the retrieved history. Do not assign a version number until corroborated. [APPSTORE-IOS-2026]
+
+Implementation note: use **2.17.3 (2026-09-07)** as the newest explicit numbered public baseline recovered in this pass, while preserving 2.16.3 as the richer official-site changelog baseline.
