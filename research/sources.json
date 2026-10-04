@@ -845,6 +845,30 @@
       "url": "https://polytopia.io/news/strategy-tip-3/",
       "date": "2020-05-28",
       "use": "historical first-party Customs House placement/economy: one per city and value from surrounding Ports"
+    },
+    {
+      "id": "OFF-MIDNIGHT",
+      "grade": "A",
+      "title": "Midnight Elyrion skin",
+      "url": "https://polytopia.io/news/%E2%88%91%E2%88%AByri%C8%B1n-%E2%82%BCidnight-skin/",
+      "date": "2024-04-25",
+      "use": "official Midnight skin presentation terms"
+    },
+    {
+      "id": "OFF-FORGOTTEN",
+      "grade": "A",
+      "title": "Aquarion Skin - Forgotten",
+      "url": "https://polytopia.io/news/aquarion-skin-forgotten/",
+      "date": "2024-11-13",
+      "use": "official Forgotten skin presentation terms"
+    },
+    {
+      "id": "OFF-SOLARIS",
+      "grade": "A",
+      "title": "Solaris - The Polaris Skin",
+      "url": "https://polytopia.io/news/solaris-the-polaris-skin/",
+      "date": "2025-05-07",
+      "use": "official Solaris skin presentation terms"
     }
   ]
 }

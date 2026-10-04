@@ -343,3 +343,11 @@
 - Added first-party 2.16.3 evidence that pending friend requests must not appear in the Weekly Challenge friends league.
 - Split pending and accepted friendship into distinct league-eligibility states; refresh timing after accept/remove and blocking remain unresolved.
 - Weekly/social-state coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-04 — special-tribe skin semantics pass
+
+- Reconciled the ordinary cosmetic-skin rule with first-party special-skin marketing.
+- Added official Midnight, Forgotten and Solaris presentation contracts; skin-specific nouns are not promoted to new mechanics without independent evidence.
+- Exact Midnight and Forgotten base-entity mapping remains open; Solaris is partly mapped already.
+- No GitHub Actions/CI enabled or run.

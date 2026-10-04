@@ -57,7 +57,9 @@ Community and official store material identify the following tribe skins:
 | Polaris | Solaris |
 | Cymanti | New Dawn |
 
-Nintendo’s Special Tribe Skins page explicitly says skins change aesthetics (clothes/buildings/music and sometimes animals) but **do not add gameplay abilities or units**; skinned tribes play like their base tribe. [NIN-SKINS]
+Nintendo’s Special Tribe Skins page describes ordinary tribe skins as aesthetic-only (clothes/buildings/music and sometimes animals), with no added gameplay abilities or units. [NIN-SKINS]
+
+Official pages for special-tribe skins use broader replacement language: Midnight Elyrion mentions graves, crypts and demons; Forgotten Aquarion mentions bubbles, giant squids, crocodiles and toads; Solaris Polaris mentions water becoming lava and enemies becoming ashes. [OFF-MIDNIGHT, OFF-FORGOTTEN, OFF-SOLARIS] Treat these as presentation contracts, not proof of extra mechanics: normalize skin-specific identities to the base special-tribe rules until a mechanical delta is independently evidenced.
 
 ### Known visual substitutions to catalogue later
 
