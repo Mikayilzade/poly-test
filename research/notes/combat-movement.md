@@ -176,3 +176,10 @@ Developer-maintained public changelogs expose several edge cases that constrain 
 - **Forced push + Skate:** when a Giant pushes a unit with **Skate**, the pushed unit's actions are not exhausted merely by the forced displacement. Forced movement and voluntary action consumption are distinct.
 
 These are public behavioral contracts from the Path of the Ocean-era changelog. Current 2.16.3 notes independently show that Skate/attack/Escape accounting still receives fixes, but no newer source found in this pass contradicts the four rules above. Exact ordering relative to retaliation, death cleanup, capture, poison ticks and other triggered effects remains a black-box target.
+
+
+## Ice Archer battle-preview correctness — 2.16.3
+
+The official 2.16.3 changelog explicitly fixes **battle preview results for Ice Archer**. This is useful evidence that Battle Preview must run through unit-specific combat/status semantics rather than a generic attack/defence-only estimate. [OFF-2163]
+
+Do not infer the exact pre-fix defect from the changelog. For implementation, use the same authoritative combat resolver for preview and execution, including Ice Archer freeze/status effects and any retaliation consequences, then render the preview without mutating state. Exact preview timing for Freeze relative to damage/retaliation remains a black-box verification target.

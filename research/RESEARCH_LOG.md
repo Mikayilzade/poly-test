@@ -366,3 +366,11 @@
 - Atomized Algae coexistence/movement/network rules; Fungi/Microbes levels; Creep/poison changes; Boomchi/Raychi/Living Island roles; Swarm persistence; Moth→Egg→Larva timing; damage inheritance; and the Converter monument condition.
 - Preserved the official Algae-fruit intent/observed discrepancy and separated unsupported numeric/timing details into black-box targets.
 - Added explicit Cymanti coverage to the structured index; coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-04 — Ice Archer battle-preview consistency pass
+
+- Added first-party 2.16.3 evidence that Ice Archer required unit-specific Battle Preview correction.
+- Recorded the implementation boundary that preview should share the authoritative combat/status resolver rather than duplicate a simplified damage estimate.
+- Kept exact Freeze/damage/retaliation preview ordering unresolved instead of guessing the pre-fix defect.
+- Combat/UI coverage remains partial. No GitHub Actions/CI enabled or run.
