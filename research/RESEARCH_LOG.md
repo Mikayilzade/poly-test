@@ -351,3 +351,10 @@
 - Added official Midnight, Forgotten and Solaris presentation contracts; skin-specific nouns are not promoted to new mechanics without independent evidence.
 - Exact Midnight and Forgotten base-entity mapping remains open; Solaris is partly mapped already.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-04 — action-order / carried-status edge-case pass
+
+- Added developer-maintained first-party constraints for Explode damage-before-population ordering, invisible-unit reveal on Break Ice/Harvest Starfish, poison propagation/healing between naval vessel and carried unit, and Giant-push interaction with Skate action state.
+- Kept broader trigger ordering, poison tick timing and forced-movement interactions unresolved rather than inferring internals.
+- Combat/movement/state coverage remains partial. No GitHub Actions/CI enabled or run.

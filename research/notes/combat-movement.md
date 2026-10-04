@@ -164,3 +164,15 @@ Midjiwan's Imperius strategy tip explicitly recommends choosing Explorer in a ma
 An earlier official Midjiwan strategy tip states the encounter reward types directly: when an Explorer meets other tribes, it can receive **technologies or stars**. This upgrades the existence of the two reward classes to first-party evidence. [OFF-EXPLORER-REWARDS-2020]
 
 Do not infer a fixed star amount, eligible-technology set, probability, weighting, or deterministic technology-vs-stars selection rule from these tips: those details are not stated. Keep reward quantities and selection logic unresolved until a stronger public source or controlled reproduction is available.
+
+
+## Action-order and carried-unit state — first-party changelog constraints
+
+Developer-maintained public changelogs expose several edge cases that constrain the action/state resolver without revealing internal code: [STEAM-BETA-CHANGELOG]
+
+- **Explode ordering:** exploding units deal their damage **before** population is awarded to cities. Treat damage resolution and any population side effect as ordered events rather than an atomic unordered effect.
+- **Invisible-unit reveal:** an invisible unit is revealed when it performs **Break Ice** or **Harvest Starfish**. Do not model invisibility as persisting through every non-attack action.
+- **Carried poison state:** when a naval vessel is poisoned, the land unit carried inside it is poisoned as well; healing poison on the vessel also heals poison on the carried unit. The vessel and payload therefore cannot be treated as completely independent status containers.
+- **Forced push + Skate:** when a Giant pushes a unit with **Skate**, the pushed unit's actions are not exhausted merely by the forced displacement. Forced movement and voluntary action consumption are distinct.
+
+These are public behavioral contracts from the Path of the Ocean-era changelog. Current 2.16.3 notes independently show that Skate/attack/Escape accounting still receives fixes, but no newer source found in this pass contradicts the four rules above. Exact ordering relative to retaliation, death cleanup, capture, poison ticks and other triggered effects remains a black-box target.
