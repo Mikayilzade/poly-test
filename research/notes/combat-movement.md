@@ -190,3 +190,13 @@ Do not infer the exact pre-fix defect from the changelog. For implementation, us
 The official Midjiwan App Store version history says 2.16.5 changed Splash damage so it is **floored**, avoiding half-hit-point damage. [APPSTORE-IOS-2026]
 
 Implementation boundary: a combat resolver should not retain fractional HP from Splash. The release note establishes flooring but does not expose the complete Splash formula or whether any other damage path shares the same rounding stage; keep those separate until verified.
+
+
+## Frozen-tile state preservation — 2.16.3
+
+The official 2.16.3 changelog records two terrain/status edge cases: [OFF-2163]
+
+- Freezing an already flooded tile must not drain it.
+- Changing climate on a frozen tile must not flood it.
+
+Implementation note: keep base terrain/climate, flooding, and freezing as distinct state information (or use an equivalent lossless state machine). The changelog confirms these two invariants but does not specify the later thaw result, so thaw ordering remains a black-box verification target.
