@@ -98,11 +98,12 @@ Mechanically relevant deltas exposed by that history:
 - **2.16.5:** Splash damage is floored, specifically to avoid half-hit-point damage. Treat splash resolution as integer-flooring at the documented stage rather than allowing fractional HP. [APPSTORE-IOS-2026]
 - **2.16.5:** choosing a random tribe had a wrong-climate bug; the fix is evidence that random-tribe selection must still resolve the selected tribe's proper climate rather than retaining an unrelated/default climate. [APPSTORE-IOS-2026]
 - **2.16.5:** switching between Polaris siege and normal siege must clear/update siege-fire presentation rather than leaving stale fire state. [APPSTORE-IOS-2026]
-- **2.17.0:** friends handling was optimized; no gameplay semantic change is documented. [APPSTORE-IOS-2026]
-- **2.17.1:** a technical UI-system overhaul was intended to produce little/no user-visible behavior change. Treat it as an implementation boundary, not a rules change. [APPSTORE-IOS-2026]
-- **2.17.2:** very quick touches should not be skipped; popup icon height was constrained. These are input/UI contracts, not game-rule changes. [APPSTORE-IOS-2026]
-- **2.17.3:** keyboard map zoom with **+ / -** was improved and disabling tribes in multiplayer was fixed. [APPSTORE-IOS-2026]
+- **2.16.8:** friends handling was optimized and Mac App Store support improved; no gameplay semantic change is documented. [APPSTORE-IOS-2026]
+- **2.17.0:** a technical UI-system overhaul was intended to produce little/no user-visible behavior change. Treat it as an implementation boundary, not a rules change. [APPSTORE-IOS-2026]
+- **2.17.1:** very quick touches should not be skipped; popup icon height was constrained, and a local-game-data sync crash was fixed. These are input/UI/persistence contracts, not game-rule changes. [APPSTORE-IOS-2026]
+- **2.17.2:** Unity was updated; keyboard map zoom with **+ / -** was improved and disabling tribes in multiplayer was fixed. [APPSTORE-IOS-2026]
+- **2.17.3 (2026-09-07):** the current App Store “What’s New” text explicitly identifies World-Championship-oriented changes: **removed/limited score counting**, **+2 meeting stars for player 2 in 1v1**, and **faster Explorers**, plus UI fixes. [APPSTORE-IOS-2026]
 
-The store currently also exposes a later World-Championship-oriented update summary, but its version/date is not unambiguously attached in the retrieved history. Do not assign a version number until corroborated. [APPSTORE-IOS-2026]
+The App Store wording does not state whether the three World Championship changes are global 2.17.3 rules, tournament-configuration overrides, or conditional behavior used only by championship games. Preserve them as versioned observable release contracts but do **not** apply them globally without current-build/tournament verification. “Removed/limited score counting” is especially underspecified: the affected score categories/modes are not named. [APPSTORE-IOS-2026]
 
 Implementation note: use **2.17.3 (2026-09-07)** as the newest explicit numbered public baseline recovered in this pass, while preserving 2.16.3 as the richer official-site changelog baseline.
