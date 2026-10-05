@@ -113,3 +113,10 @@ The official 2.16.3 changelog fixes Weekly Challenge games giving **stars and tr
 The official 2.16.3 changelog fixes **pending friends appearing in the Weekly Challenge friends league**. Treat a pending friend request as a distinct relationship state from an accepted friendship: pending users must not be included in the Weekly friends-league membership set. [OFF-2163]
 
 The changelog does not define when league membership refreshes after accepting/removing a friend, whether blocking has a separate effect, or whether an already-loaded league updates live. Keep those as black-box verification targets rather than inferring them.
+
+
+## World Championship 2026 Face Off format
+
+The official 2026 championship site documents the **Face Off** stage as two groups of six regular-tribe representatives. Within each group, every tribe/player meets every other member **once** (five rounds per player); the **top four from each group advance**, producing eight Stockholm finalists. The published schedule exposes five synchronized rounds for each group and records standings by wins. [OFF-CHAMP26-FACEOFF]
+
+This is tournament-format evidence rather than a general game-mode rule. Do not bake the two-groups-of-six bracket into ordinary multiplayer. It does, however, establish that the tournament surface must represent round-robin groups, per-round pairings, standings and advancement separately from the underlying 1v1 match state. Tie-break ordering is not explained on the public Face Off page and remains unresolved. [OFF-CHAMP26-FACEOFF]

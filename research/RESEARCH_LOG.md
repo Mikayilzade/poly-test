@@ -383,3 +383,10 @@
 - Added versioned observable fixes for random-tribe climate, Polaris/normal siege-fire presentation, quick-touch handling, keyboard +/- zoom and multiplayer tribe disabling.
 - Kept the later World-Championship update summary unversioned because the retrieved store history does not attach a clear version/date to it.
 - Update/combat/UI coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-05 — World Championship Face Off format pass
+
+- Added first-party 2026 tournament-format evidence: two six-player/tribe groups, single round robin within each group, five rounds per participant and top four from each group advancing to the eight-player Stockholm finals.
+- Kept tournament bracket/standings state separate from ordinary multiplayer mechanics; public tie-break ordering remains unresolved.
+- Tournament/replay coverage remains partial. No GitHub Actions/CI enabled or run.
