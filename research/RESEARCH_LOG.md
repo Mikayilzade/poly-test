@@ -451,3 +451,10 @@
 - Added direct Midjiwan evidence that ranged attacks avoid Defender counter-attacks and that adjacent Mind Benders can convert Defenders.
 - Kept conversion action-order, status interactions and current edge-case restrictions unresolved rather than extrapolating from the 2021 strategy tip.
 - Combat/unit-skill coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-06 — Archer / Giant kiting first-party pass
+
+- Added direct Midjiwan corroboration that Archers can reposition and fire in the same turn and can repeatedly kite a Giant without allowing it to attack when spacing is maintained.
+- Kept exact range/movement values and ZOC/terrain edge cases sourced separately rather than over-reading the strategy tip.
+- Combat/movement coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.

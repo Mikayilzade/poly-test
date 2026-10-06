@@ -220,3 +220,10 @@ This is an observable UI/action contract: legal Bridge placement can depend on h
 Midjiwan's official Defender strategy tip documents two useful combat interaction boundaries: ranged attacks are effective against Defenders because a Defender cannot counter-attack a ranged attacker, and an adjacent Mind Bender can convert a Defender. [OFF-DEFENDER-TIP]
 
 Implementation boundary: retaliation eligibility depends on attack range/reach rather than the Defender being a special no-retaliation unit; conversion is a separate adjacent action and should not be resolved through ordinary damage combat. The 2021 tip establishes these interactions but does not specify current Mind Bender action-order edge cases, conversion restrictions, or whether any later unit/status system modifies them.
+
+
+## Archer / Giant kiting — first-party baseline
+
+Midjiwan's official Giant strategy tip recommends using a group of Archers because they can **move back and shoot each turn**, preventing the Giant from getting an attack. This is first-party corroboration of the observable tactical combination: Archers can reposition before firing, their ranged attack does not require ending adjacent to the Giant, and ordinary Giant threat does not automatically answer that ranged hit. [OFF-KILL-GIANTS]
+
+Do not infer exact movement/range numbers from this tip alone; retain the numeric Archer/Giant stats from the unit-stat sources and treat this source as behavioral corroboration. Exact obstruction, ZOC and terrain cases for repeated kiting remain black-box targets.

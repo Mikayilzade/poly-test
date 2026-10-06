@@ -932,6 +932,14 @@
       "url": "https://polytopia.io/news/strategy-tip-defenders/",
       "date": "2021-08-12",
       "use": "official Defender ranged-retaliation boundary and adjacent Mind Bender conversion counterplay"
+    },
+    {
+      "id": "OFF-KILL-GIANTS",
+      "grade": "A",
+      "title": "Strategy Tip – Kill Giants",
+      "url": "https://polytopia.io/news/strategy-tip-kill-giants/",
+      "date": "2020-06-10",
+      "use": "first-party ranged-kiting baseline: Archers can reposition and fire each turn while staying outside Giant retaliation reach"
     }
   ]
 }
