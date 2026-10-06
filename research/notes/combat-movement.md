@@ -213,3 +213,10 @@ Do **not** hard-code that simple nearest-cloud rule as the exact current algorit
 The developer-maintained 2.8.5 changelog explicitly allows a Bridge to be built when one endpoint is still in fog and adds shoreline graphics that hint when a water tile can bridge toward hidden land. [STEAM-BETA-CHANGELOG]
 
 This is an observable UI/action contract: legal Bridge placement can depend on hidden-end geometry without requiring that endpoint to be explored first. Exact current preview styling and whether later releases altered this affordance remain verification targets.
+
+
+## Defender / Mind Bender counterplay — first-party baseline
+
+Midjiwan's official Defender strategy tip documents two useful combat interaction boundaries: ranged attacks are effective against Defenders because a Defender cannot counter-attack a ranged attacker, and an adjacent Mind Bender can convert a Defender. [OFF-DEFENDER-TIP]
+
+Implementation boundary: retaliation eligibility depends on attack range/reach rather than the Defender being a special no-retaliation unit; conversion is a separate adjacent action and should not be resolved through ordinary damage combat. The 2021 tip establishes these interactions but does not specify current Mind Bender action-order edge cases, conversion restrictions, or whether any later unit/status system modifies them.

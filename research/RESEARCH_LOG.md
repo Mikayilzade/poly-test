@@ -444,3 +444,10 @@
 - Replaced the generic blog pointer with Midjiwan's dedicated Cymanti rework mechanics/changelog page.
 - Recorded the official naming discrepancy: prose uses **Living Island**, while the full changelog uses **Floating Island**; retained them as aliases pending current-build verification.
 - Numeric and edge-case gaps remain, so research is not saturated.
+
+
+## 2026-10-06 — Defender / Mind Bender first-party interaction pass
+
+- Added direct Midjiwan evidence that ranged attacks avoid Defender counter-attacks and that adjacent Mind Benders can convert Defenders.
+- Kept conversion action-order, status interactions and current edge-case restrictions unresolved rather than extrapolating from the 2021 strategy tip.
+- Combat/unit-skill coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.

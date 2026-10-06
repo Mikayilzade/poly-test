@@ -924,6 +924,14 @@
       "title": "Polytopia Wiki - Tribe Relations",
       "url": "https://polytopia.fandom.com/wiki/Tribe_Relations",
       "use": "community-documented relation labels/opinions; page warns some material needs updating"
+    },
+    {
+      "id": "OFF-DEFENDER-TIP",
+      "grade": "A",
+      "title": "Strategy Tip – Defenders",
+      "url": "https://polytopia.io/news/strategy-tip-defenders/",
+      "date": "2021-08-12",
+      "use": "official Defender ranged-retaliation boundary and adjacent Mind Bender conversion counterplay"
     }
   ]
 }
