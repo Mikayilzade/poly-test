@@ -413,3 +413,12 @@
 - Recorded historical matching dimensions (including player count and map type), friend/account-name identity changes, and mirror-match support including AI duplicate tribes.
 - Version-bounded all of this to the 2020 Moonrise baseline; current 2026 quick-match filters, Elo/ranking, lobby ownership and allowed setup matrix remain unresolved.
 - No GitHub Actions/CI enabled or run. Multiplayer coverage remains partial; research is not saturated.
+
+
+## 2026-10-06 — AI relationship halo pass
+
+- Added first-party historical evidence for the game-stats halo as a friendly-AI signal: haloed tribes are less likely to attack, while avoiding trespass and attacking their enemies helps preserve the relationship.
+- Cross-referenced the community relation model only as a version-sensitive lead; no hidden numeric opinion weights were inferred.
+- Linked this baseline to the already documented Peace Treaty acceptance-at-Great evidence without assuming the 2020 and current thresholds are identical.
+- Exact current opinion thresholds, update timing and diplomacy decision weights remain open. Research is not saturated.
+- No GitHub Actions/CI enabled or run.

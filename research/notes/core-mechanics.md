@@ -100,3 +100,12 @@ Official 2.16.3 changelog reduces the number of Explorer moves from **15 to 12**
 A developer response from April 2024 says the AI receives a small built-in advantage, described as only enough to give it a chance. The response does not identify the mechanism, so it supports a small non-zero AI advantage but not any particular resource, vision, combat, or decision rule. [STEAM-AI-ADVANTAGE-2024]
 
 Keep this separate from the older 1/2/3/5 capital-income schedule. Also do not promote nearby player claims about full-map knowledge or prediction into implementation facts without reproducible evidence. Current-build tests should isolate starting/capital income, fog/target knowledge, combat rules and diplomacy behavior independently.
+
+
+## AI relationship halo — historical first-party baseline
+
+Midjiwan's 2020 strategy tip documents a small **halo over tribe heads in game stats** as an AI-relationship signal: a haloed tribe is described as probably not attacking the player. The same tip recommends preserving that friendly state by **not trespassing** and by **attacking that tribe's enemies**. [OFF-HALO-2020]
+
+Current community documentation maps the halo to a **Great** bot relation and describes positive/negative opinion causes, but the page explicitly warns that parts need updating for an older version. Use that material as a lead rather than a current numeric relation formula. [WIKI-RELATIONS]
+
+This combines with newer first-party evidence that bots accept Peace Treaties at **Great** opinion, but does not prove that the 2020 halo and the current Great threshold are implemented identically. Current-build verification should record when the halo appears/disappears, whether trespass is still a direct opinion input, and whether attacking a mutual enemy changes the relation immediately or only on turn boundaries.

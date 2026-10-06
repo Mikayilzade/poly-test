@@ -909,6 +909,21 @@
       "url": "https://devtrackers.gg/polytopia/p/8c72b7d9-pinned-the-battle-of-polytopia-moonrise-faq",
       "date": "2020",
       "use": "historical Moonrise random matchmaking, public/join flow, match options, aliases and mirror matches"
+    },
+    {
+      "id": "OFF-HALO-2020",
+      "grade": "A",
+      "title": "Strategy Tip - Halo",
+      "url": "https://polytopia.io/news/strategy-tip-halo/",
+      "date": "2020-10-14",
+      "use": "historical first-party AI relationship halo indicator and behavior-preserving actions"
+    },
+    {
+      "id": "WIKI-RELATIONS",
+      "grade": "B",
+      "title": "Polytopia Wiki - Tribe Relations",
+      "url": "https://polytopia.fandom.com/wiki/Tribe_Relations",
+      "use": "community-documented relation labels/opinions; page warns some material needs updating"
     }
   ]
 }
