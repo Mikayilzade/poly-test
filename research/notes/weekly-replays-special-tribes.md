@@ -120,3 +120,18 @@ The changelog does not define when league membership refreshes after accepting/r
 The official 2026 championship site documents the **Face Off** stage as two groups of six regular-tribe representatives. Within each group, every tribe/player meets every other member **once** (five rounds per player); the **top four from each group advance**, producing eight Stockholm finalists. The published schedule exposes five synchronized rounds for each group and records standings by wins. [OFF-CHAMP26-FACEOFF]
 
 This is tournament-format evidence rather than a general game-mode rule. Do not bake the two-groups-of-six bracket into ordinary multiplayer. It does, however, establish that the tournament surface must represent round-robin groups, per-round pairings, standings and advancement separately from the underlying 1v1 match state. Tie-break ordering is not explained on the public Face Off page and remains unresolved. [OFF-CHAMP26-FACEOFF]
+
+
+## 2026 championship replay and finals-bracket snapshot
+
+The current official 2026 championship homepage exposes a **Replay** link for each of the twelve regular-tribe qualifier winners, providing a current late-2026 tournament replay surface rather than only the 2025 historical one. [OFF-CHAMP26]
+
+The same page renders the Stockholm finals as an eight-player elimination tree with **four Quarterfinals → two Semifinals → one Final → Champion**. The displayed quarterfinal pairings are Yădakk–Quetzali, Hoodrick–Xin-Xi, Kickoo–Luxidoor and Zebasi–Bardur. [OFF-CHAMP26]
+
+There is a first-party wording conflict: the Face Off page says the top four from each six-player group “advance to the semi-finals in Stockholm,” while the main championship page explicitly labels the next eight-player stage **Quarterfinal**. Preserve this as a site-label conflict; the visible bracket structure is unambiguous about eight players entering four quarterfinals. [OFF-CHAMP26, OFF-CHAMP26-FACEOFF]
+
+An official Hoodrick qualifier report separately confirms that at least one 2026 qualifier final was a **multi-game match series**: Willibomb won 2–1, with Game 3 described as the deciding game. Do not generalize this single report into a universal best-of-three rule for every 2026 stage without a tournament rules source. [OFF-HOODRICK26]
+
+## Aquarion 2026 Weekly scenario detail
+
+The official Aquarion Weekly Challenge states that the player begins with a **pack of Sharks** while the enemies have already **bunkered up**. [OFF-AQ-WEEKLY26] This strengthens the scenario-state model beyond a generic “Sharks are present” observation: both starting army composition and opponent readiness/positioning may be authored overrides.

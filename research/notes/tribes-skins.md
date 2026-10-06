@@ -99,3 +99,44 @@ The official New Dawn feature article gives an unusually detailed first-party ma
 The article explicitly describes the replacements as retaining the corresponding gameplay jobs (for example Top Hats retain Hexapod mobility, Claudes retain the flying/poisonous double-strike role, and Axolotls retain the Raychi naval/city-capture role). This is valuable for visual parsers: recognizing a skin-specific model/name must normalize to the base gameplay entity before tactical reasoning. [OFF-NEW-DAWN]
 
 Open visual-reference work: catalogue exact New Dawn building/technology/terrain substitutions and iconography from first-party screenshots without copying the underlying assets.
+
+
+## Forgotten screenshot-normalization map
+
+The official Forgotten page confirms this is an Aquarion skin and uses marketing terms such as bubbles, giant squids, crocodiles and toads. [OFF-FORGOTTEN] Community documentation supplies the concrete presentation-to-base mappings needed for screenshot/replay recognition; treat these as grade-B cosmetic mappings rather than new mechanics. [WIKI-AQUARION]
+
+| Forgotten presentation | Base Aquarion identity |
+|---|---|
+| Squid / Arrow Squid / Shield Squid / Mind Squid / Sword Squid | Mermaid-family land units |
+| Octoo | Jelly |
+| Toad | Crab |
+| Croca | Turmelon animal |
+| Bog Lillums | Aquarion fruit resource |
+| Trade Station | Atoll |
+
+The skin's “giant squid” / “ride crocodiles” copy is not sufficient evidence for additional gameplay systems. Resolve actions, costs and stats through the base Aquarion entity after visual normalization.
+
+## Solaris screenshot-normalization map
+
+Official material confirms Solaris is the Polaris skin and explicitly names examples such as Pyro and Steam Wagon. [OFF-SOLARIS] Community Polaris documentation gives the broader rename/presentation layer used to recognize screenshots. [WIKI-POLARIS]
+
+| Solaris presentation | Base Polaris identity |
+|---|---|
+| Pyro | Mooni |
+| Ash Archer | Ice Archer |
+| Steam Wagon | Battle Sled |
+| Steam Fortress | Ice Fortress |
+| Ralmi | Gaami |
+| Roll | Skate |
+| Turbine | Mine |
+| Crater | Outpost |
+| Lava Bank | Ice Bank |
+| Heatwork | Frostwork |
+| Osteophagy | Ice Fishing |
+| Steam Engine | Sledding |
+| Magmaism | Polarism |
+| Explosives | Polar Warfare |
+| Geothermics | Mining |
+| Petrified | Frozen unit effect |
+
+These names are presentation vocabulary. Unless a separate source documents a mechanical delta, normalize them back to the Polaris ruleset before tactical inference.

@@ -390,3 +390,18 @@
 - Added first-party 2026 tournament-format evidence: two six-player/tribe groups, single round robin within each group, five rounds per participant and top four from each group advancing to the eight-player Stockholm finals.
 - Kept tournament bracket/standings state separate from ordinary multiplayer mechanics; public tie-break ordering remains unresolved.
 - Tournament/replay coverage remains partial. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-06 — blocked-write recovery and reconciliation pass
+
+- Recovered the previously unattached Aquarion late-beta refinements: removal of the one-Atoll-per-city limit and the Lost City level-3+Wall → shallow-water-ring beta sequence.
+- Added the 2020 developer Explorer baseline (Sailing gate for water, nearest-cloud behavior, Explorer-owner-only tech reward) and version-bounded it against the richer 2.15.1 pathfinding update.
+- Added 2.8.5 Bridge-into-fog placement, shoreline hinting and forced initial Lighthouse fog.
+- Added post-rework Cloak/Pirate release-history boundaries: Mermaid-Cloak damage parity, water-spawn gating, Pirate boat payload and Ciru compatibility fallback.
+- Added Path-of-the-Ocean pre-release boundaries for ship upgrades in ally territory and cease-fire protection against indirect Smash/Splash/Explode-style damage.
+- Added detailed Forgotten→Aquarion and Solaris→Polaris visual normalization tables without promoting cosmetic names to mechanics.
+- Strengthened spectator documentation with first-party visibility of tech choices, city upgrades and attacks.
+- Added the current 2026 championship snapshot: 12 qualifier replay links, the 8-player quarterfinal→semifinal→final bracket, the Face-Off “semi-finals” wording conflict, and the Hoodrick 2–1 / deciding Game 3 series evidence.
+- Refined the Aquarion Weekly scenario to “pack of Sharks” versus already-bunkered opponents.
+- Verified that several previously blocked items were already present and intentionally avoided duplicating them: five-game Weekly access gate, Shared Fog replay option, Moth Scout, capital camera focus, New Dawn replay/Pass & Play icons, six-league count, and current Bubbled movement-state notes.
+- No GitHub Actions/CI enabled or run. Research remains partial rather than saturated.

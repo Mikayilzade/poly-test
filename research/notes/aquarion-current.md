@@ -33,11 +33,11 @@ Official Bubble Tech post confirms Bubble Tech was added in November 2024, but n
 
 Current community page: cost **5**, aquatic tiles only, connects cities/Atolls through water/ocean/Flooded within **3 tiles**, and currently documents **+1 population**. [WIKI-ATOLL]
 
-Version warning: late 2024 beta explicitly removed Atoll population, while the current wiki documents it again. [STEAM-AQ-BETA, WIKI-ATOLL] Verify current build.
+Version warning: beta 2.10.0.12669 removed Atoll population; beta 2.10.0.12709 then removed the **one-Atoll-per-city placement limit**. The current wiki documents +1 population again, but the public launch changelog does not document when or whether that value returned. [STEAM-AQ-BETA, WIKI-ATOLL] Verify current build.
 
 ## Lost City
 
-Developer beta/rework notes document water-ruin Lost Cities; an intermediate beta described level 3 + Wall and later added shallow water around them. [STEAM-AQ-BETA] Official launch confirms Lost Cities as a rework feature. [OFF-AQ-REWORK] Current reward probability/starting state remains a black-box target.
+Developer beta/rework notes document water-ruin Lost Cities. Beta 2.9.2.1249 described a **level 3 city + Wall** baseline; beta 2.10.0.12709 added **shallow water around the Lost City on spawn** plus a new animation. [STEAM-AQ-BETA] Official launch confirms Lost Cities as a rework feature. [OFF-AQ-REWORK] Current reward probability and exact starting payload remain black-box targets.
 
 ## Current unit seed
 

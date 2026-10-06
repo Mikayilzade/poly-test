@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -310,7 +310,7 @@
       "title": "First Polytopia World Champion Crowned!",
       "url": "https://polytopia.io/first-polytopia-world-champion-crowned/",
       "date": "2025-12-11",
-      "use": "spectator tools"
+      "use": "first-party spectator-tool visibility: tech choices, city upgrades and attacks"
     },
     {
       "id": "OFF-WC25-RULES",
@@ -326,21 +326,21 @@
       "title": "Polytopia World Championship 2026",
       "url": "https://championship.polytopia.io/",
       "date": "2026",
-      "use": "current replay surface"
+      "use": "current 2026 championship qualifier replay links, eight-player finals bracket and live-event state"
     },
     {
       "id": "WIKI-AQUARION",
       "grade": "B",
       "title": "Polytopia Wiki - Aquarion",
       "url": "https://polytopia.fandom.com/wiki/Aquarion",
-      "use": "Aquarion units"
+      "use": "Aquarion units and community-documented Forgotten skin visual/name mappings"
     },
     {
       "id": "WIKI-POLARIS",
       "grade": "B",
       "title": "Polytopia Wiki - Polaris",
       "url": "https://polytopia.fandom.com/wiki/Polaris",
-      "use": "Polaris substitutions"
+      "use": "Polaris substitutions and community-documented Solaris skin visual/name mappings"
     },
     {
       "id": "WIKI-JELLY",
@@ -478,7 +478,7 @@
       "title": "Developer-maintained Polytopia beta changelog",
       "url": "https://steamcommunity.com/app/874390/discussions/2/3757726983059787581/",
       "date": "2023-2024",
-      "use": "developer-authored AI/map-generation/market behavioral deltas during Path of the Ocean beta and 2.8.5"
+      "use": "developer-authored beta/release deltas including 2.8.5 bridge/fog and Lighthouse rules, Path of the Ocean ally ship upgrades, cease-fire indirect-damage fixes, AI/map-generation/market changes"
     },
     {
       "id": "DEV-PUSH-2020",
@@ -876,7 +876,7 @@
       "title": "The Battle of Polytopia — Apple App Store version history",
       "url": "https://apps.apple.com/us/app/the-battle-of-polytopia/id1006393168",
       "date": "2026-09-07",
-      "use": "official Midjiwan-distributed iOS version history through 2.17.3; 2.16.5 mechanics/UI fixes; corrected 2.16.8–2.17.3 release mapping and World Championship-oriented 2.17.3 changes"
+      "use": "official Midjiwan-distributed iOS version history through 2.17.3; 2.15.3/2.16.0 Cloak/Pirate compatibility and water-spawn gating; 2.16.5 mechanics/UI fixes; corrected 2.16.8–2.17.3 release mapping"
     },
     {
       "id": "OFF-CHAMP26-FACEOFF",
@@ -885,6 +885,22 @@
       "url": "https://championship.polytopia.io/face-off",
       "date": "2026-09-20",
       "use": "2026 Face Off round-robin group format, advancement and scheduled rounds"
+    },
+    {
+      "id": "DEV-EXPLORER-MOVE-2020",
+      "grade": "C",
+      "title": "Developer replies: Explorer water/pathfinding behavior",
+      "url": "https://steamcommunity.com/app/874390/discussions/0/2988663148716932462/",
+      "date": "2020-11",
+      "use": "historical developer baseline: Sailing required for Explorer water movement, nearest-cloud targeting, and encounter-tech recipient"
+    },
+    {
+      "id": "OFF-HOODRICK26",
+      "grade": "A",
+      "title": "Willibomb will represent the Hoodrick tribe in World Championship Face-Offs",
+      "url": "https://polytopia.io/willibomb-will-represent-the-hoodrick-tribe-in-world-championship-face-offs/",
+      "date": "2026-08-20",
+      "use": "official 2026 Hoodrick qualifier final 2-1 result and deciding Game 3"
     }
   ]
 }

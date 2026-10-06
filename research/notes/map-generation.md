@@ -147,3 +147,10 @@ These sources do not resolve current Perfection/Domination generator internals, 
 Path of the Ocean explicitly says each Lighthouse discovery gives the discoverer's **capital +1 population** and adds that tribe's **color as a tier on the Lighthouse**; the structure therefore visibly accumulates discovery state across tribes rather than behaving as a private binary collectible. Finding all four triggers the associated reward/task outcome described by the same official page. [OFF-OCEAN]
 
 Implementation boundary: keep at least two concepts separate: per-player discovery (needed for each player's capital population/task progress) and the Lighthouse's visible multi-tribe tier/color state. The official source does not specify ordering, duplicate-discovery handling, or what happens if a discovering player has lost the original capital; those remain black-box targets.
+
+
+## Lighthouse initial-fog rule — 2.8.5
+
+The developer-maintained 2.8.5 changelog says Lighthouses **always start covered in fog**, even when one is close to the player's capital. [STEAM-BETA-CHANGELOG]
+
+Implementation boundary: Lighthouse placement and initial visibility are separate state decisions. Do not auto-reveal a Lighthouse merely because ordinary capital vision would geometrically reach its tile. Later discovery still follows the normal Lighthouse discovery/task state documented elsewhere.

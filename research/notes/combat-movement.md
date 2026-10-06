@@ -200,3 +200,16 @@ The official 2.16.3 changelog records two terrain/status edge cases: [OFF-2163]
 - Changing climate on a frozen tile must not flood it.
 
 Implementation note: keep base terrain/climate, flooding, and freezing as distinct state information (or use an equivalent lossless state machine). The changelog confirms these two invariants but does not specify the later thaw result, so thaw ordering remains a black-box verification target.
+
+
+## Explorer historical pathfinding boundary — 2020 vs current
+
+A 2020 developer reply gives a useful historical black-box baseline for Explorer routing: the Explorer would not enter water until **Sailing** had been researched; when asked whether it moves toward the nearest unexplored cloud, the developer answered yes; and when that Explorer meets another tribe, only the Explorer's owner receives the technology reward. [DEV-EXPLORER-MOVE-2020]
+
+Do **not** hard-code that simple nearest-cloud rule as the exact current algorithm. The official 2.15.1 notes later changed Explorer pathfinding so mountains and increased sight range are considered when evaluating which tile to move toward. Treat the 2020 statements as historical behavior and the 2025 change as evidence that current routing uses a richer tile-evaluation rule. [STEAM-2151]
+
+## Bridge placement into fog — 2.8.5 baseline
+
+The developer-maintained 2.8.5 changelog explicitly allows a Bridge to be built when one endpoint is still in fog and adds shoreline graphics that hint when a water tile can bridge toward hidden land. [STEAM-BETA-CHANGELOG]
+
+This is an observable UI/action contract: legal Bridge placement can depend on hidden-end geometry without requiring that endpoint to be explored first. Exact current preview styling and whether later releases altered this affordance remain verification targets.

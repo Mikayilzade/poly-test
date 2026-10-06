@@ -129,3 +129,10 @@ The official 2.16.3 changelog fixes changing language in-game without updating t
 The official 2.16.3 changelog fixes a case where changing the game language while a **building info pop-up was already open** left that open panel in the previous language. Treat the supported observable behavior as a live refresh of the open building-info text after the language setting changes. [OFF-2163]
 
 This is evidence for that specific surface only. Do not generalize it to every open screen, modal, tooltip or cached label without separate evidence; the broader runtime-localization refresh scope remains unresolved.
+
+
+## Spectator observable-information baseline
+
+The official 2025 World Championship recap is more specific than the earlier generic “enhanced spectator tools” note: spectators were able to follow **technology choices, city upgrades and attacks** during the live matches. [OFF-WC25]
+
+This establishes those events as spectator-visible information in that tournament presentation. It does **not** establish omniscient fog, hidden-unit visibility, star totals, or zero-delay viewing; keep those separate until documented.

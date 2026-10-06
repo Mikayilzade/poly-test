@@ -53,3 +53,22 @@ Exact tie-break among equally eligible tiles remains unknown.
 4. Exact Dagger/Pirate spawn tie-break.
 5. Current hidden-Cloak detection indicator/radius.
 6. Infiltration income interaction with Market/Ice Bank/Sanctuary and skins.
+
+
+## 2.15.3–2.16.0 Pirate/Cloak compatibility boundaries
+
+The official iOS release history records several post-Cymanti-rework fixes that constrain current infiltration behavior: [APPSTORE-IOS-2026]
+
+- water spawns from ordinary Cloak infiltration can be **Pirates**;
+- Mermaid/Aquarion Cloak infiltration damage was corrected to match ordinary Cloak damage;
+- compatibility fallback was added for the Ciru Explorer when playing against an older game version that does not contain that unit;
+- a later fix ensures Pirate boats actually contain the spawned Dagger unit;
+- Daggers must **not** spawn on water when the player has not unlocked water movement.
+
+Model the last point as an eligibility gate before water spawn selection, not merely as a visual conversion after a Dagger has already been placed. The public notes do not expose the exact shallow-water/ocean tech split, so keep that threshold unresolved.
+
+## Peace-break cease-fire and allied naval upgrades — Path of the Ocean pre-release
+
+Developer pre-release notes say ships can be upgraded in **ally territory**. The same changelog fixes Smash, Splash, Explode and similar effects harming former allies during the cease-fire immediately after breaking peace. [STEAM-BETA-CHANGELOG]
+
+This is version-scoped pre-release evidence, but it establishes two important state boundaries to preserve when reconstructing behavior: friendly-upgrade territory can include treaty allies, and cease-fire protection must gate indirect/AoE damage as well as ordinary direct attacks. Exact cease-fire duration and the complete protected-effect list remain black-box targets.
