@@ -422,3 +422,11 @@
 - Linked this baseline to the already documented Peace Treaty acceptance-at-Great evidence without assuming the 2020 and current thresholds are identical.
 - Exact current opinion thresholds, update timing and diplomacy decision weights remain open. Research is not saturated.
 - No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-06 — baseline reconciliation sweep
+
+- Re-swept current first-party/storefront and targeted developer material for unresolved map-generation, diplomacy and multiplayer gaps; no stronger public numeric rules were found for current generator fairness/weights or AI relation thresholds.
+- Reconciled the research protocol's stale initial 2.16.3 target statement with the already sourced first-party App Store history: 2.17.3 (2026-09-07) is now the newest explicit numbered public baseline located, while 2.16.3 remains the richer detailed official-site changelog.
+- Avoided adding redundant Steam storefront facts already represented in the corpus (16-player support, current map types, Pangea, Massive).
+- Important black-box gaps remain, so the corpus is not saturated. No GitHub Actions/CI enabled or run.

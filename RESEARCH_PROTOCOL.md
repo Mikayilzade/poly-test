@@ -35,6 +35,6 @@ Each pass should:
 
 ## Current target
 
-Start from the newest publicly documented ruleset we can establish, then preserve historical deltas needed to understand older screenshots/guides. As of the initial pass on 2026-09-28, the newest explicit numbered official changelog located is **2.16.3 (2026-02-16)**, while the official site also contains later 2026 event/news posts. This baseline is provisional until the update-history sweep is complete.
+Start from the newest publicly documented ruleset we can establish, then preserve historical deltas needed to understand older screenshots/guides. As of the 2026-10-05 release-history sweep, the newest explicit numbered first-party public baseline located is **2.17.3 (2026-09-07)** in Midjiwan's Apple App Store version history. The official site’s detailed **2.16.3 (2026-02-16)** changelog remains useful for richer mechanics/state notes; later 2026 news and event posts are tracked separately when they do not expose a numbered build.
 
 > NOT AN OFFICIAL Polytopia PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MIDJIWAN.
