@@ -430,3 +430,11 @@
 - Reconciled the research protocol's stale initial 2.16.3 target statement with the already sourced first-party App Store history: 2.17.3 (2026-09-07) is now the newest explicit numbered public baseline located, while 2.16.3 remains the richer detailed official-site changelog.
 - Avoided adding redundant Steam storefront facts already represented in the corpus (16-player support, current map types, Pangea, Massive).
 - Important black-box gaps remain, so the corpus is not saturated. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-06 — Weekly personal-best UI pass
+
+- Added the current first-party Weekly Challenge progress contract: the UI tracks the player's best score for the active challenge and displays a comparison against it during play.
+- Reconfirmed the current hub's 20-turn/same-seed/same-tribe/same-opponents/same-map/same-settings contract without duplicating older launch-only league rules.
+- Exact bracket semantics (raw delta vs turn-aligned comparison), ties and unfinished-run handling remain unresolved.
+- Weekly/UI coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.

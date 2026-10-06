@@ -144,3 +144,10 @@ The official Polynews archive for **2026-10-05** describes *The Forest's Jest* W
 This is another current first-party example of an authored mixed-unit opening squad. The announcement does **not** identify the hidden dangers, exact positions, technologies, map seed/type, opponent army, or whether the forest presentation changes gameplay; keep all of those unresolved rather than inferring them from the lore text.
 
 Implementation inference: Weekly scenario state should encode exact unit type/count independently of a tribe's ordinary starting unit and tech-derived production options.
+
+
+## Current Weekly progress UI contract
+
+The current official Weekly Challenge hub documents an in-run progress surface beyond the final leaderboard: the game tracks the player's **best score for the current challenge** and shows comparison against it in brackets while playing. The same current hub reiterates that each Monday's challenge is 20 turns and uses the same seed, tribe, opponents, map and settings for participants. [OFF-WEEKLY-HUB]
+
+Implementation boundary: preserve a per-challenge personal-best value separately from the live run score, and expose their comparison during the run. The public page does not define whether the bracket value is a raw score delta, target score, turn-aligned ghost score, or how ties/unfinished runs are handled; those details remain black-box targets.
