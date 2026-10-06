@@ -438,3 +438,9 @@
 - Reconfirmed the current hub's 20-turn/same-seed/same-tribe/same-opponents/same-map/same-settings contract without duplicating older launch-only league rules.
 - Exact bracket semantics (raw delta vs turn-aligned comparison), ties and unfinished-run handling remain unresolved.
 - Weekly/UI coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
+
+## 2026-10-06 — Cymanti source normalization
+
+- Replaced the generic blog pointer with Midjiwan's dedicated Cymanti rework mechanics/changelog page.
+- Recorded the official naming discrepancy: prose uses **Living Island**, while the full changelog uses **Floating Island**; retained them as aliases pending current-build verification.
+- Numeric and edge-case gaps remain, so research is not saturated.

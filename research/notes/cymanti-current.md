@@ -15,7 +15,7 @@ Implementation boundary: Algae should be modeled as a tile state/effect that can
 ## Naval roster changes
 
 - The old Raychi role was split. **Boomchi** owns the explosive/algae-creation role and has **Amphibious**, allowing land movement; Raychi remains as a more conventional naval unit. [OFF-CYM25]
-- The **Living/Floating Island** is the Cymanti Navigation-era heavy naval unit. It creates fruitless Algae while moving and deals area damage; the official explanation frames it as Cymanti's functional answer to the Juggernaut and as support for moving land armies across water. [OFF-CYM25]
+- The **Living/Floating Island** is the Cymanti Navigation-era heavy naval unit. The prose calls it **Living Island**, while the full changelog calls it **Floating Island**; treat these as first-party naming variants for the same described role unless current-build UI proves otherwise. It creates fruitless Algae while moving and deals area damage; the official explanation frames it as Cymanti's functional answer to the Juggernaut and as support for moving land armies across water. [OFF-CYM25]
 - Exact numerical stats, algae-spawn footprint/order and area-damage formula are not established by this source and remain open.
 
 ## Fungi, Creep and poison
