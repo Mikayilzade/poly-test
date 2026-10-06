@@ -135,3 +135,12 @@ An official Hoodrick qualifier report separately confirms that at least one 2026
 ## Aquarion 2026 Weekly scenario detail
 
 The official Aquarion Weekly Challenge states that the player begins with a **pack of Sharks** while the enemies have already **bunkered up**. [OFF-AQ-WEEKLY26] This strengthens the scenario-state model beyond a generic “Sharks are present” observation: both starting army composition and opponent readiness/positioning may be authored overrides.
+
+
+## Hoodrick Tribe Moon 2026 — authored starting squad
+
+The official Polynews archive for **2026-10-05** describes *The Forest's Jest* Weekly Challenge as starting the player with **two Warriors, one Archer and one Defender** in an autumn forest with unspecified hidden dangers. [OFF-POLYNEWS26]
+
+This is another current first-party example of an authored mixed-unit opening squad. The announcement does **not** identify the hidden dangers, exact positions, technologies, map seed/type, opponent army, or whether the forest presentation changes gameplay; keep all of those unresolved rather than inferring them from the lore text.
+
+Implementation inference: Weekly scenario state should encode exact unit type/count independently of a tribe's ordinary starting unit and tech-derived production options.
