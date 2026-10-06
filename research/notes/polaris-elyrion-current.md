@@ -80,7 +80,7 @@ A level-5+ Elyrion city can choose its super-unit reward as a Dragon Egg rather 
 | Baby Dragon | 15 | 3 | 3 | 2 | 1 | Air, Grow, Dash, Escape, Scout, Static | Fire Dragon after 3 more turns |
 | Fire Dragon | 20 | 4 | 3 | 3 | 2 | Air, Dash, Splash, Scout, Static | final |
 
-Damage is inherited across growth rather than healed away. An Egg can continue its growth timer while transported in a Raft but cannot transform into the flying Baby Dragon while still in that transport state. [WIKI-DRAGON-EGG]
+Damage is inherited across growth rather than healed away. This is now directly corroborated by Midjiwan's 2025 Cymanti rework notes, which explicitly use Baby Dragon → Fire Dragon as an example of a growing unit retaining prior damage rather than healing to full. [OFF-CYM25] An Egg can continue its growth timer while transported in a Raft but cannot transform into the flying Baby Dragon while still in that transport state. [WIKI-DRAGON-EGG]
 
 Fire Dragon Splash applies half of the regular damage dealt to the primary target, rounded down, to adjacent enemies. [WIKI-FIRE-DRAGON]
 
@@ -103,5 +103,5 @@ Navalon is still visible in some historical/community tables, but Path of the Oc
 3. Current Ice Archer has 1 attack even though its attack action freezes rather than dealing ordinary damage. [OFF-2025BAL, WIKI-POLARIS]
 4. Battle Sled ice movement follows the 2025 corrected Skate rule and the 2.16.3 Escape edge case. [OFF-2025BAL, OFF-2163]
 5. Polytaur enchant cost is 3, not older 2. [OFF-2025BAL]
-6. Dragon growth takes 3 + 3 turns and carries damage. [WIKI-DRAGON-EGG]
+6. Dragon growth carries damage across forms; this part is first-party confirmed. [OFF-CYM25] The exact current growth timers remain community/version-sensitive: the present corpus records 3 + 3 turns from Fandom, but this should be black-box checked before treating the second interval as canonical. [WIKI-DRAGON-EGG]
 7. Navalon is historical/removed after Path of the Ocean. [WIKI-ELYRION]

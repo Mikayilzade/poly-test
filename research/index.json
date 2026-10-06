@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-research-index/v1",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "target": "current public ruleset + historical deltas",
   "status": "active",
   "areas": [
@@ -183,6 +183,11 @@
       "id": "special-tribe-cymanti",
       "status": "partial",
       "file": "research/notes/cymanti-current.md"
+    },
+    {
+      "id": "special-tribe-elyrion",
+      "status": "partial",
+      "file": "research/notes/polaris-elyrion-current.md"
     }
   ]
 }
