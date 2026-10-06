@@ -136,3 +136,10 @@ This is evidence for that specific surface only. Do not generalize it to every o
 The official 2025 World Championship recap is more specific than the earlier generic “enhanced spectator tools” note: spectators were able to follow **technology choices, city upgrades and attacks** during the live matches. [OFF-WC25]
 
 This establishes those events as spectator-visible information in that tournament presentation. It does **not** establish omniscient fog, hidden-unit visibility, star totals, or zero-delay viewing; keep those separate until documented.
+
+
+## Boot Camp tutorial entry — historical official release baseline
+
+The official Midjiwan-distributed iOS version history for **2.0.69 (2022-04-07)** introduced a **Boot Camp** tutorial. The release notes state that it plays either as the player's **first game** or can be launched manually by tapping **Boot Camp** while creating a New Game. [APPSTORE-IOS-2026]
+
+Treat this as a historical first-party UI/onboarding contract, not proof that the 2026 menu still exposes the same label or automatic-first-game behavior. Current tutorial steps, completion state, replayability, platform differences and whether the first-game trigger can be skipped remain black-box verification targets.
