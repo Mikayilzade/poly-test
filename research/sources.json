@@ -901,6 +901,14 @@
       "url": "https://polytopia.io/willibomb-will-represent-the-hoodrick-tribe-in-world-championship-face-offs/",
       "date": "2026-08-20",
       "use": "official 2026 Hoodrick qualifier final 2-1 result and deciding Game 3"
+    },
+    {
+      "id": "DEV-MOONRISE-MM",
+      "grade": "C",
+      "title": "Developer Moonrise FAQ mirror — random multiplayer matchmaking",
+      "url": "https://devtrackers.gg/polytopia/p/8c72b7d9-pinned-the-battle-of-polytopia-moonrise-faq",
+      "date": "2020",
+      "use": "historical Moonrise random matchmaking, public/join flow, match options, aliases and mirror matches"
     }
   ]
 }

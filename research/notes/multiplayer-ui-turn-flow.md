@@ -143,3 +143,12 @@ This establishes those events as spectator-visible information in that tournamen
 The official Midjiwan-distributed iOS version history for **2.0.69 (2022-04-07)** introduced a **Boot Camp** tutorial. The release notes state that it plays either as the player's **first game** or can be launched manually by tapping **Boot Camp** while creating a New Game. [APPSTORE-IOS-2026]
 
 Treat this as a historical first-party UI/onboarding contract, not proof that the 2026 menu still exposes the same label or automatic-first-game behavior. Current tutorial steps, completion state, replayability, platform differences and whether the first-game trigger can be skipped remain black-box verification targets.
+
+
+## Moonrise random-matchmaking baseline — historical developer FAQ
+
+A developer Moonrise FAQ, preserved by a public developer-post tracker, documents the original random-matchmaking contract. Before this system, online play required adding opponents as friends. Moonrise added a matchmaker that could either **open a match to the public** or **join a public match created by another player**; the matching request could include options such as **number of players** and **map type**. Friends remained available for more specialized/custom matches. [DEV-MOONRISE-MM]
+
+The same FAQ records two adjacent identity/setup changes: Steam friend-code lookup was replaced by Steam-account-name search, while the planned mobile flow used Google Play/App Store aliases; Moonrise also allowed duplicate-tribe/mirror matches, including AI copies of the same tribe in single-player. [DEV-MOONRISE-MM]
+
+Treat this as a **2020 Moonrise historical baseline**, not proof that the 2026 quick-match/setup UI still exposes the same option matrix. The later tournament-era matchmaking redesign and current 2026 matchmaking filters, ranking/Elo behavior, lobby ownership and allowed player/map combinations remain verification targets.

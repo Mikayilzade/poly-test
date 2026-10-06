@@ -405,3 +405,11 @@
 - Refined the Aquarion Weekly scenario to “pack of Sharks” versus already-bunkered opponents.
 - Verified that several previously blocked items were already present and intentionally avoided duplicating them: five-game Weekly access gate, Shared Fog replay option, Moth Scout, capital camera focus, New Dawn replay/Pass & Play icons, six-league count, and current Bubbled movement-state notes.
 - No GitHub Actions/CI enabled or run. Research remains partial rather than saturated.
+
+
+## 2026-10-06 — Moonrise random-matchmaking baseline pass
+
+- Added the developer-documented Moonrise public matchmaking flow: open a match publicly or join another public match without first adding opponents as friends.
+- Recorded historical matching dimensions (including player count and map type), friend/account-name identity changes, and mirror-match support including AI duplicate tribes.
+- Version-bounded all of this to the 2020 Moonrise baseline; current 2026 quick-match filters, Elo/ranking, lobby ownership and allowed setup matrix remain unresolved.
+- No GitHub Actions/CI enabled or run. Multiplayer coverage remains partial; research is not saturated.
