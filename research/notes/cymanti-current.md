@@ -66,3 +66,12 @@ Cymanti's Pacifist task is replaced by **Converter**: converting **3 enemies** u
 - Moth infiltration spawn count/placement and all ordinary-city infiltration restrictions;
 - transform timing under freeze, poison, mind-bend and forced movement;
 - current fruit identity on newly created Algae in the 2.16.x line.
+
+
+## Phychi Double Attack action matrix
+
+Midjiwan's 2025 Cymanti rework establishes the first-party rule that **Phychi has Double Attack**, i.e. it can attack twice in one turn. [OFF-CYM25]
+
+Current community Unit Skills documentation adds a narrower action-order rule after the **first** attack: the Phychi may still perform certain non-attack actions such as **Drain** or **Break Ice**, but may not **Capture** a city or **Excavate** a ruin before resolving the second-attack opportunity. [WIKI-UNIT-SKILLS]
+
+Treat that post-first-attack action matrix as community-level behavior pending direct black-box verification on the current build. Do not infer that every ordinary action is allowed or forbidden from these examples alone. Exact interactions with movement, healing, disbanding, flooding/filling, village capture, status changes and second-attack cancellation remain open.

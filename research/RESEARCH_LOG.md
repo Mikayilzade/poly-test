@@ -465,3 +465,11 @@
 - Upgraded Dragon growth damage inheritance from community-only evidence to direct Midjiwan confirmation: the 2025 Cymanti rework explicitly names Baby Dragon → Fire Dragon as an example of a growing unit retaining prior damage rather than healing to full.
 - Kept exact current Dragon growth timers version-sensitive rather than promoting the community 3 + 3 interval to first-party fact; current-build black-box verification is still needed.
 - Added explicit Elyrion special-tribe coverage to the structured index. Research remains partial rather than saturated. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-07 — Phychi Double Attack action-matrix pass
+
+- Added first-party confirmation that Phychi has Double Attack from the 2025 Cymanti rework.
+- Added the current community action-order detail that after the first attack, Drain/Break Ice remain available while Capture/Excavate do not.
+- Kept this action matrix explicitly secondary until current-build black-box verification; broader post-first-attack actions remain unresolved.
+- Cymanti/action-order coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
