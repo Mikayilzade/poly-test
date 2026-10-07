@@ -481,3 +481,11 @@
 - Recorded the implementation boundary that Weekly scenarios need per-side roster and technology-state overrides rather than assuming ordinary tribe starts.
 - Kept exact counts/positions/stars and the meaning of “access” (pre-researched vs permission) unresolved for black-box verification.
 - Weekly/scenario coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-07 — Oumaji authored-force / resource-free Weekly pass
+
+- Added first-party 2026 Oumaji Weekly evidence for a starting force of Riders plus a Mind Bender, strengthening the requirement for scenario rosters independent of ordinary tribe tech starts.
+- Added the Earth Overshoot Day Weekly constraint: a challenge can suppress trees, crops, animals, fish and gold entirely.
+- Kept ambiguous “battalion” count, exact positions/tech state, and unlisted map-feature behavior unresolved for black-box verification.
+- Weekly/scenario/map-generation coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.

@@ -160,3 +160,20 @@ The official Polynews archive for **2026-08-31** describes the Quetzali *Chetiq*
 This is first-party evidence that a Weekly scenario can override both sides' initial military composition and technology availability, rather than merely selecting a tribe/map/seed. The announcement does not give exact unit counts, positions, starting stars, city state, map settings, or whether “access to all level-1 techs” means pre-researched technologies versus a scenario-specific research permission; keep that distinction unresolved pending in-game verification.
 
 Implementation inference: scenario serialization should support explicit per-side starting rosters and technology-state overrides independently of ordinary tribe starting techs.
+
+
+## Oumaji Tribe Moon 2026 — authored Rider/Mind Bender force
+
+The official Polynews archive for **2026-08-03** describes the Oumaji *Raid of Dolnus* Weekly Challenge as a historical battle against Imperius where the player starts with **a battalion of Riders and a Mind Bender**. [OFF-POLYNEWS26]
+
+This is first-party evidence that Weekly scenario starts can grant a unit that is not implied by Oumaji's ordinary opening technology state. The announcement does not define the Rider count behind “battalion,” exact positions, technologies, city state, opponent roster or starting stars, so those remain black-box targets.
+
+Implementation inference: authored Weekly unit rosters must be serialized independently of normal tribe starting-tech/unit-production legality.
+
+## Earth Overshoot Day 2026 — resource-free authored map
+
+The official Polynews archive for **2026-07-27** announces an Earth Overshoot Day challenge built **without a single natural resource**, explicitly listing no trees, crops, animals, fish or gold. [OFF-POLYNEWS26]
+
+This establishes a first-party Weekly/scenario map override that can suppress normal resource and feature generation across multiple terrain/resource categories. The announcement does not specify whether ruins, villages, starfish, mountains, water, special-tribe resources or other non-listed map features remain, nor whether the map was generated and stripped or authored directly; keep those unresolved.
+
+Implementation inference: scenario generation needs explicit resource-presence/absence overrides rather than assuming ordinary tribe-climate spawn tables always apply.
