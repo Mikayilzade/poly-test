@@ -151,3 +151,12 @@ Implementation inference: Weekly scenario state should encode exact unit type/co
 The current official Weekly Challenge hub documents an in-run progress surface beyond the final leaderboard: the game tracks the player's **best score for the current challenge** and shows comparison against it in brackets while playing. The same current hub reiterates that each Monday's challenge is 20 turns and uses the same seed, tribe, opponents, map and settings for participants. [OFF-WEEKLY-HUB]
 
 Implementation boundary: preserve a per-challenge personal-best value separately from the live run score, and expose their comparison during the run. The public page does not define whether the bracket value is a raw score delta, target score, turn-aligned ghost score, or how ties/unfinished runs are handled; those details remain black-box targets.
+
+
+## Quetzali Tribe Moon 2026 — symmetric authored armies and tech access
+
+The official Polynews archive for **2026-08-31** describes the Quetzali *Chetiq* Weekly Challenge as a head-to-head scenario where **both the player and opponent start with armies containing Swordsmen and Defenders and with access to all level-1 technologies**. [OFF-POLYNEWS26]
+
+This is first-party evidence that a Weekly scenario can override both sides' initial military composition and technology availability, rather than merely selecting a tribe/map/seed. The announcement does not give exact unit counts, positions, starting stars, city state, map settings, or whether “access to all level-1 techs” means pre-researched technologies versus a scenario-specific research permission; keep that distinction unresolved pending in-game verification.
+
+Implementation inference: scenario serialization should support explicit per-side starting rosters and technology-state overrides independently of ordinary tribe starting techs.

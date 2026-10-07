@@ -473,3 +473,11 @@
 - Added the current community action-order detail that after the first attack, Drain/Break Ice remain available while Capture/Excavate do not.
 - Kept this action matrix explicitly secondary until current-build black-box verification; broader post-first-attack actions remain unresolved.
 - Cymanti/action-order coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-07 — Quetzali Weekly authored-state pass
+
+- Added current first-party evidence from the 2026 Quetzali Tribe Moon challenge that both sides can begin with authored Swordsman/Defender armies and access to all level-1 technologies.
+- Recorded the implementation boundary that Weekly scenarios need per-side roster and technology-state overrides rather than assuming ordinary tribe starts.
+- Kept exact counts/positions/stars and the meaning of “access” (pre-researched vs permission) unresolved for black-box verification.
+- Weekly/scenario coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
