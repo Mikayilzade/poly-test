@@ -152,3 +152,10 @@ A developer Moonrise FAQ, preserved by a public developer-post tracker, document
 The same FAQ records two adjacent identity/setup changes: Steam friend-code lookup was replaced by Steam-account-name search, while the planned mobile flow used Google Play/App Store aliases; Moonrise also allowed duplicate-tribe/mirror matches, including AI copies of the same tribe in single-player. [DEV-MOONRISE-MM]
 
 Treat this as a **2020 Moonrise historical baseline**, not proof that the 2026 quick-match/setup UI still exposes the same option matrix. The later tournament-era matchmaking redesign and current 2026 matchmaking filters, ranking/Elo behavior, lobby ownership and allowed player/map combinations remain verification targets.
+
+
+## Friend-game initial turn order — 2.16.3
+
+The official 2.16.3 changelog states **random turn order for players when starting a game with a friend**. [OFF-2163]
+
+Implementation boundary: do not infer host-first or invitation-order initiative for a friend match. The public note does not specify the RNG seed, whether rematches reroll, whether this applies to 2-player and larger friend lobbies identically, or how teams affect ordering; those remain black-box targets.

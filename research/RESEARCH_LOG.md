@@ -489,3 +489,10 @@
 - Added the Earth Overshoot Day Weekly constraint: a challenge can suppress trees, crops, animals, fish and gold entirely.
 - Kept ambiguous “battalion” count, exact positions/tech state, and unlisted map-feature behavior unresolved for black-box verification.
 - Weekly/scenario/map-generation coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
+
+
+## 2026-10-07 — 2.16.3 out-of-turn resignation / friend-order pass
+
+- Added first-party observable turn-flow rules from 2.16.3: Weekly Challenge resignation is allowed on an enemy turn, and friend games randomize initial player turn order.
+- Kept cross-mode resignation behavior and friend-lobby RNG/rematch/team details unresolved rather than generalizing the patch-note wording.
+- Turn-flow/multiplayer coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.

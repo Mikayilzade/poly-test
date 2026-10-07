@@ -177,3 +177,10 @@ The official Polynews archive for **2026-07-27** announces an Earth Overshoot Da
 This establishes a first-party Weekly/scenario map override that can suppress normal resource and feature generation across multiple terrain/resource categories. The announcement does not specify whether ruins, villages, starfish, mountains, water, special-tribe resources or other non-listed map features remain, nor whether the map was generated and stripped or authored directly; keep those unresolved.
 
 Implementation inference: scenario generation needs explicit resource-presence/absence overrides rather than assuming ordinary tribe-climate spawn tables always apply.
+
+
+## Weekly resignation timing — 2.16.3
+
+The official 2.16.3 changelog explicitly fixes the ability to **resign during an enemy turn in Weekly Challenges**. Treat resignation as a player-level command that is not gated by ownership of the active turn in this mode. [OFF-2163]
+
+The changelog does not establish whether the same out-of-turn resignation rule applies identically to ordinary asynchronous/live multiplayer, Pass & Play, tournaments or other single-player modes; keep those mode boundaries separate until verified.
