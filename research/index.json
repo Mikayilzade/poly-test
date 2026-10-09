@@ -173,7 +173,14 @@
     {
       "id": "forced-spawn-super-unit",
       "status": "partial",
-      "file": "research/notes/combat-movement.md"
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify friendly moved vs enemy moved directional push and ranged last-attack priority in current build",
+        "Verify fresh Catapult centerward displacement and exact-center south special case",
+        "Verify CCW/CW fallback order, full-block disappearance and kill/task counter effects",
+        "Verify terrain/port/water/air destination legality for forced displacement"
+      ]
     },
     {
       "id": "perfection-difficulty-bonus",

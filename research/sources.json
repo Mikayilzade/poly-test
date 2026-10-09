@@ -970,6 +970,14 @@
       "title": "Polytopia Wiki — Explorer (historical Midjiate pathfinding description)",
       "url": "https://polytopia.fandom.com/wiki/Explorer",
       "use": "historical detailed fog-priority/pathfinding algorithm and developer quotation; outdated 15-step count and version-sensitive movement"
+    },
+    {
+      "id": "REDDIT-PUSH-CATAPULT-2025",
+      "grade": "D",
+      "title": "Player discussion — newly trained Catapult displaced by Giant (May 2025)",
+      "url": "https://www.reddit.com/r/Polytopia/comments/1knt7zb/",
+      "date": "2025-05-16",
+      "use": "independent anecdotal centerward push and obstacle rerouting; not controlled current-build test"
     }
   ]
 }

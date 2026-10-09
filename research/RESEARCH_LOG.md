@@ -525,3 +525,10 @@
 - Recovered a developer-attributed historical Explorer routing description (nearest fog, 4/5 reveal cap, lighthouse preference, tie RNG, backtrack penalty and bounded BFS) without promoting its stale 15-step count to current rules.
 - Recorded conflicts/chronology against official 2.15.1 routing changes, 2.16.3 12-step Explorers and 2.17.3 faster-Explorer release text; updated source ledger and coverage questions.
 - Research remains partial; no GitHub Actions/CI created, enabled or run.
+
+## 2026-10-09 — forced-spawn directional edge cases
+
+- Extended forced-spawn spec from historical developer direction to community-reported friendly movement, ranged last-attack, exact-center south and alternating CCW/CW fallback.
+- Documented disappearance with all eight destinations blocked and the community claim that it grants neither Gate of Power kill nor Altar of Peace attack; added a 2025 Catapult-specific anecdotal cross-check.
+- Kept ambiguous move-vs-attack precedence, diagonal tie-breaking, port transformations and current-build validity as black-box tests; index and source ledger updated.
+- Research remains partial; no GitHub Actions/CI created, enabled or run.
