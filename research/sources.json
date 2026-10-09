@@ -978,6 +978,22 @@
       "url": "https://www.reddit.com/r/Polytopia/comments/1knt7zb/",
       "date": "2025-05-16",
       "use": "independent anecdotal centerward push and obstacle rerouting; not controlled current-build test"
+    },
+    {
+      "id": "OFF-CLOAK-EYE-2023",
+      "grade": "A",
+      "title": "Strategy Tip – Cloaks (Midjiwan)",
+      "url": "https://polytopia.io/news/strategy-tip-cloaks/",
+      "date": "2023-08-15",
+      "use": "first-party eye warning icon next to a unit when a Cloak is nearby"
+    },
+    {
+      "id": "STEAM-CLOAK-PREVIEW-2025",
+      "grade": "C",
+      "title": "Combat Preview Reveals Cloaks — player report and developer acknowledgement",
+      "url": "https://steamcommunity.com/app/874390/discussions/1/516332888607747118/",
+      "date": "2025-04-10",
+      "use": "historical hidden-target combat-preview information leak; developer promised fix in upcoming patch, shipping version unverified"
     }
   ]
 }

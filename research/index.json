@@ -168,7 +168,12 @@
     {
       "id": "diplomacy-cloak-embassy",
       "status": "partial",
-      "file": "research/notes/diplomacy-cloak.md"
+      "file": "research/notes/diplomacy-cloak.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify current Cloak warning adjacency/peace visibility and blocked-move reveal action preservation",
+        "Identify version that fixed hidden-Cloak combat-preview information leak"
+      ]
     },
     {
       "id": "forced-spawn-super-unit",
@@ -200,7 +205,11 @@
     {
       "id": "battle-preview-ui",
       "status": "partial",
-      "file": "research/notes/combat-movement.md"
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify combat preview cannot reveal hidden Cloaks before legal discovery"
+      ]
     },
     {
       "id": "special-tribe-cymanti",

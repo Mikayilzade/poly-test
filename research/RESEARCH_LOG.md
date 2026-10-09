@@ -532,3 +532,10 @@
 - Documented disappearance with all eight destinations blocked and the community claim that it grants neither Gate of Power kill nor Altar of Peace attack; added a 2025 Catapult-specific anecdotal cross-check.
 - Kept ambiguous move-vs-attack precedence, diagonal tie-breaking, port transformations and current-build validity as black-box tests; index and source ledger updated.
 - Research remains partial; no GitHub Actions/CI created, enabled or run.
+
+## 2026-10-09 — Cloak warning icon / hidden-target preview boundary
+
+- Added first-party eye-icon warning confirmation; community-sourced eight-neighbor detection and blocked-move reveal/action preservation.
+- Recorded a 2025 developer-acknowledged Battle Preview information leak for hidden Cloaks; fix promised for an upcoming patch, shipping version unknown.
+- Kept warning presence separate from exact target visibility, and updated coverage/index/source ledger.
+- Research remains partial and not saturated. No GitHub Actions/CI created, enabled or run.

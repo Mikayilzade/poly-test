@@ -72,3 +72,14 @@ Model the last point as an eligibility gate before water spawn selection, not me
 Developer pre-release notes say ships can be upgraded in **ally territory**. The same changelog fixes Smash, Splash, Explode and similar effects harming former allies during the cease-fire immediately after breaking peace. [STEAM-BETA-CHANGELOG]
 
 This is version-scoped pre-release evidence, but it establishes two important state boundaries to preserve when reconstructing behavior: friendly-upgrade territory can include treaty allies, and cease-fire protection must gate indirect/AoE damage as well as ordinary direct attacks. Exact cease-fire duration and the complete protected-effect list remain black-box targets.
+
+
+## Cloak warning UI and historical Battle Preview information leak
+
+Midjiwan's **2023-08-15** Cloak strategy tip identifies the **eye icon next to a unit** as the warning that a Cloak is nearby. This confirms the UI indicator, not an exact target-position reveal. [OFF-CLOAK-EYE-2023]
+
+The community Cloak reference specifies that each unit detects an invisible enemy Cloak in any of its **eight adjacent tiles**, showing an eye on the unit icon without identifying which tile. It also says attempting to move onto the hidden Cloak's tile reveals it, cancels that movement and **does not consume the moving unit's action**. Peace-aligned Cloaks are described as visible instead of triggering the hostile warning. These details remain community-sourced until current-build verification. [WIKI-CLOAK]
+
+A **2025-04-10** Steam bug report described a distinct information leak: hovering over a suspected hidden-Cloak tile with a unit selected could show a combat damage preview while the target remained invisible. Developer Zoythrus replied that this had been fixed for an **upcoming patch**. This does not establish the shipping version or prove every current preview pathway is leak-free. [STEAM-CLOAK-PREVIEW-2025]
+
+Implementation / black-box boundary: keep adjacent detection and eye-icon state separate from target visibility and attack eligibility. Test eight-direction adjacency, multiple Cloaks, peace state, blocked-move reveal/action preservation, and preview hover over undiscovered tiles. Do not reproduce the historical preview leak as intended gameplay.
