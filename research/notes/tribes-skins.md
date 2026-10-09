@@ -140,3 +140,11 @@ Official material confirms Solaris is the Polaris skin and explicitly names exam
 | Petrified | Frozen unit effect |
 
 These names are presentation vocabulary. Unless a separate source documents a mechanical delta, normalize them back to the Polaris ruleset before tactical inference.
+
+## Skin selection, AI entitlement and mirror-match identity — 2022 official FAQ
+
+The official October 2022 skin-launch FAQ distinguishes the **tribe identity** from the **selected cosmetic skin**: two players using different skins of the same base tribe still count as the same tribe (a mirror match), not as distinct tribes. Skins change presentation, not units, abilities or gameplay rules. [STEAM-SKIN-FAQ-2022]
+
+At the 2022 launch, the tribe-selection popup offered a separate skin picker. Bots could select skins **only if the local player owned those skins**; multiplayer permitted skinned tribes. A player could buy a skin before buying its base tribe but needed the tribe entitlement to use that skin. These are dated entitlement/UI rules, **not confirmed as current across platforms or Weekly Challenges** (the latter explicitly lends unowned tribes/skins). [STEAM-SKIN-FAQ-2022, OFF-WEEKLY]
+
+Implementation boundary: model `tribeId`, `skinId`, local `ownedSkins`, local `ownedTribes`, and mode-specific temporary unlocks independently. A skin must not alter tribe matchup legality, research tree, combat stats, or AI faction identity. Verify whether the 2022 bot-owned-skin rule survives in current builds, and how skins are selected in replay/spectator views.

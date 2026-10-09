@@ -107,3 +107,11 @@ Mechanically relevant deltas exposed by that history:
 The App Store wording does not state whether the three World Championship changes are global 2.17.3 rules, tournament-configuration overrides, or conditional behavior used only by championship games. Preserve them as versioned observable release contracts but do **not** apply them globally without current-build/tournament verification. “Removed/limited score counting” is especially underspecified: the affected score categories/modes are not named. [APPSTORE-IOS-2026]
 
 Implementation note: use **2.17.3 (2026-09-07)** as the newest explicit numbered public baseline recovered in this pass, while preserving 2.16.3 as the richer official-site changelog baseline.
+
+## 2022 Diplomacy balance: first contact, Ice Bank, and infiltration
+
+The official **2.2.9.8251** release notes record these versioned balance changes: **Ice Bank maximum level increased to 30**; **tribe-meeting income reduced by one star per level** (the exact absolute formula and meaning of “level” are not stated); **Explosion damage reduced by 50%**; **Fungi no longer deals damage**. They also document all units detecting Cloaks, once-per-city-per-turn infiltration, defending-unit damage on infiltration, Daggers spawning inside an undefended city, and stolen city star production. [STEAM-DIP-RELEASE-2022]
+
+Do not interpret “one less star per level” as a fully specified first-contact reward formula without a source defining level and rounding. Do not apply 2022 Ice Bank income-per-level or Fungi behavior to the 2025 Cymanti/Path-of-the-Ocean rules without later corroboration. Current Ice Bank level cap and its later **2 SPT per 20 frozen tiles** formula are separately documented in the Polaris spec. [WIKI-ICE-BANK, STEAM-DIP-RELEASE-2022]
+
+Black-box targets: first-contact star payout by opponent city level/own city level/turn and game mode; whether current alliance healing and infiltration theft resolve before or after city income accrual.

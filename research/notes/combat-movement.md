@@ -227,3 +227,11 @@ Implementation boundary: retaliation eligibility depends on attack range/reach r
 Midjiwan's official Giant strategy tip recommends using a group of Archers because they can **move back and shoot each turn**, preventing the Giant from getting an attack. This is first-party corroboration of the observable tactical combination: Archers can reposition before firing, their ranged attack does not require ending adjacent to the Giant, and ordinary Giant threat does not automatically answer that ranged hit. [OFF-KILL-GIANTS]
 
 Do not infer exact movement/range numbers from this tip alone; retain the numeric Archer/Giant stats from the unit-stat sources and treat this source as behavioral corroboration. Exact obstruction, ZOC and terrain cases for repeated kiting remain black-box targets.
+
+## Allied-territory healing — first-party historical corroboration
+
+Official update **2.2.9.8251 (2022-10-10)** explicitly changed healing **in allied territory from 2 HP to 4 HP**. This is a third territory relationship, distinct from owned versus neutral/enemy territory, and must be evaluated from the unit owner's active alliance/peace state at healing time. [STEAM-DIP-RELEASE-2022]
+
+The current community Combat page documents ordinary healing of **4 HP in friendly territory** and **2 HP in neutral/enemy territory**; it does not explicitly disambiguate allied territory in the displayed general-healing sentence. Preserve the 2022 first-party ally rule as a dated positive observation, and verify in a current build that a surviving treaty still gives +4 HP, including the turn a treaty is broken. [WIKI-COMBAT, STEAM-DIP-RELEASE-2022]
+
+Implementation inference: avoid a binary own-tile/not-own-tile heal lookup; support `own | allied | neutral | hostile` and version/mode-specific treatment. This note does not assert that passive end-turn healing and a manual heal command have identical triggering conditions.

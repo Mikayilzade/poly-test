@@ -502,3 +502,10 @@
 - Confirmed read access to the existing research branch and located the canonical log at `research/RESEARCH_LOG.md` (not repository root).
 - No new mechanics claim added in this access-only pass; outstanding tournament preset evidence still requires source-ledger and index integration.
 - Research remains partial and not saturated. No GitHub Actions/CI enabled or run.
+
+## 2026-10-09 — first-party skin entitlement / 2022 balance and tournament contracts
+
+- Recovered an official Steam skin-launch FAQ: skins are cosmetic, same-base-tribe skins count as mirror matches, the picker is separate, and 2022 AI skin selection depended on local ownership; all entitlement rules are version-scoped.
+- Recovered the official 2.2.9.8251 release's +4 HP allied-territory healing, Ice Bank level-30 cap, first-contact reward reduction, and explicit infiltration/balance deltas; kept ambiguous first-contact formula unresolved.
+- Added the 2022 tournament-specific Live-only / no-ELO / icon contract; flagged current applicability for black-box testing.
+- Updated source ledger and coverage pointers. No GitHub Actions/CI enabled or run. Research remains partial, not saturated.

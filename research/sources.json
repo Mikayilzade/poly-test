@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-10-07",
+  "updated": "2026-10-09",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -940,6 +940,22 @@
       "url": "https://polytopia.io/news/strategy-tip-kill-giants/",
       "date": "2020-06-10",
       "use": "first-party ranged-kiting baseline: Archers can reposition and fire each turn while staying outside Giant retaliation reach"
+    },
+    {
+      "id": "STEAM-SKIN-FAQ-2022",
+      "grade": "A",
+      "title": "Official Polytopia tribe skin launch FAQ (Steam developer announcement)",
+      "url": "https://store.steampowered.com/news/posts/?appids=874390&enddate=1672099246&feed=steam_community_announcements",
+      "date": "2022-10-17",
+      "use": "historical skin entitlement, bot skin eligibility, skin picker, and cosmetic mirror-match semantics"
+    },
+    {
+      "id": "STEAM-DIP-RELEASE-2022",
+      "grade": "A",
+      "title": "Update 2.2.9.8251 official release notes (Steam)",
+      "url": "https://store.steampowered.com/news/posts/?appids=874390&enddate=1672099246&feed=steam_community_announcements",
+      "date": "2022-10-10",
+      "use": "historical ally-territory healing, Ice Bank cap, first-contact income and Cloak/Infiltration rules"
     }
   ]
 }

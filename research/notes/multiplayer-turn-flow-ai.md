@@ -157,3 +157,9 @@ This multiplier is separate from AI capital income/aggression.
 Midjiwan gives one explicit bot diplomacy rule: a bot needs a **Great** opinion of the offering tribe to accept a Peace Treaty. The source does not publish numeric relation values, the boundaries between opinion labels, proposal timing, or later exceptional cases. [OFF-PEACE-GREAT]
 
 The official Diplomacy page confirms that Tribe Relations are shown through colored bubbles with explanations and can be inspected from the tribe-name UI. [OFF-DIP] For reconstruction, treat treaty acceptance as opinion-state-gated while leaving the underlying relation calculation unresolved until stronger public evidence is found.
+
+## Tournament rating and eligibility — 2022 beta contract
+
+The official November 2022 Tournament Update beta states that tournament matches were **Live Games only** and **did not affect player ELO**. Tournament matches were identified by a Challengermode icon next to their names. This is a versioned tournament-specific rule; it does not imply that ordinary ranked Live matches are ELO-neutral. [STEAM-TOURNAMENT-BETA]
+
+Current 2026 tournament setup and ranking may differ. Verify the current match format, whether tournament games remain ELO-exempt, and how event results/ratings are represented separately from normal multiplayer ELO. [STEAM-TOURNAMENT-BETA]

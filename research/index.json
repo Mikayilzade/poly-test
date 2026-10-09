@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-research-index/v1",
-  "updated": "2026-10-07",
+  "updated": "2026-10-09",
   "target": "current public ruleset + historical deltas",
   "status": "active",
   "areas": [
@@ -188,6 +188,26 @@
       "id": "special-tribe-elyrion",
       "status": "partial",
       "file": "research/notes/polaris-elyrion-current.md"
+    },
+    {
+      "id": "skin-entitlement-mirror-bots",
+      "status": "partial",
+      "file": "research/notes/tribes-skins.md"
+    },
+    {
+      "id": "tournament-rating-eligibility",
+      "status": "partial",
+      "file": "research/notes/multiplayer-turn-flow-ai.md"
+    },
+    {
+      "id": "allied-territory-healing",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
+    },
+    {
+      "id": "first-contact-income-versioning",
+      "status": "partial",
+      "file": "research/notes/update-baseline.md"
     }
   ]
 }
