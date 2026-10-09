@@ -75,3 +75,16 @@ Midjiwan's 2025 Cymanti rework establishes the first-party rule that **Phychi ha
 Current community Unit Skills documentation adds a narrower action-order rule after the **first** attack: the Phychi may still perform certain non-attack actions such as **Drain** or **Break Ice**, but may not **Capture** a city or **Excavate** a ruin before resolving the second-attack opportunity. [WIKI-UNIT-SKILLS]
 
 Treat that post-first-attack action matrix as community-level behavior pending direct black-box verification on the current build. Do not infer that every ordinary action is allowed or forbidden from these examples alone. Exact interactions with movement, healing, disbanding, flooding/filling, village capture, status changes and second-attack cancellation remain open.
+
+
+## 2.15.1 conversion, hatch, visibility and repeat-buff boundaries (first-party)
+
+Midjiwan's **2025-11-12 release 2.15.1** adds several precise observable state-machine rules: [STEAM-2151]
+
+- **Mind-bent Larva still transform into Moths.** Ownership change must not cancel the Larva growth timer merely because the unit is no longer Cymanti-controlled. The release does not say whether conversion resets elapsed turns or how the resulting Moth's owner/skin is represented.
+- **Mind-bent Moths still lay Eggs, not ordinary Daggers**, on infiltration. The spawned-unit class follows the Moth's lifecycle identity even when the unit belongs to a different tribe. The note does not specify the exact spawn count or whether eggs inherit the converted owner's faction visuals.
+- **Eggs cannot swim**, specifically preventing forced displacement into water. Keep this separate from their inability to move voluntarily; the source does not enumerate every push destination or Algae/bridge exception.
+- **Other tribes can see the Larva-to-Moth remaining-turn countdown.** The timer is not exclusively a Cymanti-owner UI field; test visibility through fog, spectators and converted-unit selection separately.
+- **Swarm cannot be applied again to an already-Swarmed unit.** Reject the second buff action rather than stacking duration/movement, while leaving status clearing/refresh after an attack as an independent test.
+
+These are 2.15.1 corrections after the 2.15.0 rework, not claims about all earlier versions. The broader growth/attack-order matrix remains incomplete.
