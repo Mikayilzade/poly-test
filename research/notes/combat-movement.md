@@ -242,3 +242,12 @@ Implementation inference: avoid a binary own-tile/not-own-tile heal lookup; supp
 Official 2.15.1 patch notes allow **Break Ice underneath an occupying unit** if that unit can remain on the underlying tile without ice. Explicit examples are **flying units**, tiles with **Algae**, and tiles with a **Bridge**. [STEAM-2151]
 
 Implementation inference: validate post-action tile occupancy and terrain traversal *before* allowing Break Ice, instead of a blanket prohibition whenever a unit stands on ice. The source does not say that every Water/Amphibious unit, flooded tile or transport state is eligible; test these independently. This is a tile-action legality rule, not an additional movement allowance.
+
+
+## Frozen/flooded tile transitions and Battlesled Escape — 2.16.3
+
+Midjiwan's 2026-02-16 changelog fixes two independent terrain-state transitions: **freezing an already-flooded tile must not drain it**, and **changing a tile's climate while frozen must not flood it**. These are specifically reported as fixes, not evidence that all climate changes or freezing actions can occur on every terrain type. [OFF-2163]
+
+The same patch distinguishes **Skate + attack** from a free movement reset: skating and attacking on ice **must not grant extra movement**. However, when a **Battlesled attacks and kills a unit while crossing land → ice**, it **should be able to use Escape**. [OFF-2163]
+
+Implementation inference: keep underlying flooded/ice/climate flags distinct; apply terrain-state changes without unrelated water-state mutations. For Battlesled, evaluate post-kill Escape eligibility separately from Skate movement allowance, rather than treating any attack on ice as a bonus movement grant. The changelog does not define Escape destination selection, path costs, remaining-movement arithmetic, or interactions with ZOC and occupied tiles; retain those as current-build tests.

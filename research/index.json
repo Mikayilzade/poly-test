@@ -72,7 +72,12 @@
     {
       "id": "movement-zoc-roads",
       "status": "partial",
-      "file": "research/notes/combat-movement.md"
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "2.16.3 Battlesled land-to-ice kill Escape destination and movement budget",
+        "2.16.3 freeze/flood/climate state preservation under later transformations"
+      ]
     },
     {
       "id": "vision-fog-explorer",
@@ -122,7 +127,13 @@
     {
       "id": "ui-flow-controls",
       "status": "partial",
-      "file": "research/notes/multiplayer-ui-turn-flow.md"
+      "file": "research/notes/multiplayer-ui-turn-flow.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "2.16.3 opening-capital focus versus subsequent auto-focus preference",
+        "2.16.3 Domination 3 won/3 lost displayed 57% denominator",
+        "2.16.3 startup save timing and Weekly Play-button enablement"
+      ]
     },
     {
       "id": "audio-visual-reference",

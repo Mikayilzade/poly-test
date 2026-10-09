@@ -159,3 +159,12 @@ Treat this as a **2020 Moonrise historical baseline**, not proof that the 2026 q
 The official 2.16.3 changelog states **random turn order for players when starting a game with a friend**. [OFF-2163]
 
 Implementation boundary: do not infer host-first or invitation-order initiative for a friend match. The public note does not specify the RNG seed, whether rematches reroll, whether this applies to 2-player and larger friend lobbies identically, or how teams affect ordering; those remain black-box targets.
+
+
+## Opening focus, startup persistence and end-screen statistics — 2.16.3
+
+Midjiwan's 2026-02-16 release explicitly fixes opening a game so the camera **focuses on the player's capital even when auto-focus is disabled**. This is a one-time game-open focus action; it is not evidence that the auto-focus preference should be overridden on subsequent unit selections or turn changes. [OFF-2163]
+
+The same changelog states that games **save to disk on startup**, whereas previously a player command was needed before a save occurred. The Weekly Challenge Play-button grey-out was improved by this earlier save. Model startup persistence as a distinct event, not merely a side effect of the first user action. The exact autosave file format, network synchronization order and crash-recovery guarantees are undocumented. [OFF-2163]
+
+For the Domination end screen, the patch explicitly changes a case displayed as **3 won / 3 lost** from **50% to 57%**. This is a *reported UI output for one case*, **not** sufficient evidence for a general win-percentage formula (the displayed counts alone would mathematically imply 50%). Preserve the discrepancy and test whether hidden/current-game results, rounding or another denominator explains it. [OFF-2163]

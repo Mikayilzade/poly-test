@@ -509,3 +509,12 @@
 - Recovered the official 2.2.9.8251 release's +4 HP allied-territory healing, Ice Bank level-30 cap, first-contact reward reduction, and explicit infiltration/balance deltas; kept ambiguous first-contact formula unresolved.
 - Added the 2022 tournament-specific Live-only / no-ELO / icon contract; flagged current applicability for black-box testing.
 - Updated source ledger and coverage pointers. No GitHub Actions/CI enabled or run. Research remains partial, not saturated.
+
+
+## 2026-10-09 — frozen terrain, Skate/Escape and startup UI contracts
+
+- Extracted previously uncatalogued first-party 2.16.3 behavior: freezing flooded tiles preserves flooding; climate change on frozen tiles must not cause flooding.
+- Separated Battlesled land-to-ice kill Escape eligibility from the prohibition on extra Skate+attack movement.
+- Added opening-camera capital focus despite auto-focus off, startup disk-save before player command, and a version-scoped Domination 3 won/3 lost → 57% end-screen case.
+- Kept the anomalous win percentage and Escape path budget unresolved rather than inventing a formula; updated structured open questions.
+- Research remains partial and not saturated. No GitHub Actions/CI created, enabled, or run.
