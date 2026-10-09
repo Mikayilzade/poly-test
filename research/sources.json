@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-source-ledger/v1",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "sources": [
     {
       "id": "OFF-HOME",
@@ -1001,6 +1001,22 @@
       "title": "Polytopia Wiki — Temples",
       "url": "https://polytopia.fandom.com/wiki/Temples",
       "use": "community age/level table, terrain/cost; conflicting every-two-turn prose and stale 50-point score increments; must version-check"
+    },
+    {
+      "id": "OFF-PATCH24-STEAM",
+      "grade": "A",
+      "title": "Welcome to the 'Patch' of the Ocean! — official Polytopia Steam announcement",
+      "url": "https://steamcommunity.com/games/874390/announcements/detail/4169840594115501247",
+      "date": "2024-02-26",
+      "use": "first-party update 2.8.5.11917 changelog: temple cadence, naval economy/tech/units, ruins, AI, score"
+    },
+    {
+      "id": "OFF-PATCH24-RELEASE",
+      "grade": "A",
+      "title": "Patch of The Ocean — official release notice",
+      "url": "https://polytopia.io/news/patch-of-the-ocean/",
+      "date": "2024-03-14",
+      "use": "first-party release-date confirmation for Patch of the Ocean"
     }
   ]
 }

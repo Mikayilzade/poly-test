@@ -19,6 +19,19 @@ Official Path of the Ocean material documents: [OFF-OCEAN]
 
 A March 2024 “Patch of the Ocean” followed with simplifications/adjustments; exact delta still needs extraction. [OFF-OCEAN, OFF-BLOG]
 
+## 2024: Patch of the Ocean (2.8.5.11917) — superseding 2023 naval rules
+
+Midjiwan's official Steam announcement dated **2024-02-26** publishes the **2.8.5.11917** changelog; its own site announces the Patch of the Ocean release on **2024-03-14**. Keep the preview/announcement and release dates distinct. The following are first-party **2024** rules, not an independently verified 2.17.3 specification. [OFF-PATCH24-STEAM, OFF-PATCH24-RELEASE]
+
+- **Removed Aqua Crop/Aqua Farms** from the regular naval economy; Fishing became the first naval technology and included Ports. This supersedes the 2023 Path of the Ocean Aqua Crop/Aquaculture introduction. Special-tribe Aquarion substitutions must be modeled separately; do not globally prohibit its Aqua Farms. [OFF-PATCH24-STEAM, STEAM-AQ-CHANGELOG]
+- **Markets** stopped doubling income next to Ports and instead earned **+1 star/turn for each level** of adjacent Windmills, Sawmills and Forges, with **Market level capped at 8**. The old 2023 unique-type/Port-doubling rule is historical only. [OFF-PATCH24-STEAM]
+- **Bridges** fell to **5 stars**; bridge placement can reach a valid shore concealed by fog, and faint coastlines hint at eligible hidden land. **Lighthouses** begin under fog even when close to a corner-spawn capital. [OFF-PATCH24-STEAM]
+- **Bomber attack** fell **4 → 3**. **Starfish harvesting** fell **10 → 8 stars**. A water ruin's veteran naval-unit reward changed **Bomber → Rammer**. These are patch-era numeric and reward-table deltas, not evidence that every special-tribe ruin reward follows the same table. [OFF-PATCH24-STEAM]
+- **Temples** grew every **2 turns instead of 3**; the earlier 2020 12-turn-to-full-growth claim cannot be used as a current timing guarantee. Exact age-zero/upgrade-phase accounting and any later 2.17.x changes remain unverified. [OFF-PATCH24-STEAM, OFF-TEMPLE-GROWTH-2020]
+- **Burn Forest** moved to Construction, **Destroy** to Chivalry. The Perfection opponent-count score multiplier was reduced, but the new numeric multiplier was not published. AI was reported to choose training/city improvements better and train fewer Cloaks; this does **not** specify an AI algorithm or numeric spawn probability. [OFF-PATCH24-STEAM]
+
+Implementation boundary: keep naval resource availability, tech placement, Market calculation, ruin reward tables and Temple growth intervals versioned. In particular, do not combine the **2023** 10-star Starfish/Port-doubled Market/three-turn Temple with **2024+** state or assume 2024 values survived unchanged through **2.17.3**.
+
 ## 2022: Diplomacy
 
 Official Diplomacy material documents: [OFF-DIP]

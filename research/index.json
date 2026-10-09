@@ -12,7 +12,11 @@
     {
       "id": "update-history",
       "status": "partial",
-      "file": "research/notes/update-baseline.md"
+      "file": "research/notes/update-baseline.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify which 2.8.5 Patch of the Ocean numeric/tech changes remain unchanged in 2.17.3"
+      ]
     },
     {
       "id": "game-modes",
@@ -47,15 +51,19 @@
     {
       "id": "technology-tree",
       "status": "partial",
-      "file": "research/notes/tech-buildings-score.md"
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Confirm current Fishing/Port and special Aquarion Aquaculture/Aqua Farm tech substitutions"
+      ]
     },
     {
       "id": "buildings-improvements",
       "status": "partial",
       "file": "research/notes/tech-buildings-score.md",
-      "last_reviewed": "2026-10-09",
+      "last_reviewed": "2026-10-10",
       "open_questions": [
-        "Verify Temple level age thresholds (community 0–2/3–5/6–8/9–11/12+ vs conflicting every-two-turn prose) and 2025 +100-point-per-level score mapping in 2.17.3"
+        "Confirm current Temple growth cadence: 2.8.5 official every two turns supersedes 2020 12-turn endpoint and community 3-turn age table; verify 2025 100-point increments"
       ]
     },
     {
@@ -100,7 +108,11 @@
     {
       "id": "naval",
       "status": "partial",
-      "file": "research/notes/update-baseline.md"
+      "file": "research/notes/update-baseline.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify current Bomber attack 3 and Starfish harvest 8 stars against 2.8.5 official patch"
+      ]
     },
     {
       "id": "diplomacy",
@@ -110,15 +122,19 @@
     {
       "id": "ruins-monuments-tasks",
       "status": "partial",
-      "file": "research/notes/tech-buildings-score.md"
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify 2.8.5 water-ruin Veteran Rammer reward and current special-tribe exceptions"
+      ]
     },
     {
       "id": "score",
       "status": "partial",
       "file": "research/notes/tech-buildings-score.md",
-      "last_reviewed": "2026-10-09",
+      "last_reviewed": "2026-10-10",
       "open_questions": [
-        "Verify Temple level age thresholds (community 0–2/3–5/6–8/9–11/12+ vs conflicting every-two-turn prose) and 2025 +100-point-per-level score mapping in 2.17.3"
+        "Confirm current Temple growth cadence: 2.8.5 official every two turns supersedes 2020 12-turn endpoint and community 3-turn age table; verify 2025 100-point increments"
       ]
     },
     {
@@ -139,7 +155,11 @@
     {
       "id": "ai-difficulty",
       "status": "partial",
-      "file": "research/notes/core-mechanics.md"
+      "file": "research/notes/core-mechanics.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Quantify any current AI city-improvement and Cloak-training heuristics; 2.8.5 only reports qualitative improvements"
+      ]
     },
     {
       "id": "ui-flow-controls",

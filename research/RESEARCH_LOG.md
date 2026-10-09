@@ -547,3 +547,12 @@
 - Flagged the page's conflicting “every two turns” wording and obsolete 50-point-per-level table instead of importing them as current mechanics.
 - Kept first-party 12-turn full-growth endpoint and 2025 100-point-per-level score change separate; documented a current-build black-box test for exact timing and score.
 - Updated source ledger and score/building open questions. Research remains partial; no GitHub Actions/CI created, enabled, or run.
+
+
+## 2026-10-10 — official 2.8.5 Patch of the Ocean chronology and Temple correction
+
+- Recovered Midjiwan's 2024-02-26 official Steam announcement for 2.8.5.11917 and its 2024-03-14 official release notice; distinguished preview/announcement from release timing.
+- Recorded major supersessions of the 2023 naval rework: removal of ordinary Aqua Crops/Farms, Fishing/Port technology move, Market per-level income capped at 8 without Port doubling, 5-star Bridges, Bomber 4→3, Starfish 10→8, and water-ruin Veteran Rammer instead of Bomber.
+- Corrected Temple chronology: the first-party 2024 two-turn growth cadence supersedes the 2020 12-turn full-growth claim; the community three-turn age table is likely historical, and current 2.17.3 thresholds remain to be verified.
+- Added 2024 Burn Forest/Destroy tech placement, qualitative AI changes and Perfection opponent-count multiplier reduction without inventing missing formulas or probabilities.
+- Updated source ledger and index. No GitHub Actions/CI created or run; research remains partial.
