@@ -52,7 +52,11 @@
     {
       "id": "buildings-improvements",
       "status": "partial",
-      "file": "research/notes/tech-buildings-score.md"
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify Temple level age thresholds (community 0–2/3–5/6–8/9–11/12+ vs conflicting every-two-turn prose) and 2025 +100-point-per-level score mapping in 2.17.3"
+      ]
     },
     {
       "id": "units-stats",
@@ -107,7 +111,11 @@
     {
       "id": "score",
       "status": "partial",
-      "file": "research/notes/tech-buildings-score.md"
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify Temple level age thresholds (community 0–2/3–5/6–8/9–11/12+ vs conflicting every-two-turn prose) and 2025 +100-point-per-level score mapping in 2.17.3"
+      ]
     },
     {
       "id": "tribes-regular",

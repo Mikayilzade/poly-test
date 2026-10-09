@@ -994,6 +994,13 @@
       "url": "https://steamcommunity.com/app/874390/discussions/1/516332888607747118/",
       "date": "2025-04-10",
       "use": "historical hidden-target combat-preview information leak; developer promised fix in upcoming patch, shipping version unverified"
+    },
+    {
+      "id": "WIKI-TEMPLES",
+      "grade": "B",
+      "title": "Polytopia Wiki — Temples",
+      "url": "https://polytopia.fandom.com/wiki/Temples",
+      "use": "community age/level table, terrain/cost; conflicting every-two-turn prose and stale 50-point score increments; must version-check"
     }
   ]
 }

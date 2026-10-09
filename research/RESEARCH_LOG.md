@@ -539,3 +539,11 @@
 - Recorded a 2025 developer-acknowledged Battle Preview information leak for hidden Cloaks; fix promised for an upcoming patch, shipping version unknown.
 - Kept warning presence separate from exact target visibility, and updated coverage/index/source ledger.
 - Research remains partial and not saturated. No GitHub Actions/CI created, enabled or run.
+
+
+## 2026-10-09 — Temple age-table conflict and score chronology
+
+- Added the dedicated community Temple age table: levels 1–5 at age 0–2 / 3–5 / 6–8 / 9–11 / 12+ turns, including construction turn.
+- Flagged the page's conflicting “every two turns” wording and obsolete 50-point-per-level table instead of importing them as current mechanics.
+- Kept first-party 12-turn full-growth endpoint and 2025 100-point-per-level score change separate; documented a current-build black-box test for exact timing and score.
+- Updated source ledger and score/building open questions. Research remains partial; no GitHub Actions/CI created, enabled, or run.

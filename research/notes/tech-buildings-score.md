@@ -161,3 +161,12 @@ Two official 2020 strategy tips expose rules that must remain versioned rather t
 - On **2020-05-28**, Midjiwan described **Customs House** as an economy building strengthened by surrounding Ports and explicitly limited placement to **one Customs House per city**. The tip also recommends planning its tile when placing the first Port, corroborating a local adjacency/placement relationship. [OFF-CUSTOMS-HOUSE-2020]
 
 Customs House belongs to the pre-Path-of-the-Ocean economy and should not be projected onto the current Market system. Exact historical per-Port income and the patch/version where Clear Forest changed away from 2 stars remain unresolved in this pass.
+
+
+## Temple intermediate-age community table — chronology and internal conflict
+
+The dedicated community **Temples** page provides a concrete five-level age schedule measured in turns **since construction**, with construction itself counted: **level 1 at age 0–2; level 2 at 3–5; level 3 at 6–8; level 4 at 9–11; level 5 at 12+**. Its own older score table shows **100/150/200/250/300**, while the opening summary now says +100 per growth step and elsewhere says temples level **every two turns**. The displayed three-turn age bands contradict that two-turn prose. Therefore the age table is a **grade-B candidate**, not a verified current schedule. [WIKI-TEMPLES]
+
+The **12-turn fully grown** endpoint is independently supported by Midjiwan's 2020 strategy tip. Midjiwan's 2025 Balance Pass updates scoring to **100 points per level of growth**, making a current five-level score candidate **100/200/300/400/500**. This is a **version-crossing synthesis** (2020 endpoint + community intermediate timing + 2025 score change), not an official 2.17.3 end-to-end specification. Do **not** copy the wiki's stale 50-point intermediate score increments into the current ruleset. [OFF-TEMPLE-GROWTH-2020, OFF-2025BAL, WIKI-TEMPLES]
+
+**Reproducible verification:** in the current build, construct one Temple at known turn T, capture its displayed level and raw score contribution immediately and on T+1 through T+13 (checking before and after end-turn separately). Repeat at a late Perfection turn and with another Temple terrain type. Distinguish construction-turn-inclusive age, UI visual level, raw score, and final score multiplier. If observed thresholds are T+3/6/9/12, the community age table is supported; if T+2/4/6/8, the prose is closer. Until then, retain both as conflicting hypotheses. [WIKI-TEMPLES, OFF-TEMPLE-GROWTH-2020]
