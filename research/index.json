@@ -259,12 +259,13 @@
       "id": "special-tribe-cymanti",
       "status": "partial",
       "file": "research/notes/cymanti-current.md",
-      "last_reviewed": "2026-10-09",
+      "last_reviewed": "2026-10-10",
       "open_questions": [
         "Moth Scout fog reveal timing",
         "Moth infiltration Egg growth and spawn",
         "Moth numeric stats and Air movement",
-        "Verify community Moth stat table (HP 10, attack 2, defence 0.1, movement 2, range 1, cost 5) in 2.17.3"
+        "Verify community Moth stat table (HP 10, attack 2, defence 0.1, movement 2, range 1, cost 5) in 2.17.3",
+        "Verify 2.17.3 Centipede/Segment direct-kill vs retaliation growth, head and middle-segment promotion with inherited damage, movement cap/Glide exception, explosion cascade and city siege/capture boundary"
       ]
     },
     {

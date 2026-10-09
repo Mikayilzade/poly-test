@@ -1033,6 +1033,20 @@
       "url": "https://store.steampowered.com/news/posts/?appgroupname=The+Battle+of+Polytopia&appids=874390&enddate=1736195592&feed=steam_community_announcements",
       "date": "2024-11-04",
       "use": "post-launch Aquarion Bubbled state, tech relocation, starting fish, Lost City resources, Crab/Shark/Jelly stats and Tentacles overlap resolution"
+    },
+    {
+      "id": "WIKI-CENTIPEDE",
+      "grade": "B",
+      "title": "Polytopia Wiki — Centipede",
+      "url": "https://polytopia.fandom.com/wiki/Centipede",
+      "use": "community head stats, Eat/Segment creation, chain movement and head-to-segment promotion; post-2025 rework verification needed"
+    },
+    {
+      "id": "WIKI-SEGMENT",
+      "grade": "B",
+      "title": "Polytopia Wiki — Segment",
+      "url": "https://polytopia.fandom.com/wiki/Segment",
+      "use": "community Segment stats, retaliation exception, movement cap, explode cascade, chain splitting and siege/capture boundary"
     }
   ]
 }

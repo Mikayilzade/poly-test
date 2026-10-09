@@ -564,3 +564,11 @@
 - Recovered the August 2024 official Lost City eligibility boundary: Water or Ocean ruin must allow valid city placement, otherwise normal ruin rewards; distance formula unknown.
 - Explicitly kept the June beta level-3+Wall Lost City payload, current Bubbled timing, resource distribution and 2.17.3 persistence as verification targets rather than guessing.
 - Updated Aquarion notes, version baseline, source ledger and coverage questions together. No GitHub Actions/CI created or run; research remains partial.
+
+
+## 2026-10-10 — Centipede/Segment chain mechanics and damage-version boundary
+
+- Recovered detailed community Centipede/Segment numerical baselines and transition rules: direct-kill versus retaliation Segment creation, movement restrictions, head/middle-Segment promotions, downstream Explode cascade, and Segment siege without capture.
+- Cross-checked against first-party 2025 damage-inheritance change and 2.16.3 multiple-tail bug fix; kept older full-heal reports and ambiguous chain topology as version-sensitive, not current facts.
+- Added a reproducible black-box test matrix, two grade-B source records and an indexed Cymanti coverage question. Research remains partial, not saturated.
+- No GitHub Actions/CI created or run; no PR/branch creation or merge.

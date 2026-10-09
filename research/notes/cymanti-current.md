@@ -102,3 +102,24 @@ The community Moth unit page gives the post-rework **Moth** a **5-star cost**, *
 This is a **grade-B community numeric table**, not a Midjiwan-published stat sheet; verify against the current 2.17.3 client before encoding it as authoritative. The 2.16.3 official addition of Scout to Moth independently corroborates that one listed skill, and the official 2025 rework independently corroborates flight, non-invisibility and the Egg/Larva lifecycle. [OFF-2163, OFF-CYM25]
 
 The Moth page's 'air unit' description does not by itself specify tile movement cost, water crossing rules, zone-of-control interaction or whether Stiff prevents a particular action. Keep the exact action/terrain matrix open. [WIKI-MOTH-CURRENT]
+
+## Centipede and Segment chain state — community mechanics with first-party version boundaries
+
+The current community **Centipede** and **Segment** pages provide a useful implementation-oriented model of a chained super-unit, but these details are **grade B** and have **not** been independently reproduced in the 2.17.3 client. Midjiwan's 2025 rework explicitly says growing Centipede heads retain prior damage, and its **2.16.3** patch lists a fix for a **"Centipede with multiple tails"**; neither official statement fully specifies chain topology, damage math, or every legal split. [WIKI-CENTIPEDE, WIKI-SEGMENT, OFF-CYM25, OFF-2163]
+
+| Component | Community numeric baseline | Skills/role |
+| --- | --- | --- |
+| **Centipede head** | 20 HP; attack 4; defence 3; movement 2; range 1 | Giant replacement; Dash, Eat, Creep, Static. [WIKI-CENTIPEDE] |
+| **Segment** | 10 HP; defence 2; movement 1; range 1; attack 2 **only for Explode**; no Veteran | Independent, Creep, Explode, Dash, Stiff, Static. Segment is a body component rather than a normally trained unit. [WIKI-SEGMENT] |
+
+Community-documented **chain transitions** (all require current-build confirmation): [WIKI-SEGMENT, WIKI-CENTIPEDE]
+
+1. A Centipede's **direct attack kill** appends a Segment; a kill caused by **retaliation** does **not** append one. Record the attack event that caused the kill, not merely the victim's death.
+2. With one or more Segments attached, the head's movement is reportedly limited to **1**, even with roads or Shaman movement buffs; the Segment page separately reports a **Glide** exception. Keep the exception provisional and do not infer that Glide is a standard Centipede skill.
+3. Killing the **head** causes its next Segment to become a new head. Destroying an **intermediate Segment** can promote the following Segment to the head of a separate chain. This is an actual chain-splitting transition, distinct from the *buggy multiple-tail topology* mentioned in the 2.16.3 fix.
+4. A Segment's **Explode** can trigger explosions in all downstream Segments; spores are reported to appear on eligible land/ice tiles without existing structures. Explosion footprint, action timing, and the eligibility test for each tile remain unknown.
+5. Segments can **siege** a city but reportedly **cannot capture** it. A head's healing action does not immediately heal Segments; the wiki reports ordinary end-turn recovery for them.
+
+**Health conflict/version boundary:** older player explanations sometimes describe a promoted Segment becoming a **full-health 20-HP head**, whereas the official **2025-10-29** rework explicitly states that growing Centipede heads **inherit damage**. For post-rework modeling, never silently apply the older full-heal assumption. The exact interpretation of inherited damage (absolute missing HP versus HP percentage, maximum-HP clamping, and promotion after simultaneous splash damage) still needs controlled testing. [OFF-CYM25, WIKI-SEGMENT]
+
+**Black-box tests:** compare direct-kill vs retaliation-kill Segment creation; measure head movement with zero/one Segments and road/Swarm/Glide conditions; kill head vs middle Segment with the promoted Segment at 10/5/1 HP; trigger one middle-Segment Explode and inspect downstream effects/spores; attempt siege and capture with a lone Segment; reproduce/save/replay chain topology after 2.16.3. Do not derive a branching data structure or current numeric stat constants from the patch's short bug title alone. [WIKI-CENTIPEDE, WIKI-SEGMENT, OFF-2163]
