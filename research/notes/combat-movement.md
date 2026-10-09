@@ -235,3 +235,10 @@ Official update **2.2.9.8251 (2022-10-10)** explicitly changed healing **in alli
 The current community Combat page documents ordinary healing of **4 HP in friendly territory** and **2 HP in neutral/enemy territory**; it does not explicitly disambiguate allied territory in the displayed general-healing sentence. Preserve the 2022 first-party ally rule as a dated positive observation, and verify in a current build that a surviving treaty still gives +4 HP, including the turn a treaty is broken. [WIKI-COMBAT, STEAM-DIP-RELEASE-2022]
 
 Implementation inference: avoid a binary own-tile/not-own-tile heal lookup; support `own | allied | neutral | hostile` and version/mode-specific treatment. This note does not assert that passive end-turn healing and a manual heal command have identical triggering conditions.
+
+
+## Break Ice while a unit occupies the tile — 2.15.1
+
+Official 2.15.1 patch notes allow **Break Ice underneath an occupying unit** if that unit can remain on the underlying tile without ice. Explicit examples are **flying units**, tiles with **Algae**, and tiles with a **Bridge**. [STEAM-2151]
+
+Implementation inference: validate post-action tile occupancy and terrain traversal *before* allowing Break Ice, instead of a blanket prohibition whenever a unit stands on ice. The source does not say that every Water/Amphibious unit, flooded tile or transport state is eligible; test these independently. This is a tile-action legality rule, not an additional movement allowance.
