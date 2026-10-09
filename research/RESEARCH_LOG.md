@@ -496,3 +496,9 @@
 - Added first-party observable turn-flow rules from 2.16.3: Weekly Challenge resignation is allowed on an enemy turn, and friend games randomize initial player turn order.
 - Kept cross-mode resignation behavior and friend-lobby RNG/rematch/team details unresolved rather than generalizing the patch-note wording.
 - Turn-flow/multiplayer coverage remains partial; research is not saturated. No GitHub Actions/CI enabled or run.
+
+## 2026-10-09 — repository access recovery check
+
+- Confirmed read access to the existing research branch and located the canonical log at `research/RESEARCH_LOG.md` (not repository root).
+- No new mechanics claim added in this access-only pass; outstanding tournament preset evidence still requires source-ledger and index integration.
+- Research remains partial and not saturated. No GitHub Actions/CI enabled or run.
