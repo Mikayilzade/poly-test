@@ -31,7 +31,11 @@
     {
       "id": "map-generation",
       "status": "partial",
-      "file": "research/notes/map-generation.md"
+      "file": "research/notes/map-generation.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Check Aquarion two guaranteed starting-capital fish (official November 2024) and current map-type exceptions"
+      ]
     },
     {
       "id": "terrain-resources",
@@ -54,7 +58,8 @@
       "file": "research/notes/tech-buildings-score.md",
       "last_reviewed": "2026-10-10",
       "open_questions": [
-        "Confirm current Fishing/Port and special Aquarion Aquaculture/Aqua Farm tech substitutions"
+        "Confirm current Fishing/Port and special Aquarion Aquaculture/Aqua Farm tech substitutions",
+        "Check Aquarion Atoll Aquaculture unlock against stale community Waterways text and 2.17.3"
       ]
     },
     {
@@ -125,7 +130,8 @@
       "file": "research/notes/tech-buildings-score.md",
       "last_reviewed": "2026-10-10",
       "open_questions": [
-        "Verify 2.8.5 water-ruin Veteran Rammer reward and current special-tribe exceptions"
+        "Verify 2.8.5 water-ruin Veteran Rammer reward and current special-tribe exceptions",
+        "Test Aquarion water-ruin Lost City placement-distance fallback and November 2024 smaller resource-bearing Lost City"
       ]
     },
     {
@@ -195,7 +201,13 @@
     {
       "id": "special-tribe-aquarion",
       "status": "partial",
-      "file": "research/notes/aquarion-current.md"
+      "file": "research/notes/aquarion-current.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify November 2024 Waterways->Aquaculture Atoll unlock and Bubbled Amphibious-only trigger/loss timing in 2.17.3",
+        "Measure water-ruin Lost City distance eligibility, ordinary-reward fallback, post-November footprint/resources and level-3/Wall payload",
+        "Verify November 2024 two guaranteed capital fish and overlapping Jelly Tentacles strongest-attacker/tie rule"
+      ]
     },
     {
       "id": "diplomacy-cloak-embassy",

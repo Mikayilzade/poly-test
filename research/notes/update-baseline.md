@@ -128,3 +128,9 @@ The official **2.2.9.8251** release notes record these versioned balance changes
 Do not interpret “one less star per level” as a fully specified first-contact reward formula without a source defining level and rounding. Do not apply 2022 Ice Bank income-per-level or Fungi behavior to the 2025 Cymanti/Path-of-the-Ocean rules without later corroboration. Current Ice Bank level cap and its later **2 SPT per 20 frozen tiles** formula are separately documented in the Polaris spec. [WIKI-ICE-BANK, STEAM-DIP-RELEASE-2022]
 
 Black-box targets: first-contact star payout by opponent city level/own city level/turn and game mode; whether current alliance healing and infiltration theft resolve before or after city income accrual.
+
+## 2024-11-04: Aquarion post-launch Forgotten patch
+
+The official Steam release notes give a critical post-rework delta: Bubbles activate for Amphibious units on Flooded terrain after Waterways (+1 movement, removed by attack/land); Atoll unlock moved to Aquaculture; starting capital gained two guaranteed fish; Lost Cities became smaller and gained nearby resources; Crab defence fell to 4, Shark attack rose to 3.5, Jelly attack rose to 2, and overlapping Tentacles select the strongest attacker. Earlier August 2024 official design notes make Lost City generation conditional on water-ruin city-placement validity, otherwise an ordinary ruin reward. [OFF-AQ-NOV24-PATCH, OFF-AQ-AUG24-DETAIL]
+
+The patch does not specify the Lost City placement-distance formula, resource seeding, Tentacles tie-breaking, or whether these 2024 rules all remain unchanged in 2.17.3. Detailed test targets: [research/notes/aquarion-current.md](aquarion-current.md).

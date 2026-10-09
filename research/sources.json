@@ -1017,6 +1017,22 @@
       "url": "https://polytopia.io/news/patch-of-the-ocean/",
       "date": "2024-03-14",
       "use": "first-party release-date confirmation for Patch of the Ocean"
+    },
+    {
+      "id": "OFF-AQ-AUG24-DETAIL",
+      "grade": "A",
+      "title": "Aquarion rework design and detailed August 2024 release-era mechanics (official Steam announcement)",
+      "url": "https://store.steampowered.com/news/posts/?appids=874390&enddate=1723727589&feed=steam_community_announcements",
+      "date": "2024-08-08",
+      "use": "Lost City water-ruin placement validity and ordinary-reward fallback; pre-November unit/building baseline"
+    },
+    {
+      "id": "OFF-AQ-NOV24-PATCH",
+      "grade": "A",
+      "title": "The Forgotten Have Arrived In This All-New Update! (official Steam release notes)",
+      "url": "https://store.steampowered.com/news/posts/?appgroupname=The+Battle+of+Polytopia&appids=874390&enddate=1736195592&feed=steam_community_announcements",
+      "date": "2024-11-04",
+      "use": "post-launch Aquarion Bubbled state, tech relocation, starting fish, Lost City resources, Crab/Shark/Jelly stats and Tentacles overlap resolution"
     }
   ]
 }

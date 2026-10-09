@@ -556,3 +556,11 @@
 - Corrected Temple chronology: the first-party 2024 two-turn growth cadence supersedes the 2020 12-turn full-growth claim; the community three-turn age table is likely historical, and current 2.17.3 thresholds remain to be verified.
 - Added 2024 Burn Forest/Destroy tech placement, qualitative AI changes and Perfection opponent-count multiplier reduction without inventing missing formulas or probabilities.
 - Updated source ledger and index. No GitHub Actions/CI created or run; research remains partial.
+
+## 2026-10-10 — Aquarion Forgotten post-launch official mechanics pass
+
+- Recovered the first-party November 4, 2024 Forgotten update, resolving a stale unlock assumption: **Atolls moved to Aquaculture**, while Waterways unlocks **Amphibious-only Bubbles** (+1 movement on Flooded, lost after attack/stepping onto land).
+- Added first-party two guaranteed capital fish, smaller resource-bearing Lost Cities, Crab 5→4 defence, Shark 3→3.5 attack, Jelly 0→2 attack, and strongest-Tentacle selection on overlapping tiles.
+- Recovered the August 2024 official Lost City eligibility boundary: Water or Ocean ruin must allow valid city placement, otherwise normal ruin rewards; distance formula unknown.
+- Explicitly kept the June beta level-3+Wall Lost City payload, current Bubbled timing, resource distribution and 2.17.3 persistence as verification targets rather than guessing.
+- Updated Aquarion notes, version baseline, source ledger and coverage questions together. No GitHub Actions/CI created or run; research remains partial.
