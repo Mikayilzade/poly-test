@@ -88,3 +88,9 @@ Midjiwan's **2025-11-12 release 2.15.1** adds several precise observable state-m
 - **Swarm cannot be applied again to an already-Swarmed unit.** Reject the second buff action rather than stacking duration/movement, while leaving status clearing/refresh after an attack as an independent test.
 
 These are 2.15.1 corrections after the 2.15.0 rework, not claims about all earlier versions. The broader growth/attack-order matrix remains incomplete.
+
+## Moth Scout visibility — 2.16.3
+
+Midjiwan's 2.16.3 changelog explicitly **adds Scout to Moths** after the 2025 Cymanti rework. [OFF-2163] The community Unit Skills glossary defines Scout as a **5×5 fog-reveal footprint** instead of the usual **3×3**. [WIKI-UNIT-SKILLS]
+
+Treat Scout as a **visibility ability**, not a movement bonus or attack range increase. Moth's lack of Hide remains unchanged. Exact fog-reveal timing, flight across water, and vision after conversion remain black-box targets. [OFF-CYM25, OFF-2163, WIKI-UNIT-SKILLS]

@@ -182,7 +182,13 @@
     {
       "id": "special-tribe-cymanti",
       "status": "partial",
-      "file": "research/notes/cymanti-current.md"
+      "file": "research/notes/cymanti-current.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Moth Scout fog reveal timing",
+        "Moth infiltration Egg growth and spawn",
+        "Moth numeric stats and Air movement"
+      ]
     },
     {
       "id": "special-tribe-elyrion",
