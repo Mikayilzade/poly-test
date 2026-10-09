@@ -1,6 +1,6 @@
 {
   "schema": "polytopia-research-index/v1",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "target": "current public ruleset + historical deltas",
   "status": "active",
   "areas": [
@@ -66,7 +66,11 @@
     {
       "id": "unit-skills",
       "status": "partial",
-      "file": "research/notes/combat-movement.md"
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify 2023 ship/cargo Poison-status synchronization, hidden-unit reveal during ice/Starfish actions and Skate-unit action preservation after Giant push in current build"
+      ]
     },
     {
       "id": "combat-formula",
