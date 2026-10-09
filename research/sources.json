@@ -956,6 +956,20 @@
       "url": "https://store.steampowered.com/news/posts/?appids=874390&enddate=1672099246&feed=steam_community_announcements",
       "date": "2022-10-10",
       "use": "historical ally-territory healing, Ice Bank cap, first-contact income and Cloak/Infiltration rules"
+    },
+    {
+      "id": "WIKI-MOTH-CURRENT",
+      "grade": "B",
+      "title": "Polytopia Wiki — Moth",
+      "url": "https://polytopia.fandom.com/wiki/Moth",
+      "use": "post-Cymanti-rework Moth numerical stats, skills, tech and cost; community table; check current build"
+    },
+    {
+      "id": "WIKI-EXPLORER-PATH",
+      "grade": "B",
+      "title": "Polytopia Wiki — Explorer (historical Midjiate pathfinding description)",
+      "url": "https://polytopia.fandom.com/wiki/Explorer",
+      "use": "historical detailed fog-priority/pathfinding algorithm and developer quotation; outdated 15-step count and version-sensitive movement"
     }
   ]
 }

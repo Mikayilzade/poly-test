@@ -94,3 +94,11 @@ These are 2.15.1 corrections after the 2.15.0 rework, not claims about all earli
 Midjiwan's 2.16.3 changelog explicitly **adds Scout to Moths** after the 2025 Cymanti rework. [OFF-2163] The community Unit Skills glossary defines Scout as a **5×5 fog-reveal footprint** instead of the usual **3×3**. [WIKI-UNIT-SKILLS]
 
 Treat Scout as a **visibility ability**, not a movement bonus or attack range increase. Moth's lack of Hide remains unchanged. Exact fog-reveal timing, flight across water, and vision after conversion remain black-box targets. [OFF-CYM25, OFF-2163, WIKI-UNIT-SKILLS]
+
+## Moth numeric baseline — current community table (verification pending)
+
+The community Moth unit page gives the post-rework **Moth** a **5-star cost**, **10 maximum HP**, **attack 2**, **defence 0.1**, **movement 2**, **range 1**, and **no Veteran promotion**. Its listed abilities are **Dash, Sneak, Scout, Infiltrate, Poison, Static and Stiff**. It is unlocked through **Synergy**, replaces the ordinary Cloak, and can also arise from Larva maturation. [WIKI-MOTH-CURRENT]
+
+This is a **grade-B community numeric table**, not a Midjiwan-published stat sheet; verify against the current 2.17.3 client before encoding it as authoritative. The 2.16.3 official addition of Scout to Moth independently corroborates that one listed skill, and the official 2025 rework independently corroborates flight, non-invisibility and the Egg/Larva lifecycle. [OFF-2163, OFF-CYM25]
+
+The Moth page's 'air unit' description does not by itself specify tile movement cost, water crossing rules, zone-of-control interaction or whether Stiff prevents a particular action. Keep the exact action/terrain matrix open. [WIKI-MOTH-CURRENT]

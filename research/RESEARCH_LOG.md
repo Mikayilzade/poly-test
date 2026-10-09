@@ -518,3 +518,10 @@
 - Added opening-camera capital focus despite auto-focus off, startup disk-save before player command, and a version-scoped Domination 3 won/3 lost → 57% end-screen case.
 - Kept the anomalous win percentage and Escape path budget unresolved rather than inventing a formula; updated structured open questions.
 - Research remains partial and not saturated. No GitHub Actions/CI created, enabled, or run.
+
+## 2026-10-09 — Moth stats and historical Explorer routing
+
+- Added community-backed post-rework Moth numerical table (5 stars, 10 HP, 2 attack, 0.1 defence, 2 movement, 1 range), skill list and Synergy unlock, explicitly flagged for current-build verification.
+- Recovered a developer-attributed historical Explorer routing description (nearest fog, 4/5 reveal cap, lighthouse preference, tie RNG, backtrack penalty and bounded BFS) without promoting its stale 15-step count to current rules.
+- Recorded conflicts/chronology against official 2.15.1 routing changes, 2.16.3 12-step Explorers and 2.17.3 faster-Explorer release text; updated source ledger and coverage questions.
+- Research remains partial; no GitHub Actions/CI created, enabled or run.
