@@ -572,3 +572,9 @@
 - Cross-checked against first-party 2025 damage-inheritance change and 2.16.3 multiple-tail bug fix; kept older full-heal reports and ambiguous chain topology as version-sensitive, not current facts.
 - Added a reproducible black-box test matrix, two grade-B source records and an indexed Cymanti coverage question. Research remains partial, not saturated.
 - No GitHub Actions/CI created or run; no PR/branch creation or merge.
+
+## 2026-10-10 — GitHub write recovery verification
+
+- Verified read access to protocol, index, source ledger and canonical log on the existing research branch.
+- Tested a single minimal log-only commit to confirm GitHub write access; no mechanics assertions or coverage changes made in this check.
+- Research remains unsaturated. No GitHub Actions/CI created or run.
