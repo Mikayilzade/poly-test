@@ -578,3 +578,8 @@
 - Verified read access to protocol, index, source ledger and canonical log on the existing research branch.
 - Tested a single minimal log-only commit to confirm GitHub write access; no mechanics assertions or coverage changes made in this check.
 - Research remains unsaturated. No GitHub Actions/CI created or run.
+
+## 2026-10-10 — pending verification
+
+- Recovered notes are already present. Prioritize current-version verification of historical mechanics and avoid duplicate entries.
+- No CI or PR changes.
