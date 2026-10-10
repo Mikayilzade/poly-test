@@ -77,7 +77,9 @@
       "status": "partial",
       "file": "research/notes/core-mechanics.md",
       "last_reviewed": "2026-10-10",
-      "open_questions": ["See research/notes/naval-unit-spec.md for the seven-unit naval table and conflicting tech prerequisites"]
+      "open_questions": [
+        "See research/notes/naval-unit-spec.md for the seven-unit naval table and conflicting tech prerequisites"
+      ]
     },
     {
       "id": "unit-skills",
@@ -85,13 +87,18 @@
       "file": "research/notes/combat-movement.md",
       "last_reviewed": "2026-10-10",
       "open_questions": [
-        "Verify 2023 ship/cargo Poison-status synchronization, hidden-unit reveal during ice/Starfish actions and Skate-unit action preservation after Giant push in current build"
+        "Verify 2023 ship/cargo Poison-status synchronization, hidden-unit reveal during ice/Starfish actions and Skate-unit action preservation after Giant push in current build",
+        "Verify community Poison cure-without-HP, movement floor 1, and Spores/Algae death-tile exceptions in 2.17.3 (see research/notes/poison-recovery-action-order.md)"
       ]
     },
     {
       "id": "combat-formula",
       "status": "partial",
-      "file": "research/notes/combat-movement.md"
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify community Poison cure-without-HP, movement floor 1, and Spores/Algae death-tile exceptions in 2.17.3 (see research/notes/poison-recovery-action-order.md)"
+      ]
     },
     {
       "id": "movement-zoc-roads",
