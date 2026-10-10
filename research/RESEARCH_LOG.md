@@ -599,3 +599,7 @@
 - Recorded experimental village burning on capture as beta-only and removed before launch.
 - Added first-party release source and Polaris coverage pointer; kept 2.17.3 applicability unresolved.
 - Research remains partial, not saturated. No GitHub Actions/CI, new PR/branch or merge.
+
+## 2026-10-10 — naval reference
+
+- Seven naval unit stats, Port transitions, upgrade constraints and source conflicts documented in research/notes/naval-unit-spec.md. Six community source records added. Current build needs verification. No CI or PR changes.
