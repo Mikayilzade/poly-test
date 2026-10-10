@@ -22,8 +22,8 @@ The 2022 developer FAQ documents treaty effects: partners cannot attack/capture/
 
 Do not hard-code 5 stars as current:
 - 2022: fixed 5 stars. [DEV-DIP-FAQ-2022]
-- 2023 Balance Pass 3: cost increased by **5 stars for every existing Embassy built**. [DEV-BALANCE3-2023]
-- 2025 official balance pass: new Embassies “begin cheaper” and increase based on number already owned. [OFF-2025BAL]
+- **2023-04-01 purported Balance Pass 3 is an April Fools post, NOT a released balance change**. Its claimed +5 stars per existing Embassy must not be used as an historical rule. Retained solely as rejected source evidence. [DEV-BALANCE3-2023]
+- **2025-09-01 official balance pass**: new Embassies “begin cheaper” and increase based on number already owned; no exact numerical formula is provided. [OFF-2025BAL]
 
 Exact 2025+ numeric sequence was not found in reliable first-party public material. Keep pricing parameterized and black-box measure it.
 
