@@ -74,8 +74,10 @@
     },
     {
       "id": "units-stats",
-      "status": "seeded",
-      "file": "research/notes/core-mechanics.md"
+      "status": "partial",
+      "file": "research/notes/core-mechanics.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": ["See research/notes/naval-unit-spec.md for the seven-unit naval table and conflicting tech prerequisites"]
     },
     {
       "id": "unit-skills",
