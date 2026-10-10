@@ -298,6 +298,15 @@
       "open_questions": [
         "Test 2021 min(12,3*ceil(encountered score/1000)) against 2022 per-level reduction and 2.17.3 +2 second-player 1v1 rule"
       ]
+    },
+    {
+      "id": "special-tribe-polaris",
+      "status": "partial",
+      "file": "research/notes/polaris-elyrion-current.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify 2.17.3 Gaami manual Freeze Area and Mooni Auto Freeze; 2023 beta removed and then restored Gaami action"
+      ]
     }
   ]
 }

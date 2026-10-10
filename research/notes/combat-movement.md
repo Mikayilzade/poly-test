@@ -273,3 +273,12 @@ The current community Movement reference extends the historical developer push-o
 The algorithm is relevant to Giant-on-city, unit-from-ruin, and Elyrion Polytaur forced spawns, but the wiki does not establish that every unit class (Air, Amphibious, Water, egg/immobile, allied or hostile) uses identical destination legality. Nor does it define diagonal tie-breaking for a centerward vector on rectangular maps. Test those independently before implementing exact production behavior.
 
 **Black-box matrix:** create a fresh Catapult in a city, spawn Giant, repeat with its preferred tile blocked and then both adjacent fallbacks blocked; repeat with a friendly moved ranged unit after firing, an enemy occupier, a center-map city, and all eight destinations blocked. Record whether a pushed unit entering a Port transforms immediately and whether a disappearing unit changes kill/task counters. [WIKI-MOVE, REDDIT-PUSH-CATAPULT-2025]
+
+
+## 2023 launch unit-skill and naval action boundaries
+
+Official November 21, 2023 Path of the Ocean release removed **Fortify** from Swordsman; Fortify-dependent city/city-wall defence cannot be assumed merely because a Swordsman occupies a city. Other defence modifiers remain separate. [OFF-POTO-RELEASE-2023, WIKI-COMBAT]
+
+At launch **Scout** had range 2 and Scout vision 2; **Raft** moved 2 and could not attack; **Bomber** lacked Dash, used Splash and could not retaliate; **Juggernaut** caused adjacent-tile Stomp on movement **including disembark** and could not retaliate. These are historical first-party observations, not current 2.17.3 guarantees. [OFF-POTO-RELEASE-2023]
+
+Black-box cases: Swordsman versus Defender on city wall; Scout range/sight at map edges; Juggernaut Stomp on move/landing and under cease-fire; Bomber counterattack suppression; compare numeric stats with later balance patches. [OFF-POTO-RELEASE-2023, STEAM-BETA-CHANGELOG]

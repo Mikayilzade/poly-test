@@ -105,3 +105,10 @@ Navalon is still visible in some historical/community tables, but Path of the Oc
 5. Polytaur enchant cost is 3, not older 2. [OFF-2025BAL]
 6. Dragon growth carries damage across forms; this part is first-party confirmed. [OFF-CYM25] The exact current growth timers remain community/version-sensitive: the present corpus records 3 + 3 turns from Fandom, but this should be black-box checked before treating the second interval as canonical. [WIKI-DRAGON-EGG]
 7. Navalon is historical/removed after Path of the Ocean. [WIKI-ELYRION]
+
+
+### Historical freeze-action transition (2023 beta → release)
+
+The October 2023 beta gave **Mooni Auto Freeze** after movement, reduced its defence to **1**, and temporarily removed **Gaami's manual Freeze Area**. The October 31 beta restored the manual action. The November 21 release confirms Mooni Auto Freeze and Gaami defence **3** (formerly 4). Current community Gaami descriptions include both Auto Freeze and Freeze Area, but exact 2.17.3 action timing remains untested. [STEAM-BETA-CHANGELOG, OFF-POTO-RELEASE-2023, WIKI-GAAMI]
+
+Implementation test: distinguish move-triggered auto-freeze from manually selected area freeze; test movement/action budget and frozen-target effects. Do not carry the early-beta removal into later versions.

@@ -590,3 +590,12 @@
 - Flagged a concrete generator-source conflict: 2021 official notes permit ruins next to villages, whereas the current community map page prohibits them. Added a version-scoped black-box test rather than choosing a rule silently.
 - Recorded Veteran Swordsman land-ruin replacement and versioned 2021 Cymanti poison/conversion/boost, terrain, and economy changes. Explicitly separated from 2022 contact reduction, 2025 Cymanti rework and 2.17.3 1v1 second-player meeting bonus.
 - Updated source ledger, map/version notes and index together. Research remains partial, not saturated. No GitHub Actions/CI, new PR/branch, or merge.
+
+
+## 2026-10-10 — 2023 launch and beta skill-state reconciliation
+
+- Cross-checked October 2023 developer beta notes with the first-party November 21 release: Mooni Auto Freeze/defence 1; Gaami manual freeze removal then restoration and defence 4→3; Swordsman Fortify removal.
+- Extracted launch action contracts: Raft movement 2/no attack, Scout range/vision 2, Bomber no Dash/retaliation, Juggernaut Stomp on move including disembark/no retaliation.
+- Recorded experimental village burning on capture as beta-only and removed before launch.
+- Added first-party release source and Polaris coverage pointer; kept 2.17.3 applicability unresolved.
+- Research remains partial, not saturated. No GitHub Actions/CI, new PR/branch or merge.

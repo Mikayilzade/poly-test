@@ -1055,6 +1055,14 @@
       "url": "https://steamcommunity.com/games/874390/announcements/detail/2953785617735275552",
       "date": "2021-09-08",
       "use": "historical first-contact 3-star-per-1000 rounded-up capped-12 formula; land-ruin Veteran Swordsman; ruins adjacent to villages; 2021 Cymanti poison/conversion and map generator deltas"
+    },
+    {
+      "id": "OFF-POTO-RELEASE-2023",
+      "grade": "A",
+      "title": "Sail the Path of the Ocean Today! — official release announcement",
+      "url": "https://store.steampowered.com/news/posts/?appids=874390&enddate=1702991595&feed=steam_community_announcements",
+      "date": "2023-11-21",
+      "use": "historical Path of the Ocean release: Raft, Scout, Juggernaut, Bomber, Polaris freeze and Swordsman Fortify"
     }
   ]
 }
