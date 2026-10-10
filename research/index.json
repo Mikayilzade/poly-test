@@ -307,6 +307,17 @@
       "open_questions": [
         "Verify 2.17.3 Gaami manual Freeze Area and Mooni Auto Freeze; 2023 beta removed and then restored Gaami action"
       ]
+    },
+    {
+      "id": "patch-2163-regressions",
+      "status": "partial",
+      "file": "research/notes/patch-2163-edge-cases.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Identify cooldown source and affected capture modes",
+        "Verify destroyed Bridge overlay vs network state",
+        "Check Ice Archer preview and final-turn Escape in 2.17.3"
+      ]
     }
   ]
 }
