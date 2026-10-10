@@ -34,7 +34,8 @@
       "file": "research/notes/map-generation.md",
       "last_reviewed": "2026-10-10",
       "open_questions": [
-        "Check Aquarion two guaranteed starting-capital fish (official November 2024) and current map-type exceptions"
+        "Check Aquarion two guaranteed starting-capital fish (official November 2024) and current map-type exceptions",
+        "Resolve official 2.0.58 allowance of ruins adjacent to villages versus current community Map Generation no-adjacency claim (test 2.17.3)"
       ]
     },
     {
@@ -131,7 +132,8 @@
       "last_reviewed": "2026-10-10",
       "open_questions": [
         "Verify 2.8.5 water-ruin Veteran Rammer reward and current special-tribe exceptions",
-        "Test Aquarion water-ruin Lost City placement-distance fallback and November 2024 smaller resource-bearing Lost City"
+        "Test Aquarion water-ruin Lost City placement-distance fallback and November 2024 smaller resource-bearing Lost City",
+        "Verify whether 2021 land-ruin Veteran Swordsman reward and ruins-next-to-villages rule persist in 2.17.3"
       ]
     },
     {
@@ -291,7 +293,11 @@
     {
       "id": "first-contact-income-versioning",
       "status": "partial",
-      "file": "research/notes/update-baseline.md"
+      "file": "research/notes/update-baseline.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Test 2021 min(12,3*ceil(encountered score/1000)) against 2022 per-level reduction and 2.17.3 +2 second-player 1v1 rule"
+      ]
     }
   ]
 }

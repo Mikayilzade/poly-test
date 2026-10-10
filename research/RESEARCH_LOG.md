@@ -583,3 +583,10 @@
 
 - Recovered notes are already present. Prioritize current-version verification of historical mechanics and avoid duplicate entries.
 - No CI or PR changes.
+
+## 2026-10-10 — official 2.0.58 historical encounter/ruin mechanics
+
+- Recovered the original first-party 2021-09-08 2.0.58 release notes: first-contact reward `min(12, 3 * ceil(encountered_score/1000))` for positive score, replacing tech theft and applying to Domination at that date.
+- Flagged a concrete generator-source conflict: 2021 official notes permit ruins next to villages, whereas the current community map page prohibits them. Added a version-scoped black-box test rather than choosing a rule silently.
+- Recorded Veteran Swordsman land-ruin replacement and versioned 2021 Cymanti poison/conversion/boost, terrain, and economy changes. Explicitly separated from 2022 contact reduction, 2025 Cymanti rework and 2.17.3 1v1 second-player meeting bonus.
+- Updated source ledger, map/version notes and index together. Research remains partial, not saturated. No GitHub Actions/CI, new PR/branch, or merge.

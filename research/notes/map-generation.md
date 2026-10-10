@@ -108,7 +108,7 @@ The public description applies mountain adjustment before forest adjustment, wit
 
 ## Ruins, starfish and lighthouses
 
-Ruins are placed after villages/resources/lighthouses; they can occur on field, forest, mountain or deep ocean and cannot be adjacent to another ruin or village. Lakes limits water ruins to at most one third. [WIKI-MAP]
+The community map-generation page describes ruins as placed after villages/resources/lighthouses, possible on field, forest, mountain or deep ocean, and **not adjacent to another ruin or village**; Lakes limits water ruins to at most one third. **The village-adjacency prohibition conflicts with first-party 2.0.58 release notes (2021), which explicitly allowed ruins next to villages.** Preserve the wiki restriction only as an unverified community/current claim until tested. [WIKI-MAP, STEAM-BALANCE2-2058]
 
 Ruins by size: Tiny 4, Small 5, Normal 7, Large 9, Huge 11, Massive 23. [WIKI-MAP]
 
@@ -154,3 +154,9 @@ Implementation boundary: keep at least two concepts separate: per-player discove
 The developer-maintained 2.8.5 changelog says Lighthouses **always start covered in fog**, even when one is close to the player's capital. [STEAM-BETA-CHANGELOG]
 
 Implementation boundary: Lighthouse placement and initial visibility are separate state decisions. Do not auto-reveal a Lighthouse merely because ordinary capital vision would geometrically reach its tile. Later discovery still follows the normal Lighthouse discovery/task state documented elsewhere.
+
+## Ruin adjacency and biome generation — 2.0.58 historical official boundary
+
+Midjiwan's 2021-09-08 official release notes explicitly **permitted ruins adjacent to villages** and increased the chance of mountain ruins. The same release changed resource generation to track each tribe's terrain/nature ratios more closely, naming Hoodrick's animals and Oumaji's fruit as preferred-resource examples. The announcement supplies no probabilities, distance weights or RNG sequence. [STEAM-BALANCE2-2058]
+
+This is a documented 2021 generator rule, **not proof of 2.17.3 behavior**. It conflicts with the community Map Generation page's blanket ban on ruins next to villages. In a current-version map sampling test, classify ruin adjacency separately for villages, capitals and other ruins, and measure mountain share conditional on biome. Do not enforce the community village restriction without resolving the version discrepancy. [STEAM-BALANCE2-2058, WIKI-MAP]
