@@ -1063,6 +1063,48 @@
       "url": "https://store.steampowered.com/news/posts/?appids=874390&enddate=1702991595&feed=steam_community_announcements",
       "date": "2023-11-21",
       "use": "historical Path of the Ocean release: Raft, Scout, Juggernaut, Bomber, Polaris freeze and Swordsman Fortify"
+    },
+    {
+      "id": "WIKI-RAFT-DETAIL",
+      "grade": "B",
+      "title": "Polytopia Wiki — Raft",
+      "url": "https://polytopia.fandom.com/wiki/Raft",
+      "use": "Raft creation/upgrade eligibility, carried HP, disembark reversion and technology-name ambiguity"
+    },
+    {
+      "id": "WIKI-RAMMER-DETAIL",
+      "grade": "B",
+      "title": "Polytopia Wiki — Rammer",
+      "url": "https://polytopia.fandom.com/wiki/Rammer",
+      "use": "Rammer stats, HP and upgrade reversion"
+    },
+    {
+      "id": "WIKI-SCOUT-DETAIL",
+      "grade": "B",
+      "title": "Polytopia Wiki — Scout",
+      "url": "https://polytopia.fandom.com/wiki/Scout",
+      "use": "Scout stats and conflicting header/body unlock labels"
+    },
+    {
+      "id": "WIKI-BOMBER-DETAIL",
+      "grade": "B",
+      "title": "Polytopia Wiki — Bomber",
+      "url": "https://polytopia.fandom.com/wiki/Bomber",
+      "use": "Bomber stats, splash damage rounding, Stiff and upgrade transitions"
+    },
+    {
+      "id": "WIKI-DINGHY-DETAIL",
+      "grade": "B",
+      "title": "Polytopia Wiki — Dinghy",
+      "url": "https://polytopia.fandom.com/wiki/Dinghy",
+      "use": "Cloak naval form, no Raft upgrade, infiltration"
+    },
+    {
+      "id": "WIKI-PIRATE-DETAIL",
+      "grade": "B",
+      "title": "Polytopia Wiki — Pirate",
+      "url": "https://polytopia.fandom.com/wiki/Pirate",
+      "use": "Dagger naval form, spawn-on-Port fallback, no Raft upgrade"
     }
   ]
 }
