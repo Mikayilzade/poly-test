@@ -53,7 +53,34 @@ Upgrade choice sequence currently documented:
 - level 4: Border Growth / Population Growth
 - level 5+: Park / Super Unit
 
-Exact population thresholds and all special-tribe substitutions remain to extract. [WIKI-CITY]
+Population thresholds are documented separately in `research/notes/tech-buildings-score.md`; special-tribe substitutions still need current-build verification. [WIKI-CITY, WIKI-POP]
+
+
+## City-supported unit slots: ownership transitions (community-sourced)
+
+The community City/Population references distinguish **city level**, **stored population toward the next upgrade**, and **the origin city supporting each unit**. Ordinary training capacity is `cityLevel + 1` slots, independent of the count of stored population pips. Negative population can reduce income but does not shrink that unit-capacity limit. [WIKI-CITY, WIKI-POP-CURRENT]
+
+Community-described transitions, not yet verified against 2.17.3: [WIKI-POP, WIKI-POP-CURRENT, WIKI-CITY]
+
+| Event | Reported effect on origin/support slots |
+|---|---|
+| Train a regular unit | Assign it to the producing city; consume one supported-unit slot. |
+| A unit captures a village or enemy city | Capturer changes its origin/support city to the newly captured city, releasing the previous city's slot. |
+| A Mind Bender converts an enemy unit | Converted unit occupies a slot in the Mind Bender's origin city; the result **may exceed** its training limit. Existing excess units are not automatically deleted, but that city cannot train while at/above capacity. |
+| Unit gained from a ruin | Inherits the exploring unit's origin city, **but does not count** toward the city's ordinary supported-unit total, per community description. |
+| City is captured by the enemy | Units originally trained there remain alive but lose their origin-city association. Capturing that city back does not automatically restore their old support-slot assignment. |
+| Unit dies or is disbanded | Its previously occupied slot is released. |
+
+**Implementation inference:** represent `unit.originCityId` separately from `unit.countsTowardTrainingCap` and `city.level`. Do not implement capacity as a hard upper bound on *all* existing units: conversion can push the count beyond the training limit without destroying units. An origin-less unit is not automatically proven to possess the distinct `Independent` movement/skill trait. These are model suggestions, not developer-confirmed internal fields.
+
+**Black-box verification matrix (current 2.17.3):**
+1. Fill city A's slots, capture village B using a unit from A, then check whether A can train again and whether B's supported count increases.
+2. Fill city A, convert one and then two enemies with an A-origin Mind Bender; check over-cap survival, training prohibition and subsequent recovery after a death.
+3. Reveal a unit-granting ruin with an A-origin unit while A is full; inspect new unit's origin, count and training eligibility.
+4. Lose and recapture city A with its pre-existing units still alive; inspect origin fields and slot counters.
+5. Apply -1/-2 population to A while holding city level and unit count fixed; verify training capacity unchanged even if star income falls.
+
+No first-party 2.17.3 source was found for these exact ownership transitions. Preserve grade-B status and treat all results as test targets rather than guaranteed current rules.
 
 ## Technology cost
 
