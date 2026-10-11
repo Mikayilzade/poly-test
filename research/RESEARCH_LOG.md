@@ -608,3 +608,9 @@
 
 - Rechecked GitHub write access on the existing research branch after prior connector security failures.
 - This entry contains no new mechanics claims. No CI, new branch, PR, or merge.
+
+## 2026-10-11 — market placement visual question
+
+- Screenshot from user shows several adjacent cities and crop clusters. Do not assert exact windmill/market placements without an unobstructed tile grid and city boundaries.
+- Reference: https://polytopia.fandom.com/wiki/Market (community, version-sensitive); market level is capped at 8 and derives from adjacent production-building levels. Historical official market design differs: https://polytopia.io/path-of-the-ocean/ .
+- Follow-up: test candidate windmill adjacency to farms, market adjacency to windmills and shared-city bonuses on current build. No CI.
