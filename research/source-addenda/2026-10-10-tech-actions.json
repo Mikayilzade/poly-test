@@ -1,0 +1,37 @@
+{
+  "schema": "polytopia-source-addendum/v1",
+  "date": "2026-10-10",
+  "reason": "Central research/sources.json is too large for the connector write safety limit; references in tech-action-economy.md use existing WIKI-TECH ID pending ledger integration.",
+  "sources": [
+    {
+      "title": "Polytopia Wiki — Disband",
+      "grade": "B",
+      "url": "https://polytopia.fandom.com/wiki/Disband"
+    },
+    {
+      "title": "Polytopia Wiki — Destroy",
+      "grade": "B",
+      "url": "https://polytopia.fandom.com/wiki/Destroy"
+    },
+    {
+      "title": "Polytopia Wiki — Grow Forest",
+      "grade": "B",
+      "url": "https://polytopia.fandom.com/wiki/Grow_Forest"
+    },
+    {
+      "title": "Polytopia Wiki — Burn Forest",
+      "grade": "B",
+      "url": "https://polytopia.fandom.com/wiki/Burn_Forest"
+    },
+    {
+      "title": "Polytopia Wiki — Construction",
+      "grade": "B",
+      "url": "https://polytopia.fandom.com/wiki/Construction"
+    },
+    {
+      "title": "Polytopia Wiki — Spiritualism",
+      "grade": "B",
+      "url": "https://polytopia.fandom.com/wiki/Spiritualism"
+    }
+  ]
+}

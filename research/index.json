@@ -1,0 +1,332 @@
+{
+  "schema": "polytopia-research-index/v1",
+  "updated": "2026-10-10",
+  "target": "current public ruleset + historical deltas",
+  "status": "active",
+  "areas": [
+    {
+      "id": "legal-source-policy",
+      "status": "seeded",
+      "file": "RESEARCH_PROTOCOL.md"
+    },
+    {
+      "id": "update-history",
+      "status": "partial",
+      "file": "research/notes/update-baseline.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify which 2.8.5 Patch of the Ocean numeric/tech changes remain unchanged in 2.17.3"
+      ]
+    },
+    {
+      "id": "game-modes",
+      "status": "partial",
+      "file": "research/notes/weekly-replays-special-tribes.md"
+    },
+    {
+      "id": "turn-flow",
+      "status": "partial",
+      "file": "research/notes/multiplayer-ui-turn-flow.md"
+    },
+    {
+      "id": "map-generation",
+      "status": "partial",
+      "file": "research/notes/map-generation.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Check Aquarion two guaranteed starting-capital fish (official November 2024) and current map-type exceptions",
+        "Resolve official 2.0.58 allowance of ruins adjacent to villages versus current community Map Generation no-adjacency claim (test 2.17.3)"
+      ]
+    },
+    {
+      "id": "terrain-resources",
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md"
+    },
+    {
+      "id": "cities-population",
+      "status": "partial",
+      "file": "research/notes/core-mechanics.md"
+    },
+    {
+      "id": "economy-stars",
+      "status": "partial",
+      "file": "research/notes/core-mechanics.md"
+    },
+    {
+      "id": "technology-tree",
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Confirm current Fishing/Port and special Aquarion Aquaculture/Aqua Farm tech substitutions",
+        "Check Aquarion Atoll Aquaculture unlock against stale community Waterways text and 2.17.3"
+      ]
+    },
+    {
+      "id": "buildings-improvements",
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Confirm current Temple growth cadence: 2.8.5 official every two turns supersedes 2020 12-turn endpoint and community 3-turn age table; verify 2025 100-point increments"
+      ]
+    },
+    {
+      "id": "units-stats",
+      "status": "partial",
+      "file": "research/notes/core-mechanics.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "See research/notes/naval-unit-spec.md for the seven-unit naval table and conflicting tech prerequisites"
+      ]
+    },
+    {
+      "id": "unit-skills",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify 2023 ship/cargo Poison-status synchronization, hidden-unit reveal during ice/Starfish actions and Skate-unit action preservation after Giant push in current build",
+        "Verify community Poison cure-without-HP, movement floor 1, and Spores/Algae death-tile exceptions in 2.17.3 (see research/notes/poison-recovery-action-order.md)"
+      ]
+    },
+    {
+      "id": "combat-formula",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify community Poison cure-without-HP, movement floor 1, and Spores/Algae death-tile exceptions in 2.17.3 (see research/notes/poison-recovery-action-order.md)"
+      ]
+    },
+    {
+      "id": "movement-zoc-roads",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "2.16.3 Battlesled land-to-ice kill Escape destination and movement budget",
+        "2.16.3 freeze/flood/climate state preservation under later transformations"
+      ]
+    },
+    {
+      "id": "vision-fog-explorer",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Determine which parts of historical 4-step fog/BFS explorer priority survive 2.15.1 routing and 2.16.3 12-step reduction",
+        "Check 2.17.3 faster Explorer effect and tie-breaking RNG"
+      ]
+    },
+    {
+      "id": "naval",
+      "status": "partial",
+      "file": "research/notes/update-baseline.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify current Bomber attack 3 and Starfish harvest 8 stars against 2.8.5 official patch"
+      ]
+    },
+    {
+      "id": "diplomacy",
+      "status": "partial",
+      "file": "research/notes/update-baseline.md"
+    },
+    {
+      "id": "ruins-monuments-tasks",
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify 2.8.5 water-ruin Veteran Rammer reward and current special-tribe exceptions",
+        "Test Aquarion water-ruin Lost City placement-distance fallback and November 2024 smaller resource-bearing Lost City",
+        "Verify whether 2021 land-ruin Veteran Swordsman reward and ruins-next-to-villages rule persist in 2.17.3"
+      ]
+    },
+    {
+      "id": "score",
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Confirm current Temple growth cadence: 2.8.5 official every two turns supersedes 2020 12-turn endpoint and community 3-turn age table; verify 2025 100-point increments"
+      ]
+    },
+    {
+      "id": "tribes-regular",
+      "status": "partial",
+      "file": "research/notes/tribes-skins.md"
+    },
+    {
+      "id": "tribes-special",
+      "status": "partial",
+      "file": "research/notes/weekly-replays-special-tribes.md"
+    },
+    {
+      "id": "skins",
+      "status": "partial",
+      "file": "research/notes/tribes-skins.md"
+    },
+    {
+      "id": "ai-difficulty",
+      "status": "partial",
+      "file": "research/notes/core-mechanics.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Quantify any current AI city-improvement and Cloak-training heuristics; 2.8.5 only reports qualitative improvements"
+      ]
+    },
+    {
+      "id": "ui-flow-controls",
+      "status": "partial",
+      "file": "research/notes/multiplayer-ui-turn-flow.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "2.16.3 opening-capital focus versus subsequent auto-focus preference",
+        "2.16.3 Domination 3 won/3 lost displayed 57% denominator",
+        "2.16.3 startup save timing and Weekly Play-button enablement"
+      ]
+    },
+    {
+      "id": "audio-visual-reference",
+      "status": "seeded",
+      "file": "research/notes/visual-reference.md"
+    },
+    {
+      "id": "achievements-easter-eggs",
+      "status": "partial",
+      "file": "research/notes/easter-eggs.md"
+    },
+    {
+      "id": "multiplayer-settings",
+      "status": "partial",
+      "file": "research/notes/multiplayer-ui-turn-flow.md"
+    },
+    {
+      "id": "replays-spectator",
+      "status": "partial",
+      "file": "research/notes/weekly-replays-special-tribes.md"
+    },
+    {
+      "id": "special-tribe-aquarion",
+      "status": "partial",
+      "file": "research/notes/aquarion-current.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify November 2024 Waterways->Aquaculture Atoll unlock and Bubbled Amphibious-only trigger/loss timing in 2.17.3",
+        "Measure water-ruin Lost City distance eligibility, ordinary-reward fallback, post-November footprint/resources and level-3/Wall payload",
+        "Verify November 2024 two guaranteed capital fish and overlapping Jelly Tentacles strongest-attacker/tie rule"
+      ]
+    },
+    {
+      "id": "diplomacy-cloak-embassy",
+      "status": "partial",
+      "file": "research/notes/diplomacy-cloak.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify current Cloak warning adjacency/peace visibility and blocked-move reveal action preservation",
+        "Identify version that fixed hidden-Cloak combat-preview information leak"
+      ]
+    },
+    {
+      "id": "forced-spawn-super-unit",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify friendly moved vs enemy moved directional push and ranged last-attack priority in current build",
+        "Verify fresh Catapult centerward displacement and exact-center south special case",
+        "Verify CCW/CW fallback order, full-block disappearance and kill/task counter effects",
+        "Verify terrain/port/water/air destination legality for forced displacement"
+      ]
+    },
+    {
+      "id": "perfection-difficulty-bonus",
+      "status": "partial",
+      "file": "research/notes/multiplayer-turn-flow-ai.md"
+    },
+    {
+      "id": "achievements",
+      "status": "partial",
+      "file": "research/notes/easter-eggs.md"
+    },
+    {
+      "id": "tactical-score-inference",
+      "status": "partial",
+      "file": "research/notes/tech-buildings-score.md"
+    },
+    {
+      "id": "battle-preview-ui",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md",
+      "last_reviewed": "2026-10-09",
+      "open_questions": [
+        "Verify combat preview cannot reveal hidden Cloaks before legal discovery"
+      ]
+    },
+    {
+      "id": "special-tribe-cymanti",
+      "status": "partial",
+      "file": "research/notes/cymanti-current.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Moth Scout fog reveal timing",
+        "Moth infiltration Egg growth and spawn",
+        "Moth numeric stats and Air movement",
+        "Verify community Moth stat table (HP 10, attack 2, defence 0.1, movement 2, range 1, cost 5) in 2.17.3",
+        "Verify 2.17.3 Centipede/Segment direct-kill vs retaliation growth, head and middle-segment promotion with inherited damage, movement cap/Glide exception, explosion cascade and city siege/capture boundary"
+      ]
+    },
+    {
+      "id": "special-tribe-elyrion",
+      "status": "partial",
+      "file": "research/notes/polaris-elyrion-current.md"
+    },
+    {
+      "id": "skin-entitlement-mirror-bots",
+      "status": "partial",
+      "file": "research/notes/tribes-skins.md"
+    },
+    {
+      "id": "tournament-rating-eligibility",
+      "status": "partial",
+      "file": "research/notes/multiplayer-turn-flow-ai.md"
+    },
+    {
+      "id": "allied-territory-healing",
+      "status": "partial",
+      "file": "research/notes/combat-movement.md"
+    },
+    {
+      "id": "first-contact-income-versioning",
+      "status": "partial",
+      "file": "research/notes/update-baseline.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Test 2021 min(12,3*ceil(encountered score/1000)) against 2022 per-level reduction and 2.17.3 +2 second-player 1v1 rule"
+      ]
+    },
+    {
+      "id": "special-tribe-polaris",
+      "status": "partial",
+      "file": "research/notes/polaris-elyrion-current.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Verify 2.17.3 Gaami manual Freeze Area and Mooni Auto Freeze; 2023 beta removed and then restored Gaami action"
+      ]
+    },
+    {
+      "id": "patch-2163-regressions",
+      "status": "partial",
+      "file": "research/notes/patch-2163-edge-cases.md",
+      "last_reviewed": "2026-10-10",
+      "open_questions": [
+        "Identify cooldown source and affected capture modes",
+        "Verify destroyed Bridge overlay vs network state",
+        "Check Ice Archer preview and final-turn Escape in 2.17.3"
+      ]
+    }
+  ]
+}

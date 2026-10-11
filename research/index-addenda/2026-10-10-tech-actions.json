@@ -1,0 +1,16 @@
+{
+  "schema": "polytopia-research-index-addendum/v1",
+  "updated": "2026-10-10",
+  "areas": [
+    {
+      "id": "tech-action-economy",
+      "status": "partial",
+      "file": "research/notes/tech-action-economy.md",
+      "source_addendum": "research/source-addenda/2026-10-10-tech-actions.json",
+      "log_addendum": "research/log-addenda/2026-10-10-tech-actions.md",
+      "open_questions": [
+        "Verify current 2.17.3 Disband refund/action availability, Burn Forest 3-star cost, immediate Destroy versus delayed Decompose, and backward research eligibility"
+      ]
+    }
+  ]
+}
