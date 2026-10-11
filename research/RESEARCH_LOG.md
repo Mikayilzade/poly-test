@@ -603,3 +603,8 @@
 ## 2026-10-10 — naval reference
 
 - Seven naval unit stats, Port transitions, upgrade constraints and source conflicts documented in research/notes/naval-unit-spec.md. Six community source records added. Current build needs verification. No CI or PR changes.
+
+## 2026-10-11 — write-access recheck
+
+- Rechecked GitHub write access on the existing research branch after prior connector security failures.
+- This entry contains no new mechanics claims. No CI, new branch, PR, or merge.
