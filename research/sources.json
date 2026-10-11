@@ -102,7 +102,7 @@
       "grade": "B",
       "title": "Polytopia Wiki - City",
       "url": "https://polytopia.fandom.com/wiki/City",
-      "use": "income, unit capacity, connections"
+      "use": "income, city-level+1 unit capacity, city connections, capturer support-city transfer (community-sourced)"
     },
     {
       "id": "WIKI-MAP",
@@ -620,7 +620,7 @@
       "grade": "B",
       "title": "Polytopia Wiki - Population",
       "url": "https://polytopia.fandom.com/wiki/Population",
-      "use": "negative population income penalty and unit-capacity behavior"
+      "use": "negative population income penalty; unit-capacity invariance; origin-city transfer on capture, conversion over-cap, ruin-unit slot exception, and lost origin on city capture (community-sourced, verify current build)"
     },
     {
       "id": "REDDIT-STARVING-SCORE-2026",
