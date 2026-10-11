@@ -160,7 +160,7 @@ Two official 2020 strategy tips expose rules that must remain versioned rather t
 - On **2020-03-18**, Midjiwan stated that **Clear Forest returned 2 stars**. This is a historical yield baseline; do not apply it to the current ruleset without a source establishing the later transition/current value. [OFF-CLEAR-FOREST-2020]
 - On **2020-05-28**, Midjiwan described **Customs House** as an economy building strengthened by surrounding Ports and explicitly limited placement to **one Customs House per city**. The tip also recommends planning its tile when placing the first Port, corroborating a local adjacency/placement relationship. [OFF-CUSTOMS-HOUSE-2020]
 
-Customs House belongs to the pre-Path-of-the-Ocean economy and should not be projected onto the current Market system. Exact historical per-Port income and the patch/version where Clear Forest changed away from 2 stars remain unresolved in this pass.
+Customs House belongs to the pre-Path-of-the-Ocean economy and should not be projected onto the current Market system. Exact historical per-Port income remains unresolved. The official May 24, 2022 Diplomacy release dates the Clear Forest transition **2 → 1 star** and move to **Forestry**. [OFF-DIP-MAY22]
 
 
 ## Temple intermediate-age community table — chronology and internal conflict
@@ -170,3 +170,14 @@ The dedicated community **Temples** page provides a concrete five-level age sche
 The **12-turn fully grown** endpoint is independently supported for the **2020** ruleset only. Midjiwan's official **2024** Patch of the Ocean changed Temple growth from every three turns to **every two turns**. This makes the community page's two-turn prose consistent with the 2024 patch, while its three-turn age table appears historically stale; neither establishes exact current 2.17.3 thresholds. [OFF-PATCH24-STEAM, OFF-TEMPLE-GROWTH-2020] Midjiwan's 2025 Balance Pass updates scoring to **100 points per level of growth**, making a current five-level score candidate **100/200/300/400/500**. This is a **version-crossing synthesis** (2024 growth cadence + community five-level table + 2025 score change), not an official 2.17.3 end-to-end specification. Do **not** copy the wiki's stale 50-point intermediate score increments into the current ruleset. [OFF-TEMPLE-GROWTH-2020, OFF-2025BAL, WIKI-TEMPLES]
 
 **Reproducible verification:** in the current build, construct one Temple at known turn T, capture its displayed level and raw score contribution immediately and on T+1 through T+13 (checking before and after end-turn separately). Repeat at a late Perfection turn and with another Temple terrain type. Distinguish construction-turn-inclusive age, UI visual level, raw score, and final score multiplier. If observed thresholds are T+3/6/9/12, the older community age table matches; if T+2/4/6/8 (subject to construction-turn counting), the official 2024 two-turn cadence matches. Until then, retain both as conflicting hypotheses. [WIKI-TEMPLES, OFF-TEMPLE-GROWTH-2020]
+
+
+## Official May 2022 balance transition and ruin reward eligibility
+
+The first-party **May 24, 2022** Diplomacy release explicitly moved **Clear Forest** to Forestry and reduced its payout **2 → 1 star**. It also reduced **Knight HP 15 → 10** and training price to **8 stars**, changed **Kiton HP to 15**, and restored **Swamp +1 population**. These are historical release values, not automatically the current 2.17.3 ruleset. [OFF-DIP-MAY22]
+
+A 2026 player discussion reports that a ruin's **Explorer reward is ineligible when no fog remains within two tiles of the ruin** (a 5×5 square); mountain ruins would consequently have no Explorer reward because the standing unit reveals two tiles. The **mountain vision radius** is first-party confirmed, but **reward eligibility** is community-only and unverified in 2.17.3. [REDDIT-RUIN-FOG26, OFF-MOUNTAIN-VISION]
+
+Official 2.16.3 changed ruin reward calculation for more consistent Weekly results and disallowed water-unit rewards for explorers without water movement (Moth example). Keep **eligible reward set**, **random selection**, and **spawn legality** as separate mechanisms; the official note does not establish equal probabilities. [OFF-2163]
+
+Black-box check: on matching seeds, examine ruins with nearest fog at radius 1, 2, and 3; reveal the entire 5×5 neighborhood; repeat on mountain and with Moth on water. Record Explorer frequency and substitutions, not just individual outcomes.
